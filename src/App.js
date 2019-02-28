@@ -22,7 +22,8 @@ class App extends Component {
             <Route exact path="/work" component={Work} />
             <Route exact path="/fitness" component={Fitness} />
             <Route exact path="/photography" component={Photography} />
-            <Route exact path="/photography/collection" component={Collection}/>
+            <Route exact path="/photography/collection1" component={Collection}/>
+            <Route exact path="/photography/collection2" component={Collection}/>
           </Switch>
         </div>
       </Router>

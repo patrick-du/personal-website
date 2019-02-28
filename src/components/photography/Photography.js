@@ -8,8 +8,11 @@ const Photography = () => {
     return (
         <div className="container-fluid main-px mt-5">
             <PageTitle pageName="Discover, create, edit"/>
-            <Link to = "/photography/collection">
-                
+            <Link to = "/photography/collection1">
+                <button>Collection1</button>
+            </Link>
+            <Link to = "/photography/collection2">
+                <button>Collection2</button>
             </Link>
 
         </div>
