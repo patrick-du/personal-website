@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Nav from './components/layout/Nav'
+import Nav from './components/layout/Nav';
+import About from './components/about/About';
 import './App.css';
 
 class App extends Component {
@@ -12,7 +13,7 @@ class App extends Component {
         <Nav/>
           <Switch>
             <Route exact path="/"/>
-            <Route exact path="/about" />
+            <Route exact path="/about" component={About} />
             <Route exact path="/work" />
             <Route exact path="/fitness" />
             <Route exact path="/gallery" />
