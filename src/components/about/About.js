@@ -1,18 +1,15 @@
 import React from 'react';
-import PageTitle from '../PageTitle';
+import PageTitle from '../layout/PageTitle';
 import AboutBox from './AboutBox';
 
 const About = () => {
     return (
         <div className="container-fluid main-px mt-5">
-            <PageTitle/>
-            <AboutBox title="About Me" body="test"/>
-            <AboutBox title="Education" body="test"/>
-            <AboutBox title="" body="test"/>
+            <PageTitle pageName="About Me"/>
+            <AboutBox title="About Me" body="body text"/>
+            <AboutBox title="Education" body="body text"/>
         </div>
     )
 }
-
-
 
 export default About;

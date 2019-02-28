@@ -21,7 +21,7 @@ const Nav = () => {
                             <a className="nav-link" href="/fitness">Fitness</a>
                         </li>
                         <li className="nav-item mx-5">
-                            <a className="nav-link" href="/gallery">Gallery</a>
+                            <a className="nav-link" href="/photography">Photography</a>
                         </li>
                     </ul>
                 </div>
