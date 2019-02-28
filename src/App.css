@@ -1,6 +1,6 @@
 /*Global Styles*/
 .main-px {
-  padding: 0 20rem;
+  padding: 0 25rem;
 }
 
 .no-pl {
@@ -11,16 +11,32 @@
   padding-right: 0 !important;
 }
 
+.no-y-space {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.title-font {
+  font-family: 'Roboto', sans-serif;
+  color: #7f8c8d;
+}
+
 .p-font{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
+  color: #2c3e50;
 }
 
 .s-font {
-  font-family:'Merriweather', serif;
+  font-family:'Roboto', serif;
 }
 
 .reg {
   font-weight: 400;
+}
+
+.med {
+  font-weight: 500;
 }
 
 .bold {
@@ -56,4 +72,9 @@
   height: auto;
   border-radius: 15px;
   box-shadow: 0 0 20px #ccc;
+}
+
+.introduction {
+  width: 60%;
+  height: auto;
 }
