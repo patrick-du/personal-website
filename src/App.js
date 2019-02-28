@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Work from './components/work/Work';
 import Fitness from './components/fitness/Fitness';
 import Photography from './components/photography/Photography';
+import Collection from './components/photography/Collection';
 
 import './App.css';
 
@@ -21,6 +22,7 @@ class App extends Component {
             <Route exact path="/work" component={Work} />
             <Route exact path="/fitness" component={Fitness} />
             <Route exact path="/photography" component={Photography} />
+            <Route exact path="/photography/collection" component={Collection}/>
           </Switch>
         </div>
       </Router>
