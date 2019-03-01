@@ -47,6 +47,13 @@
   color: #5e68fc;
 }
 
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius:100px;
+  box-shadow: 0 0 20px #ccc;
+}
+
 /* Nav Styles */
 .navbar {
   box-shadow: 0 0 10px #ccc;
@@ -67,12 +74,7 @@
 }
 
 /* About Styles */
-.aboutDiscover {
-  width: 200px;
-  height: 200px;
-  border-radius:100px;
-  box-shadow: 0 0 20px #ccc;
-}
+
 
 .aboutBox {
   width: 100%;
