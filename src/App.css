@@ -92,3 +92,10 @@
   font-size: 50px;
 }
 
+/* DiscoverBox Styles */
+
+.discBox {
+  width: 90%;
+  height: 200px;
+  box-shadow: 0 0 20px #ccc;
+}
