@@ -3,33 +3,28 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="container-fluid main-px mt-5">
-            <div className="row">
+        <div className="container-fluid main-px py-5">
+            <div className="row pb-5">
                 <div className="col-9">
                     <h5 className="title-font med no-y-space">Nice to meet you</h5>
                     <h3 className="p-font bold display-4 ">I'm Patrick</h3>
                     <p className="s-font pr-5">I'm a 2nd year student at the University of Waterloo studying Kinesiology. Currently I am located in Toronto, Ontario for the work term as a web developer at FGF Brands. </p>
                     <p className="s-font pr-5">In my free time, I enjoy lifting weights, playing volleyball, browsing Reddit, and discovering new artists on Spotify!</p>
-                    <span className="emojis text-center">
-                            <i class="fas fa-dumbbell px-auto"/>
-                            <i class="fas fa-volleyball-ball px-auto"/>
-                            <i class="fab fa-reddit px-auto"/>
-                            <i class="fab fa-spotify px-auto"/>
-                    </span>
+                    <div className="emojis text-center">
+                            <i class="fas fa-dumbbell px-5"/>
+                            <i class="fas fa-volleyball-ball px-5"/>
+                            <i class="fab fa-reddit px-5"/>
+                            <i class="fab fa-spotify px-5"/>
+                    </div>
                 </div>
                 <div className="col-3">
                     <div className="circle float-right"></div>{/*image*/}
                 </div>
             </div>
-
-
-            <h1 className="p-font bold text-center mt-5">Discover a little more about me!</h1>
-
-            <div className="xd">
-
-            </div>
-
-            <div className="aboutBox my-5 p-3 text-center">
+            <h1 className="p-font bold text-center pt-5">Discover a little more about me!</h1>
+        
+           
+            {/* <div className="aboutBox my-5 p-3 text-center">
                 <p className="title-font med no-y-space">My Story</p>
                 <h3 className="p-font med">How I got into Coding</h3>
                 <hr />
@@ -54,7 +49,7 @@ const About = () => {
                 <p className="s-font">By studying Kinesiology I will acquire a profound understanding of physiological, biomechanical, and psychological dynamic principles and mechanisms of movement allowing me to innovate technology for the fitness and health industry in ways that a computer science or engineering graduate cannot.</p>
 
 
-            </div>
+            </div> */}
         </div >
 
 
