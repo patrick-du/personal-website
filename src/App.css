@@ -67,6 +67,13 @@
 }
 
 /* About Styles */
+.aboutDiscover {
+  width: 200px;
+  height: 200px;
+  border-radius:100px;
+  box-shadow: 0 0 20px #ccc;
+}
+
 .aboutBox {
   width: 100%;
   height: auto;
@@ -74,7 +81,3 @@
   box-shadow: 0 0 20px #ccc;
 }
 
-.introduction {
-  width: 60%;
-  height: auto;
-}
