@@ -1,6 +1,5 @@
 import React from 'react';
 import PageTitle from '../layout/PageTitle';
-import Collection from './Collection';
 import { Link } from 'react-router-dom';
 
 
