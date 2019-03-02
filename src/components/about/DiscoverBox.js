@@ -6,22 +6,16 @@ const DiscoverBox = (props) => {
             <div className="col mx-0">
 
                 <Link to="/about/story">
-                    <div className="discBox">
+                    <div className="discBox gradient1">
                     </div>
                 </Link>
 
             </div>
             <div className="col mx-0">
                 <Link to="/about/career">
-                    <div className="discBox">
+                    <div className="discBox gradient2 float-right">
                     </div>
                 </Link>
-            </div>
-
-            <div className="col mx-0">
-                <div className="discBox float-right">
-                    hi
-                </div>
             </div>
         </div>
 
