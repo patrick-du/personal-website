@@ -1,11 +1,25 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Story = () => {
     return (
         <div className="container-fluid main-px py-5">
-            <div className="aboutBox p-3 text-center">
-                <p className="title-font med no-y-space">My Story</p>
-                <h3 className="p-font med">How I got into Coding</h3>
+            <div className="aboutBox p-5">
+                <div className="row">
+                    <div className="col-2">
+                        <Link to="/about">
+                            <i class="fas fa-chevron-circle-left emojis py-3"></i>
+                        </Link>
+                    </div>
+                    <div className="col-8">
+                        <p className="title-font med no-y-space text-center">My Story</p>
+                        <h3 className="p-font med text-center">How I got into Coding</h3>
+                    </div>
+                    <div className="col-2">
+
+                    </div>
+                </div>
+
                 <hr />
                 <p className="s-font">Whenever I was asked about my future plans I immediately blurted out that I would be a physiotherapist. What else would you be doing in kinesiology otherwise? I mean besides applying for a prestigious medical school, becoming a chiropractor, personal trainer, or everyone’s favourite - a gym teacher.</p>
                 <p className="s-font">I portrayed myself as a confident and prepared student, when in reality I really had no idea what I wanted to do. On the other hand, all my friends seemed to have a clear-cut idea of what they wanted to do, the clubs they would join for experience, or the clinics they would volunteer at.</p>
