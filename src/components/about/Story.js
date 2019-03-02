@@ -6,21 +6,21 @@ const Story = () => {
         <div className="container-fluid main-px py-5">
             <div className="aboutBox p-5">
                 <div className="row">
-                    <div className="col-2">
+                    <div className="col-1">
                         <Link to="/about">
-                            <i class="fas fa-chevron-circle-left emojis py-3"></i>
+                            <i class="fas fa-times emojis py-3"></i>
                         </Link>
                     </div>
-                    <div className="col-8">
+                    <div className="col-10">
                         <p className="title-font med no-y-space text-center">My Story</p>
                         <h3 className="p-font med text-center">How I got into Coding</h3>
                     </div>
-                    <div className="col-2">
-
-                    </div>
                 </div>
-
+                <div className="col-1">
+                        
+                </div>
                 <hr />
+
                 <p className="s-font">Whenever I was asked about my future plans I immediately blurted out that I would be a physiotherapist. What else would you be doing in kinesiology otherwise? I mean besides applying for a prestigious medical school, becoming a chiropractor, personal trainer, or everyone’s favourite - a gym teacher.</p>
                 <p className="s-font">I portrayed myself as a confident and prepared student, when in reality I really had no idea what I wanted to do. On the other hand, all my friends seemed to have a clear-cut idea of what they wanted to do, the clubs they would join for experience, or the clinics they would volunteer at.</p>
                 <p className="s-font">Attending a school at the forefront of innovation means that I am constantly surrounded by studious individuals. Whether it was during the easy going summer term or the weeks leading up to finals, I constantly found friends working on side projects.  Being a student in kinesiology there aren’t many opportunities for side projects. My days would generally consist of studying, working out, and drinking protein shakes as you would expect.</p>
