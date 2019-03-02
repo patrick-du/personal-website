@@ -1,6 +1,6 @@
 /*Global Styles*/
 .main-px {
-  padding: 0 20rem;
+  padding: 0 18rem;
 }
 
 .no-pl {
@@ -48,8 +48,8 @@
 }
 
 .circle {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius:50%;
   box-shadow: 0 0 20px #ccc;
 }
@@ -79,6 +79,9 @@
   border: none;
 }
 
+.nav-item {
+  padding: 0 15px;
+}
 /* About Styles */
 
 .aboutBox {
@@ -89,7 +92,7 @@
 }
 
 .emojis {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 /* DiscoverBox Styles */
