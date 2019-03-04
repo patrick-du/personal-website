@@ -1,19 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const DiscoverBox = (props) => {
+const DiscoverBox = () => {
     return (
         <div className="row ">
             <div className="col mx-0">
 
                 <Link to="/about/story">
-                    <div className="discBox gradient1">
+                    <div className="gradient1" style={styles.discBox}>
                     </div>
                 </Link>
 
             </div>
             <div className="col mx-0">
                 <Link to="/about/career">
-                    <div className="discBox gradient2 float-right">
+                    <div className="gradient2 float-right" style={styles.discBox}>
                     </div>
                 </Link>
             </div>
@@ -21,6 +21,15 @@ const DiscoverBox = (props) => {
 
 
     );
+}
+
+const styles = {
+    discBox: {
+        width: '90%',
+        height: '200px',
+        boxShadow: '0 0 10px #ccc',
+        borderRadius: '15px'
+    }
 }
 
 

@@ -26,8 +26,8 @@ const About = () => {
                         <i class="fab fa-spotify px-5" />
                     </div>
                 </div>
-                <div className="col-3">
-                    <div className="circle float-right"></div>{/*image*/}
+                <div className="col-3 ">
+                    <div className="circle float-right align-bottom"></div>{/*image*/}
                 </div>
             </div>
             <h1 className="p-font bold text-center py-5">Discover a little more about me!</h1>

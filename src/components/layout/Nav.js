@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const Nav = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light main-px py-1 p-font">
+        <nav className="navbar navbar-expand-lg navbar-light main-px py-1 p-font med">
 
             <div className="col-3 px-0">
                 <Link to="/">
