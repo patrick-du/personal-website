@@ -1,6 +1,6 @@
 /*Global Styles*/
 .main-px {
-  padding: 0 18rem;
+  padding: 0 19rem;
 }
 
 .no-pl {
@@ -23,12 +23,13 @@
 }
 
 .p-font{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #2c3e50;
 }
 
 .s-font {
   font-family:'Raleway', serif;
+  font-weight: 500;
 }
 
 .reg {
@@ -57,7 +58,7 @@
 .figure{
  box-shadow: 0 0 10px #ccc;
  width: 100%;
- border-radius: 10px;
+ border-radius: 15px;
 }
 
 .link {
@@ -76,13 +77,14 @@ blockquote{
 }
 
 
+
 /* Nav Styles */
 .navbar {
   box-shadow: 0 0 10px #ccc;
 }
 
 .nav-btn {
-  border-radius: 10px;
+  border-radius: 15px;
   color: white;
   background-color: #5e68fc;
   transition: 0.3s ease;
@@ -137,22 +139,13 @@ blockquote{
 .green {
   color: #2ecc71;
 }
-/* DiscoverBox Styles */
-
-.discBox {
-  width: 90%;
-  height: 200px;
-  box-shadow: 0 0 10px #ccc;
-}
 
 .gradient1{
   background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);
 }
+
 .gradient2{
   background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
-}
-.gradient3{
-  background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
 }
 
 /* Link */
@@ -195,3 +188,4 @@ blockquote{
   0% { transform: translateY(0); }
   100% { transform: translateY(-10px); }
 }
+
