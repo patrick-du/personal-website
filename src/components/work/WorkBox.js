@@ -5,18 +5,20 @@ const WorkBox = (props) => {
     return (
         <div className="row py-5">
             <div className="col">
-                <div style ={styles.customCard}>
+            <div className="triangle"></div>
+
+                <div className="slide-in-bottom" style ={styles.customCard}>
                     <CardContent title="Huddle" body="A modern sports betting application that connects fans while supporting local venues." imgPath="huddle.jpg" />
                 </div>
             </div>
             <div className="col">
-                <div className="mx-auto" style={styles.customCard}>
+                <div className="mx-auto slide-in-bottom" style={styles.customCard}>
                     <CardContent title="Huddle" body="A modern sports betting application that connects fans while supporting local venues." imgPath="huddle.jpg" />
                 </div>
 
             </div>
             <div className="col">
-                <div className="float-right" style={styles.customCard}>
+                <div className="slide-in-bottom float-right" style={styles.customCard}>
                     <CardContent title="Huddle" body="A modern sports betting application that connects fans while supporting local venues." imgPath="huddle.jpg" />
                 </div>
 
@@ -32,7 +34,7 @@ const styles = {
         boxShadow: '0 0 10px #ccc',
         padding: '5rem 4rem 5rem 4rem',
         borderRadius: '15px'
-    }
+    },
 }
 
 export default WorkBox;

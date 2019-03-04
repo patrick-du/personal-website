@@ -5,10 +5,9 @@ const Card = (props) => {
 
     return (
         <React.Fragment>
-            <div className="row">
-                    <div className="p-font bold no-pl no-pr" style={styles.title}>{title}</div>
-            </div>
+            <div className="p-font bold" style={styles.title}>{title}</div>
             <div className="s-font med" style={styles.body}>{body}</div>
+            
             <img src={require(`../../assets/${imgPath}`)} />
         </React.Fragment>
     )
