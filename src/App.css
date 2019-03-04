@@ -18,17 +18,17 @@
   margin-bottom: 0 !important;
 }
 .title-font {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #7f8c8d;
 }
 
 .p-font{
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #2c3e50;
 }
 
 .s-font {
-  font-family:'Roboto', serif;
+  font-family:'Raleway', serif;
 }
 
 .reg {
@@ -69,6 +69,12 @@
   text-decoration: none;
 
 }
+
+blockquote{
+  border-left:4px solid #5e68fc;
+  padding-left:1rem;
+}
+
 
 /* Nav Styles */
 .navbar {

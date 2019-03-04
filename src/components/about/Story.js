@@ -9,17 +9,18 @@ const Story = () => {
                 <div className="row">
                     <div className="col-1">
                         <Link to="/about">
-                            <i class="fas fa-times emojis py-3"></i>
+                            <i class="fas fa-times emojis py-3 red"></i>
                         </Link>
                     </div>
                     <div className="col-10">
                         <p className="title-font med no-y-space text-center">My Story</p>
                         <h3 className="p-font med text-center">How I got into Coding 👨‍💻</h3>
                     </div>
-                </div>
-                <div className="col-1">
+                    <div className="col-1">
                         
+                    </div>
                 </div>
+                
                 <hr />
                 <p className="s-font">Whenever I was asked about my future plans I immediately blurted out that I would be a physiotherapist. What else would you be doing in kinesiology otherwise? I mean besides applying for a prestigious medical school, becoming a chiropractor, personal trainer, or everyone’s favourite - a gym teacher.</p>
                 <p className="s-font">I portrayed myself as a confident and prepared student, when in reality I really had no idea what I wanted to do. On the other hand, all my friends seemed to have a clear-cut idea of what they wanted to do, the clubs they would join for experience, or the clinics they would volunteer at.</p>
@@ -34,7 +35,7 @@ const Story = () => {
 
                 <p className="s-font">Following this project, my passion for coding continued to sprout and with coop applications coming up I decided to take a stab at applying for a position I was in no way qualified for. With a combination of hard-work and lots of Tim Horton's coffee ☕ I was able to land an interview and secure a web developer position at <Link to="../../work" className="link">FGF Brands</Link> for my first coop term. Since then, I have attended several hackathons and expanded my skill set immensely.</p>
                 
-                <p className="s-font text-center text-muted vert-move mt-5 mb-0">Created by Patrick Du</p>
+                <p className="s-font text-center text-muted vert-move mt-5 mb-0">Created by Patrick Du 🎈</p>
             </div>
         </div>
 
