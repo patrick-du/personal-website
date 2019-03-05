@@ -1,16 +1,34 @@
-import React from 'react';
+import React, {Component} from 'react';
 import DiscoverBox from './DiscoverBox';
 import Typing from 'react-typing-animation';
 
 
 
-const About = () => {
+class About extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state={addClass:false}
+    }
+
+    toggle() {
+        this.setState({addClass: !this.state.addClass});
+    }
+
+    render() {
+        let titleClass=["brown"];
+        if(this.state.addClass) {
+            titleClass.push(' slide-out-left');
+        }
+
     return (
-        <div className="container-fluid main-px py-5">
+        <div className="container-fluid main-px py-5 brown.join">
             <div className="row pb-5">
+            
                 <div className="col-9 pr-5 slide-in-left">
+                    <h5 className={titleClass.join('')} onClick={this.toggle.bind(this)}>Test</h5>
                     <h5 className="title-font med no-y-space">Nice to meet you</h5>
-                    <h5 className="p-font bold display-4 ">I'm Patrick</h5>
+                    <h5 className="p-font bold display-4 brownman"> I'm Patrick</h5>
 
                     <p className="s-font">
                         I'm a 2nd year student at the University of Waterloo studying Kinesiology. Currently I am located in Toronto, Ontario for the work term as a web developer at FGF Brands.
@@ -41,7 +59,7 @@ const About = () => {
 
 
     )
-
+    }
 }
 
 
