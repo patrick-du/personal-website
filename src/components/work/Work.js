@@ -5,7 +5,8 @@ import WorkBox from '../work/WorkBox';
 const Work = () => {
     return (
         <div className="container-fluid main-px mt-5">
-            <PageTitle pageName="Work" />
+        
+            <PageTitle pageName="Selected Projects" descriptionBottom="Click on the cards to learn more about my projects" />
             <WorkBox/>
 
             

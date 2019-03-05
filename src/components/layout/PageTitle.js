@@ -1,13 +1,18 @@
 import React from 'react';
 
 const PageTitle = (props) => {
-    const { smallName, pageName } = props
+    const { pageName, descriptionTop, descriptionBottom } = props
     return (
-        <div className="text-center">
-            <p className="title-font no-y-space">{smallName}</p>
-            <h1 className="bold">{pageName}</h1>
+        <div className="">
+            <p className="s-font med no-y-space lightText">{descriptionTop}</p>
+            <h1 className="p-font display-4 bold">{pageName}</h1>
+            <p className="s-font med no-y-space lightText">{descriptionBottom}</p>
+            <hr/>
         </div>
     )
 }
 
+
 export default PageTitle;
+
+

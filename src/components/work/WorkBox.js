@@ -3,7 +3,7 @@ import CardContent from './CardContent';
 
 const WorkBox = (props) => {
     return (
-        <div className="row py-5">
+        <div className="row py-2">
             <div className="col">
             <div className="triangle"></div>
                 <div className="slide-in-bottom" style ={styles.customCard}>
