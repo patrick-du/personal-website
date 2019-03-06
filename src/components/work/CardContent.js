@@ -17,10 +17,11 @@ const Card = (props) => {
             /*<img src={require(`../../assets/${imgPath}`)} />*/
             <div className="card" style={styles.custom}>
                 <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 className="card-title p-font bold" style={styles.title}>{title}</h5>
+                    <p className="card-text s-font med" style={styles.body}>{body}</p>
                     <a href="#" className="btn btn-primary">Go somewhere</a>
                 </div>
+                <div className="" style={styles.shape}></div>
             </div>
 
 
@@ -54,7 +55,15 @@ const styles = {
     img: {
 
     },
-  
+    
+    shape: {
+        width: '100%',
+        padding: '0',
+        height: '200px',
+        borderRadius: '0 0 10px 10px',
+        boxShadow: '0 0 10px #ccc',
+        
+    }
 
 
 
