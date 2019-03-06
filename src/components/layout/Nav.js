@@ -6,7 +6,7 @@ const Nav = () => {
 
             <div className="col-3 px-0">
                 <Link to="/">
-                    <div className="navbar-brand bold pt-3" href="/"> <p>Patrick<span className="p-colour">Du</span></p></div>
+                    <div className="navbar-brand bold pt-3"><p>Patrick.</p></div>
                 </Link>
             </div>
 
@@ -21,6 +21,11 @@ const Nav = () => {
                             <li className="nav-item">
                                 <Link to="/work">
                                     <div className="nav-link">Work</div>
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/projects">
+                                    <div className="nav-link">Projects</div>
                                 </Link>
                             </li>
                             <li className="nav-item">

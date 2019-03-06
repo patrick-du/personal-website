@@ -13,7 +13,7 @@ class About extends Component {
                     <div className="col-9 pr-5">
                         <PageTitle pageName="I'm Patrick" descriptionTop="Nice to meet you" />
                         <p className="s-font">
-                            I'm a 2nd year student at the University of Waterloo studying Kinesiology. Currently I am located in Toronto, Ontario for the work term as a web developer at <Link to="/Work">FGF Brands</Link>. In my free time, you can find me lifting weights, playing sports, browsing Reddit, and discovering new artists on Spotify.
+                            I'm a 2nd year student at the University of Waterloo studying Kinesiology. Currently I am located in Toronto, Ontario for the work term as a web developer at <Link to="/Work" className="hlink">FGF Brands</Link>. In my free time, you can find me lifting weights, playing sports, browsing Reddit, and discovering new artists on Spotify.
                         </p>
                         {/*<div className="emojis text-center">
                             <i class="fas fa-dumbbell px-5" />

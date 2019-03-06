@@ -7,7 +7,7 @@ const PageTitle = (props) => {
             <p className="s-font med no-y-space lightText">{descriptionTop}</p>
             <h1 className="p-font display-4 bold">{pageName}</h1>
             <p className="s-font med no-y-space lightText">{descriptionBottom}</p>
-            <hr/>
+            <hr className="my-4"/>
         </div>
     )
 }
