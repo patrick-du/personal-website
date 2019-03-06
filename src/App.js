@@ -9,6 +9,7 @@ import Career from './components/about/Career';
 import Work from './components/work/Work';
 import Photography from './components/photography/Photography';
 import Collection from './components/photography/Collection';
+
 import './App.css';
 
 class App extends Component {
