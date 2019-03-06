@@ -12,9 +12,9 @@ const Career = () => {
                             <i class="fas fa-times emojis py-3 red"></i>
                         </Link>
                     </div>
-                    <div className="col-10">
-                        <p className="title-font med no-y-space text-center">Career Aspirations</p>
-                        <h3 className="p-font med text-center">What about my Kinesiology degree?</h3>
+                    <div className="col-10 text-center">
+                        <p className="s-font med no-y-space lightText">Career Aspirations</p>
+                        <h1 className="p-font bold">My Plans for the Future</h1>
                     </div>
                     <div className="col-1">
 

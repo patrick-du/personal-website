@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <div className="container-fluid main-px mt-5">
         
-            <PageTitle pageName="Selected Projects" descriptionBottom="Click on the cards to learn more about my projects" />
+            <PageTitle pageName="Selected Projects" descriptionBottom="Side projects, hackathon submissions, work projects" />
             <ProjectBox/>
 
             

@@ -1,8 +1,10 @@
 import React from 'react';
-
+import PageTitle from '../layout/PageTitle';
 const Work = () => {
     return (
-        <h1>To be completed</h1>
+        <div className="container-fluid main-px mt-5">
+            <PageTitle pageName="Work Experience" descriptionBottom=""/>
+        </div>
     );
 }
 
