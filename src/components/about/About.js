@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PageTitle from '../layout/PageTitle';
 import DiscoverBox from './DiscoverBox';
 import { Link } from 'react-router-dom';
+import Typing from 'react-typing-animation';
 
 
 class About extends Component {
@@ -12,9 +13,15 @@ class About extends Component {
                 <div className="row pb-5">
                     <div className="col-9 pr-5">
                         <PageTitle pageName="I'm Patrick" descriptionTop="Nice to meet you" />
-                        <p className="s-font">
-                            I'm a 2nd year student at the University of Waterloo studying Kinesiology. Currently I am located in Toronto, Ontario for the work term as a web developer at <Link to="/Work">FGF Brands</Link>. In my free time, you can find me lifting weights, playing sports, browsing Reddit, and discovering new artists on Spotify.
-                        </p>
+                        <Typing className="s-font" loop="true">
+                            <span>a bubble tea addict</span>
+                            <Typing.Backspace count={30} />
+                            <span>a front end developer</span>
+                            <Typing.Backspace count={30} />
+                            <span>a coffee addict </span>
+                            <Typing.Backspace count={30} />
+                        </Typing>
+                        <p className="s-font">I'm a 2nd year student at the University of Waterloo studying Kinesiology. Currently I am located in Toronto, Ontario for the work term as a web developer at <Link to="/Work" className="hlink">FGF Brands</Link>. In my free time, you can find me lifting weights, playing sports, browsing Reddit, and discovering new artists on Spotify.</p>
                         {/*<div className="emojis text-center">
                             <i class="fas fa-dumbbell px-5" />
                             <i class="fas fa-volleyball-ball px-5" />
