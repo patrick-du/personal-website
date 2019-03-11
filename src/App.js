@@ -9,8 +9,7 @@ import Career from './components/about/Career';
 import Work from './components/work/Work';
 import Projects from './components/projects/Projects';
 import Photography from './components/photography/Photography';
-import Collection from './components/photography/Collection';
-
+import Calgary from './components/photography/Calgary';
 
 import './App.css';
 
@@ -31,8 +30,7 @@ class App extends Component {
             <Route exact path="/photography" component={Photography} />
             <Route exact path="/about/story" component={Story} />
             <Route exact path="/about/career" component={Career} />
-            <Route exact path="/photography/collection2" component={Collection} />
-            <Route exact path="/photography/collection2" component={Collection} />
+            <Route exact path="/photography/calgary" component={Calgary} />
           </Switch>
         </div>
       </Router>

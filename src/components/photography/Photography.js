@@ -4,25 +4,34 @@ import { Link } from 'react-router-dom';
 
 
 const Photography = () => {
+    const styles = {
+        collection: {
+            width: '100%',
+            height: '200px',
+            boxShadow: '0 0 10px #ccc',
+            margin: '50px 0',
+        }
+    }
+
     return (
-        <div className="container-fluid main-px mt-5">
-            <PageTitle pageName="Discover, Create, Edit" descriptionBottom="A collection of my finest photographs"/>
-            <Link to = "/photography/collection1">
-                <button>Collection1</button>
+        <div className="container-fluid main-px py-5">
+            <PageTitle pageName="Collections" descriptionBottom="Taken with Canon EOS Rebel T5 EF-S 18-55mm" />
+            <Link to="/photography/calgary">
+                <div style={styles.collection}></div>
             </Link>
-            <Link to = "/photography/collection2">
-                <button>Collection2</button>
+            <Link to="/photography/calgary">
+                <div style={styles.collection}></div>
             </Link>
 
         </div>
     );
+
 }
 
 export default Photography;
 
 
+/* http://neptunian.github.io/react-photo-gallery/ */
 
 
 
-
-    

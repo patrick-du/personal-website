@@ -27,7 +27,7 @@ const Card = (props) => {
         },
         badge: {
             width: '5rem',
-            backgroundColor: '#6c5ce7',
+            backgroundColor: '#546de5',
             color: 'white',
             fontSize: '13px'
         }
@@ -54,7 +54,7 @@ const Card = (props) => {
         <Link to="/about" className="linkdec">
 
             <div className="card" style={styles.custom}>
-                {/*<img src={require(`../../assets/${imgPath}`)} alt="" style={styles.img} className="mx-auto" />*/}
+                <img src={require(`../../assets/${imgPath}`)} alt="" style={styles.img} className="mx-auto" />
                 <hr />
                 <h5 className="p-font bold" style={styles.job}>{job}</h5>
                 <p className="s-font med lightText" style={styles.position}>{position}</p>

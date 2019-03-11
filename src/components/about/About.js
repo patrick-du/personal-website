@@ -21,13 +21,8 @@ class About extends Component {
                             <span>a coffee addict </span>
                             <Typing.Backspace count={30} />
         </Typing>*/}
-                        <p className="s-font">I'm a 2nd year student at the University of Waterloo studying Kinesiology. Currently I am located in Toronto, Ontario for the work term as a web developer at <Link to="/Work" className="hlink">FGF Brands</Link>. In my free time, you can find me lifting weights, playing sports, browsing Reddit, and discovering new artists on Spotify.</p>
-                        {/*<div className="emojis text-center">
-                            <i class="fas fa-dumbbell px-5" />
-                            <i class="fas fa-volleyball-ball px-5" />
-                            <i class="fab fa-reddit px-5" />
-                            <i class="fab fa-spotify px-5" />
-                            </div>*/ }
+                        <p className="s-font">I'm a 2nd year student at the University of Waterloo studying Kinesiology. Currently I am located in Toronto, Ontario for the work term as a web developer at <Link to="/Work" className="hvr-underline-from-left purple">FGF Brands</Link>. In my free time, you can find me lifting weights, playing sports, browsing Reddit, and discovering new artists on Spotify.</p>
+
 
                     </div>
                     <div className="col-3">

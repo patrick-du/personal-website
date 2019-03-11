@@ -3,7 +3,7 @@ import PageTitle from '../layout/PageTitle';
 import WorkBox from '../work/WorkBox';
 const Work = () => {
     return (
-        <div className="container-fluid main-px mt-5">
+        <div className="container-fluid main-px py-5">
             <PageTitle pageName="Work Experience" descriptionBottom="Internships and clubs " />
             <WorkBox />
         </div>
