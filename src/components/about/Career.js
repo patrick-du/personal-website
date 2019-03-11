@@ -14,7 +14,7 @@ const Career = () => {
                     </div>
                     <div className="col-10 text-center">
                         <p className="s-font med no-y-space lightText">Career Aspirations</p>
-                        <h1 className="p-font bold">My Plans for the Future</h1>
+                        <h1 className="p-font bold">Plans for the Future</h1>
                     </div>
                     <div className="col-1">
 
@@ -32,7 +32,7 @@ const Career = () => {
 
             </div>
         </div>
-       
+
     )
 
 }

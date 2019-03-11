@@ -5,11 +5,11 @@ import ProjectBox from '../projects/ProjectBox';
 const Projects = () => {
     return (
         <div className="container-fluid main-px mt-5">
-        
-            <PageTitle pageName="Selected Projects" descriptionBottom="Side projects, hackathon submissions, work projects" />
-            <ProjectBox/>
 
-            
+            <PageTitle pageName="Selected Projects" descriptionBottom="Side projects and hackathon submissions" />
+            <ProjectBox />
+
+
         </div>
     );
 }

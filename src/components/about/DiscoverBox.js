@@ -12,18 +12,20 @@ class DiscoverBox extends Component {
 
     render() {
         return (
-            <div className="row ">
+            <div className="row">
                 <div className="col mx-0">
 
                     <Link to="/about/story">
-                        <div className="gradient1" onClick={this.attack} style={styles.discBox}>
+                        <div className="bg1" style={styles.discBox}>
+                            <div className="p-font bold" style={styles.title}>My Story</div>
                         </div>
                     </Link>
 
                 </div>
                 <div className="col mx-0">
                     <Link to="/about/career">
-                        <div className="gradient2 float-right" style={styles.discBox}>
+                        <div className="bg2 float-right" style={styles.discBox}>
+                            <div className="p-font bold" style={styles.title}>Career Aspirations</div>
                         </div>
                     </Link>
                 </div>
@@ -38,7 +40,13 @@ const styles = {
         width: '90%',
         height: '200px',
         boxShadow: '0 0 10px #ccc',
-        borderRadius: '15px'
+    },
+    title: {
+        fontSize: '1.5rem',
+        color: '#2c3e50',
+        position: 'absolute',
+        padding: '1rem',
+        bottom: '0',
     }
 }
 

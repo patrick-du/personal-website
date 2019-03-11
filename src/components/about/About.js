@@ -13,14 +13,14 @@ class About extends Component {
                 <div className="row pb-5">
                     <div className="col-9 pr-5">
                         <PageTitle pageName="I'm Patrick" descriptionTop="Nice to meet you" />
-                        <Typing className="s-font" loop="true">
+                        {/*<Typing className="s-font" loop="true">
                             <span>a bubble tea addict</span>
                             <Typing.Backspace count={30} />
                             <span>a front end developer</span>
                             <Typing.Backspace count={30} />
                             <span>a coffee addict </span>
                             <Typing.Backspace count={30} />
-                        </Typing>
+        </Typing>*/}
                         <p className="s-font">I'm a 2nd year student at the University of Waterloo studying Kinesiology. Currently I am located in Toronto, Ontario for the work term as a web developer at <Link to="/Work" className="hlink">FGF Brands</Link>. In my free time, you can find me lifting weights, playing sports, browsing Reddit, and discovering new artists on Spotify.</p>
                         {/*<div className="emojis text-center">
                             <i class="fas fa-dumbbell px-5" />
@@ -34,10 +34,8 @@ class About extends Component {
                         <div className="circle"></div>{/*image*/}
                     </div>
                 </div>
-                <h1 className="p-font bold text-center py-5">Discover a little more about me!</h1>
-                <div className="">
-                    <DiscoverBox />
-                </div>
+                <h1 className="p-font bold py-5 text-center">Discover a little more about me!</h1>
+                <DiscoverBox />
             </div >
 
 
@@ -51,11 +49,7 @@ class About extends Component {
 
 
 
-/*
-        const attack = () => {
-            document.querySelector('.brownman').classList.add('slide-out-left')
-        }
-*/
+
 
 
 

@@ -10,38 +10,38 @@ const Nav = () => {
                 </Link>
             </div>
 
-                <div className="col-6 px-0">
-                    <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav mx-auto">
-                            <li className="nav-item">
-                                <Link to="/about">
-                                    <div className="nav-link">About</div>
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/work">
-                                    <div className="nav-link">Work</div>
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/projects">
-                                    <div className="nav-link">Projects</div>
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/photography">
-                                    <div className="nav-link">Photography</div>
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
+            <div className="col-6 px-0">
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav mx-auto">
+                        <li className="nav-item">
+                            <Link to="/about">
+                                <div className="nav-link">About</div>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/work">
+                                <div className="nav-link">Work</div>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/projects">
+                                <div className="nav-link">Projects</div>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/photography">
+                                <div className="nav-link">Photography</div>
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
+            </div>
 
-                <div className="col-3 px-0">
-                    <Link to="/"><button type="button" className="btn nav-btn float-right">Contact</button></Link>
-                </div>
+            <div className="col-3 px-0">
+                <Link to="/"><button type="button" className="btn nav-btn float-right s-font med">Contact</button></Link>
+            </div>
         </nav>
-            );
-        };
-        
+    );
+};
+
 export default Nav;

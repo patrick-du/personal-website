@@ -1,7 +1,43 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Card = (props) => {
-    const { title, body, imgPath, badge1, badge2, badge3 } = props;
+    const { float, job, position, imgPath, period, type } = props;
+    const styles = {
+        custom: {
+            width: '100%',
+            height: '30rem',
+            boxShadow: '0 0 10px #ccc',
+            padding: '2rem',
+            float: `${float}`,
+            textAlign: 'center'
+        },
+        job: {
+            fontSize: '2rem'
+        },
+        position: {
+            fontSize: '15px',
+        },
+        period: {
+            fontSize: '15px',
+            color: '#ccc',
+        },
+        img: {
+            width: '100%',
+            boxShadow: '0 0 10px #ccc',
+        },
+        badge: {
+            width: '5rem',
+            backgroundColor: '#6c5ce7',
+            color: 'white',
+            fontSize: '13px'
+        }
+
+
+
+
+
+
+    }
 
     return (
         // <div style={styles.customCard}>
@@ -14,50 +50,20 @@ const Card = (props) => {
         //         <span class="badge badge-pill s-font" style={styles.badge}>{badge3}</span>
         //     </div>
         // </div>
-            /*<img src={require(`../../assets/${imgPath}`)} />*/
+        /*<img src={require(`../../assets/${imgPath}`)} />*/
+        <Link to="/about" className="linkdec">
+
             <div className="card" style={styles.custom}>
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
-                </div>
+                {/*<img src={require(`../../assets/${imgPath}`)} alt="" style={styles.img} className="mx-auto" />*/}
+                <hr />
+                <h5 className="p-font bold" style={styles.job}>{job}</h5>
+                <p className="s-font med lightText" style={styles.position}>{position}</p>
+                <span class="badge s-font med p-1 mx-auto" style={styles.badge}>{type}</span>
             </div>
+        </Link>
 
 
     )
-}
-
-const styles = {
-    custom: {
-        width: '80%',
-        height: '500px',
-        borderRadius: '15px',
-        boxShadow: '0 0 10px #ccc'
-    },
-    title: {
-        fontSize: '2rem'
-    },
-
-    body: {
-        fontSize: '15px'
-    },
-
-    icon: {
-        fontSize: '30px'
-    },
-    badge: {
-        border: '1px solid #5368fc',
-        backgroundColor: '#',
-        color: '#5368fc'
-    },
-
-    img: {
-
-    },
-  
-
-
-
 }
 
 
