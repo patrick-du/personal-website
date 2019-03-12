@@ -1,11 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 const Card = (props) => {
-    const { float, job, position, imgPath, period, type } = props;
+    const { float, job, position, imgPath, type } = props;
     const styles = {
         custom: {
             width: '100%',
-            height: '30rem',
             boxShadow: '0 0 10px #ccc',
             padding: '2rem',
             float: `${float}`,

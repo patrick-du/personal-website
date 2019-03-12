@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from './components/layout/Nav';
-import Loader from './components/layout/Loader';
 import About from './components/about/About';
 import Story from './components/about/Story';
 import Career from './components/about/Career';

@@ -1,6 +1,5 @@
 import React from 'react';
 import CardContent from './CardContent';
-import { Link } from 'react-router-dom';
 
 const WorkBox = (props) => {
     return (

@@ -9,7 +9,6 @@ const Photography = () => {
             width: '100%',
             height: '200px',
             boxShadow: '0 0 10px #ccc',
-            margin: '50px 0',
         }
     }
 
@@ -19,6 +18,7 @@ const Photography = () => {
             <Link to="/photography/calgary">
                 <div style={styles.collection}></div>
             </Link>
+            <br></br>
             <Link to="/photography/calgary">
                 <div style={styles.collection}></div>
             </Link>
