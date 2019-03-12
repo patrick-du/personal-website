@@ -6,7 +6,6 @@ const ProjectBox = (props) => {
     const styles = {
         row: {
             width: '100%',
-            height: 300,
             borderRadius: 0,
             padding: 0
         },

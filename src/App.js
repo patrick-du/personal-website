@@ -15,7 +15,7 @@ import './App.css';
 
 class App extends Component {
 
-
+  /*https://flatuicolors.com/palette/ru*/
   render() {
     return (
       <Router>
