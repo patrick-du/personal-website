@@ -13,7 +13,7 @@ const Story = () => {
                     </Link>
                 </div>
                 <div className="col-8">
-                    <h3 className="p-font bold text-center">How I started Coding</h3>
+                    <h3 className="p-font bold text-center">How I Started Coding</h3>
                 </div>
                 <div className="col-2 text-right">
                     <Link to="/about/career">

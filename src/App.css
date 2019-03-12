@@ -65,11 +65,7 @@ blockquote{
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 
-.aboutBox {
-  width: 100%;
-  height: auto;
-  box-shadow: 0 0 10px #ccc;
-}
+
 
 .linkdec {
   text-decoration: none;
@@ -99,26 +95,7 @@ blockquote{
   color: #546de5;
 }
 
-/* Nav Styles */
-.navbar {
-  box-shadow: 0 0 10px #ccc;
-}
 
-.nav-btn {
-  color: white;
-  background-color: #546de5;
-  transition: 0.3s ease;
-  
-}
-
-.nav-btn:hover {
-  background-color: #778beb;
-  color: white;
-}
-
-.nav-item {
-  padding: 0 15px;
-}
 
 
 /* Small devices (landscape phones, 576px and up) */

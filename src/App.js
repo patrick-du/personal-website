@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import MNav from './components/layout/MNav';
 import Nav from './components/layout/Nav';
 import About from './components/about/About';
 import Story from './components/about/Story';
@@ -11,6 +12,9 @@ import Photography from './components/photography/Photography';
 import Calgary from './components/photography/Calgary';
 
 import './App.css';
+import './components/layout/Nav.css';
+import './components/about/About.css';
+import './components/work/Work.css';
 
 class App extends Component {
 
@@ -19,6 +23,7 @@ class App extends Component {
     return (
       <Router>
         <div class="app">
+          <MNav />
           <Nav />
           {/*<Bg />*/}
           <Switch>

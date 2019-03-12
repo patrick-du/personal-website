@@ -2,16 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const Nav = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light main-px py-1 p-font med">
+        <React.Fragment>
+            <nav className="navbar sticky-top navbar-expand-md navbar-light bg-white py-1 p-font med container-padding" id="desktop">
 
-            <div className="col-3 px-0">
                 <Link to="/">
-                    <div className="navbar-brand bold pt-3"><p>Patrick.</p></div>
+                    <div className="navbar-brand bold pt-3 text-left"><p>Patrick.</p></div>
                 </Link>
-            </div>
-
-            <div className="col-6 px-0">
                 <div className="collapse navbar-collapse" id="navbarNav">
+
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item">
                             <Link to="/about">
@@ -34,13 +32,12 @@ const Nav = () => {
                             </Link>
                         </li>
                     </ul>
-                </div>
-            </div>
 
-            <div className="col-3 px-0">
+
+                </div>
                 <Link to="/"><button type="button" className="btn nav-btn float-right s-font med">Contact</button></Link>
-            </div>
-        </nav>
+            </nav>
+        </React.Fragment>
     );
 };
 
