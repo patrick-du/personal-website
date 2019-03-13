@@ -1,42 +1,68 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import ReactDOM, { render } from 'react-dom';
 
 class MNav extends Component {
 
-    state = {
-        isOpen: false
-    };
 
-    toggleOpen = () => {
-        this.setState({ isOpen: !this.state.isOpen });
+    burgerToggle() {
+        let linksEl = document.querySelector('.mobileNavExpand');
+        let heightEl = document.getElementById('mobile');
+
+        if (linksEl.style.display === 'none' && heightEl.style.height === '4.5rem') {
+            heightEl.style.height = '8rem';
+            linksEl.style.display = 'block';
+        } else {
+            heightEl.style.height = '4.5rem';
+            linksEl.style.display = 'none';
+        }
     }
 
     render() {
-        let navStyle = {
-            backgroundColor: 'brown',
-            boxShadow: '0 0 10px #ccc',
-            width: '100%',
-        }
-
-        if (this.state.isOpen) {
-            navStyle = {
-                backgroundColor: 'white',
-                boxShadow: '0 0 10px #ccc',
-                transform: 'translateY(100)'
-
-            }
-        }
-
-
-
 
         return (
-            <nav className="sticky-top navbar-light py-1 p-font med container-padding" id="mobile" style={navStyle}>
-                <button onClick={this.toggleOpen}>hi</button>
-                <Link to="/">
-                    <div className="navbar-brand bold pt-3 text-left"><p>asd.</p></div>
-                </Link>
+            <nav className="sticky-top py-1 navbar-light p-font med container-padding" id="mobile">
+                <div className="col">
+
+                    <div className="row">
+                        <div className="col px-0">
+                            <Link to="/">
+                                <div className="navbar-brand bold pt-3 text-left"><p>Patrick.</p></div>
+                            </Link>
+                        </div>
+                        <div className="col px-0">
+                            <i className="fa fa-bars fa-2x pt-3 float-right" onClick={this.burgerToggle}></i>
+                        </div>
+
+
+                    </div>
+                    <div className="mobileNavExpand text-center">
+                        <div className="row">
+                            <Link to="/about" onClick={this.burgerToggle}>
+                                <div className=" py-0">About</div>
+                            </Link>
+
+                            <Link to="/work" onClick={this.burgerToggle}>
+                                <div className="py-0">Work</div>
+                            </Link>
+
+                            <Link to="/projects" onClick={this.burgerToggle}>
+                                <div className=" py-0">Projects</div>
+                            </Link>
+
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
 
 
 
