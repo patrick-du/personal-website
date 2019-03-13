@@ -12,17 +12,13 @@ class About extends Component {
                 <p className="s-font py-3">I'm a 2nd year student at the University of Waterloo studying Kinesiology. Currently I am located in Toronto, Ontario for the work term as a <Link to="/Work" className="hvr-underline-from-left purple"> web developer at FGF Brands</Link>. In my free time, you can find me lifting weights, playing sports, browsing Reddit, and discovering new artists on Spotify.</p>
                 <br />
                 <h4 className="p-font bold my-3" id="aboutBox2">Discover more about me!</h4>
+                <hr />
                 <Link to="/about/story" className="linkdec">
-                    <hr />
-                    <div id="aboutBox2">
-                        <p className="s-font purple">My Story: How I Started Coding 👨‍💻</p>
-                    </div>
-                    <hr />
+                    <p className="s-font purple">My Story: How I Started Coding 👨‍💻</p>
                 </Link>
+                <hr />
                 <Link to="/about/career" className="linkdec">
-                    <div id="aboutBox2">
-                        <p className="s-font purple">Career Aspirations: Plans for the Future 🔮</p>
-                    </div>
+                    <p className="s-font purple">Career Aspirations: Plans for the Future 🔮</p>
                 </Link>
             </div >
         )

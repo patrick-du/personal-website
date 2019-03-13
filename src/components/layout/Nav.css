@@ -43,63 +43,39 @@
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    #desktop {
-        display: none;
-    }
-    
+        #desktop {
+                display: none;
+            }
 }
-
-/*Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-    #desktop {
-        display: none;
-    }
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-    
-}
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-
-}
-
-
-
-
-
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    
+@media (min-width: 576px) and (max-width: 767.98px) {
+        #desktop {
+                display: none;
+            }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    #mobile {
-        display: none;   
-       }
+@media (min-width: 768px) and (max-width: 991.98px) {
+        #mobile {
+                display: none;   
+               }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    #mobile {
-     display: none;   
-    }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+        #mobile {
+                display: none;   
+               }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    #mobile {
-        display: none;   
-       }
+        #mobile {
+                display: none;   
+               }
 }
-.focus-in-expand-fwd {
-	-webkit-animation: focus-in-expand-fwd 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: focus-in-expand-fwd 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
+
 
 
 
@@ -110,6 +86,10 @@
  * animation focus-in-expand-fwd START
  * ----------------------------------------
  */
+.focus-in-expand-fwd {
+	-webkit-animation: focus-in-expand-fwd 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand-fwd 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
  @-webkit-keyframes focus-in-expand-fwd {
     0% {
       letter-spacing: -0.5em;
