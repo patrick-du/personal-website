@@ -74,22 +74,6 @@ blockquote{
   text-decoration: none;
 }
 
-.bg1{
-  /*background-image: url("./assets/bg1.png");*/
-  background-size: 100%;
-}
-
-.bg2{
- /*background-image: url("./assets/bg2.png");*/
-  background-size: 100%;
-
-}
-
-.btnBorder {
-  border: 1px solid #546de5;
-  color: #546de5;
-}
-
 .btnBorder {
   border: 1px solid #546de5;
   color: #546de5;

@@ -9,7 +9,7 @@ class MNav extends Component {
         let heightEl = document.getElementById('mobile');
 
         if (linksEl.style.display === 'none' && heightEl.style.height === '4.5rem') {
-            heightEl.style.height = '8rem';
+            heightEl.style.height = '13rem';
             linksEl.style.display = 'block';
         } else {
             heightEl.style.height = '4.5rem';
@@ -22,7 +22,6 @@ class MNav extends Component {
         return (
             <nav className="sticky-top py-1 navbar-light p-font med container-padding" id="mobile">
                 <div className="col">
-
                     <div className="row">
                         <div className="col px-0">
                             <Link to="/">
@@ -30,30 +29,31 @@ class MNav extends Component {
                             </Link>
                         </div>
                         <div className="col px-0">
-                            <i className="fa fa-bars fa-2x pt-3 float-right" onClick={this.burgerToggle}></i>
+                            <i className="fa fa-bars fa-2x pt-3 float-right burgerIcon" onClick={this.burgerToggle}></i>
                         </div>
-
 
                     </div>
+
                     <div className="mobileNavExpand text-center">
-                        <div className="row">
-                            <Link to="/about" onClick={this.burgerToggle}>
-                                <div className=" py-0">About</div>
-                            </Link>
+                        <Link to="/about" onClick={this.burgerToggle}>
+                            <div className="mobileNavLink py-0 ">About</div>
+                        </Link>
+                        <hr className="my-1 py-0" />
 
-                            <Link to="/work" onClick={this.burgerToggle}>
-                                <div className="py-0">Work</div>
-                            </Link>
+                        <Link to="/work" onClick={this.burgerToggle}>
+                            <div className="mobileNavLink py-0 ">Work</div>
+                        </Link>
+                        <hr className="my-1 py-0" />
 
-                            <Link to="/projects" onClick={this.burgerToggle}>
-                                <div className=" py-0">Projects</div>
-                            </Link>
+                        <Link to="/projects" onClick={this.burgerToggle} >
+                            <div className="mobileNavLink py-0 ">Projects</div>
+                        </Link>
+                        <hr className="my-1 py-0" />
 
+                        <Link to="/photography" onClick={this.burgerToggle}>
+                            <div className="mobileNavLink py-0 ">Photography</div>
+                        </Link>
 
-
-
-
-                        </div>
 
 
 
