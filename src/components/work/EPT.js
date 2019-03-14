@@ -4,7 +4,7 @@ import PostTop from '../layout/PostTop';
 const EPT = () => {
     return (
         <div className="container-fluid container-padding">
-            <PostTop subtitle="A Look into the Daily Life of an Exercise Therapist" title="Elements Physical Therapy" cancel="/work" next="/work/FGFBrands" />
+            <PostTop subtitle="Daily Life of an Exercise Therapist" title="Elements Physical Therapy" cancel="/work" next="/work/FGFBrands" />
 
 
             <Link to="../../" className="linkdec">

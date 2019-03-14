@@ -9,6 +9,7 @@ const Photography = () => {
             width: '100%',
             height: '200px',
             boxShadow: '0 0 10px #ccc',
+            margin: '2rem 0',
         }
     }
 
