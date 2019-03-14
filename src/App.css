@@ -80,22 +80,24 @@ blockquote{
 }
 
 
-
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  
+}
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   .container-padding {
     padding: 5rem 5rem;
   }
 }
-
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
   .container-padding {
     padding: 5rem 5rem;
   }
@@ -106,6 +108,7 @@ blockquote{
   .container-padding {
     padding: 5rem 20rem;
   }
+  
 }
 
 
@@ -169,6 +172,42 @@ blockquote{
   transition-timing-function: ease-out;
 }
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
+.green {
+  color: #1db954;
+  text-decoration: none;
+}
+.green:hover {
+  color: #1db954;
+  text-decoration: none;
+}
+.hvr-underline-from-left-spotify {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left-spotify:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #1db954;
+  height: 3px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left-spotify:hover:before, .hvr-underline-from-left-spotify:focus:before, .hvr-underline-from-left-spotify:active:before {
   right: 0;
 }
 

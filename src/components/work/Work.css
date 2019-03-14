@@ -39,7 +39,7 @@
         box-shadow: 0 0 10px #ccc
     }
     .workCardText {
-        padding: 1rem 0px;
+        padding: 1rem 0;
     }
     #pos {
         font-size: 20px;

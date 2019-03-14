@@ -36,8 +36,9 @@ const ProjectBox = (props) => {
     }
 
     return (
+
         <React.Fragment>
-            <div className="row py-2" style={styles.row}>
+            {/*<div className="row py-2" style={styles.row}>
                 <div className="col-7">
                     <div className="pr-5">
                         <h5 className="p-font bold" style={styles.title}>Huddle</h5>
@@ -86,7 +87,7 @@ const ProjectBox = (props) => {
                 <div className="col-5" style={styles.bluecard}>
 
                 </div>
-            </div>
+        </div>*/}
         </React.Fragment >
 
     )
