@@ -13,7 +13,7 @@ const Photography = () => {
     }
 
     return (
-        <div className="container-fluid main-px py-5">
+        <div className="container-fluid container-padding">
             <PageTitle pageName="Collections" descriptionBottom="Taken with Canon EOS Rebel T5 EF-S 18-55mm" />
             <Link to="/photography/calgary">
                 <div style={styles.collection}></div>

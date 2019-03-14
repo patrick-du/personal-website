@@ -1,27 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PostTop from '../layout/PostTop';
 
 const Career = () => {
     return (
         <div className="container-fluid container-padding">
-            <p className="s-font med py-0 my-0 lightText text-center">Career Aspirations</p>
-            <div className="row">
-                <div className="col-2">
-                    <Link to="/about">
-                        <i class="fas fa-times" style={{ fontSize: '25px', color: '#e74c3c' }}></i>
-                    </Link>
-                </div>
-                <div className="col-8">
-                    <h3 className="p-font bold text-center">Plans for the Future</h3>
-                </div>
-                <div className="col-2 text-right">
-                    <Link to="/about/story">
-                        <i class="fas fa-arrow-right" style={{ fontSize: '25px', color: '#546de5' }}></i>
-                    </Link>
-                </div>
-            </div>
-
-            <hr />
+            <PostTop subtitle="Career Aspirations" title="Plans for the Future" cancel="/about" next="/about/story" />
             <p className="s-font">For the future, I plan to complete my kinesiology degree with a <a className="hvr-underline-from-left purple" href="https://cs.uwaterloo.ca/current/programs/require/2018-2019/comptech_option.html" target="_blank">computing option</a> in order to expand my understanding of theory and core concepts such as data structures, algorithms, recursion, and more. By self-teaching code, many of these fundamentals can be missed out on or only lightly touched upon. Taking computer science courses will be beneficial to my overall understanding of the field and success whether it be during interview questions or simply working on side projects.</p>
             <blockquote className="blockquote s-font med">
                 <p className="mb-0">I think the biggest innovations of the 21st century will be at the intersection of biology and technology. A new era is beginning.</p>
