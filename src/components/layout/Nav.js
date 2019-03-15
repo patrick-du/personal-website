@@ -4,7 +4,6 @@ const Nav = () => {
     return (
         <React.Fragment>
             <nav className="navbar sticky-top navbar-expand-md navbar-light bg-white py-1 p-font med container-padding" id="desktop">
-
                 <Link to="/">
                     <div className="navbar-brand bold pt-3 text-left"><p>Patrick.</p></div>
                 </Link>
