@@ -11,6 +11,7 @@ class MNav extends Component {
         if (linksEl.style.display === 'none' && heightEl.style.height === '4.5rem') {
             heightEl.style.height = '13rem';
             linksEl.style.display = 'block';
+            console.log(linksEl.style)
         } else {
             heightEl.style.height = '4.5rem';
             linksEl.style.display = 'none';

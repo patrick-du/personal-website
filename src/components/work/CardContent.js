@@ -1,10 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-const Card = (props) => {
-    const { job, position, imgPath, time, link } = props;
-    return (
-        <Link to={link} className="linkdec">
+class Card extends Component {
+
+    expandToggle() {
+        let extendedMessageEl = document.querySelector('.extendedMessage');
+
+        if (extendedMessageEl.style.display === 'none') {
+            extendedMessageEl.style.display = 'block';
+        } else {
+            console.log('not working')
+            console.log(extendedMessageEl.style)
+        }
+    }
+
+    render() {
+        const { job, position, imgPath, time, link } = this.props;
+
+        return (
             <div className="workCard">
                 <div className="row">
                     <div id="col1">
@@ -17,9 +30,16 @@ const Card = (props) => {
                         </div>
                     </div>
                 </div>
-            </div>
-        </Link >
-    )
+                <br />
+                <p className="s-font lightText card-text" id="findOutMoreMessage" onClick={this.expandToggle}>Click here to find out more <i class="fas fa-plus-circle green "></i></p>
+                <div className="extendedMessage">
+                    asd
+                </div>
+            </div >
+        )
+    }
 }
+
+
 
 export default Card;
