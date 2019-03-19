@@ -62,7 +62,7 @@ blockquote{
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .container-padding {
-    padding: 5rem 20rem;
+    padding: 5rem 12rem;
   }
 }
 

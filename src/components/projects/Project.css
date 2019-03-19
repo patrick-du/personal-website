@@ -10,18 +10,11 @@
        height: 100px;
        width: 100px;
     }
-    #projName {
-        color: #546de5;
-    }
-    #projCol1 {
-        display: none;
-    }
-    #projCol2 {
-        margin-left: 1rem;
-        width: 150%;
-    }
     .imgRow {
-        height: 16rem;
+        height: 15rem;
+    }
+    #above768 {
+        display: none;
     }
 }
 
@@ -37,18 +30,11 @@
         height: 100px;
         width: 100px;
      }
-    .projectCardText {
-        text-align: center;
-    }
-    #projCol1 {
-        display: none;
-    }
-    #projCol2 {
-        margin-left: 1rem;
-        width: 150%;
-    }
     .imgRow {
-        height: 16rem;
+        height: 20rem;
+    }
+    #above768 {
+        display: none;
     }
 }
 
@@ -60,23 +46,34 @@
         box-shadow: 0 0 10px #ccc;
         margin: 2rem 0;
     }
-
     .projectCardImage {
         height: 100px;
         width: 100px;
-     }
-    .projectCardText {
-        padding: 3rem 0;
     }
+    
     #projName {
         font-size: 20px;
     }
-    .imgRow {
-        display: none;
+
+    #projWhat {
+        font-size: 14px;
+        color: black;
     }
+
+    #projDesc {
+        font-size: 14px;
+    }
+    
     #projCol1 {
         width: 40%;
-        height: 15rem;
+        height: 12rem;
+    }
+    #above768 {
+        display: inline-flex;
+        width: 100%;
+    }
+    #under768 {
+        display: none;
     }
 
 }
@@ -93,18 +90,30 @@
         height: 100px;
         width: 100px;
      }
-    .projectCardText {
-        padding: 3rem 0;
-    }
+   
     #projName {
-        font-size: 25px;
+        font-size: 22px;
     }
-    .imgRow {
-        display: none;
+
+    #projWhat {
+        font-size: 16px;
+        color: #2c3e50;
     }
+
+    #projDesc {
+        font-size: 16px;
+    }
+    
     #projCol1 {
         width: 40%;
         height: 15rem;
+    }
+    #above768 {
+        display: inline-flex;
+        width: 100%;
+    }
+    #under768 {
+        display: none;
     }
 }
 
@@ -120,20 +129,29 @@
         height: 100px;
         width: 100px;
      }
-    .projectCardText {
-        padding: 4.5rem 0px;
-    }
+    
     #projName {
-        font-size: 25px;
+        font-size: 22px;
     }
+
+    #projWhat {
+        font-size: 16px;
+        color: #2c3e50;
+    }
+
     #projDesc {
-        margin-top: 0;
-    }
-    .imgRow {
-        display: none;
+        font-size: 16px;
     }
     #projCol1 {
         width: 40%;
-        height: 18rem;
+        height: 15rem;
     }
+    #above768 {
+        display: inline-flex;
+        width: 100%;
+    }
+    #under768 {
+        display: none;
+    }
+
 }
