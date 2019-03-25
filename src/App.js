@@ -9,6 +9,7 @@ import Career from './components/about/Career';
 import Work from './components/work/Work';
 import Projects from './components/projects/Projects';
 import Huddle from './components/projects/Huddle';
+import Weatherly from './components/projects/Weatherly';
 import PersonalWebsite from './components/projects/PersonalWebsite';
 import FitBud from './components/projects/Fitbud';
 import Photography from './components/photography/Photography';
@@ -36,6 +37,7 @@ class App extends Component {
             <Route exact path="/work" component={Work} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/projects/huddle" component={Huddle} />
+            <Route exact path="/projects/weatherly" component={Weatherly} />
             <Route exact path="/projects/personalwebsite" component={PersonalWebsite} />
             <Route exact path="/projects/fitbud" component={FitBud} />
             <Route exact path="/photography" component={Photography} />

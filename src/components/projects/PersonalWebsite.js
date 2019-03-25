@@ -5,7 +5,7 @@ import PostTop from '../layout/PostTop';
 const PersonalWebsite = () => {
     return (
         <div className="container-fluid container-padding">
-            <PostTop subtitle="" title="Personal Website" cancel="/projects" next="/projects/fitbud" />
+            <PostTop subtitle="Version 2" title="Personal Website" cancel="/projects" next="/projects/fitbud" />
             <Link to="../../" className="linkdec">
                 <p className="s-font text-center text-muted vert-move mt-5 mb-0">Created by Patrick Du 🎈</p>
             </Link>
