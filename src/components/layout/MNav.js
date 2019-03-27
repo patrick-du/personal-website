@@ -11,10 +11,10 @@ class MNav extends Component {
         if (linksEl.style.display === 'none' && heightEl.style.height === '4.5rem') {
             heightEl.style.height = '13rem';
             linksEl.style.display = 'block';
-            console.log(linksEl.style)
         } else {
             heightEl.style.height = '4.5rem';
             linksEl.style.display = 'none';
+
         }
     }
 
@@ -35,24 +35,23 @@ class MNav extends Component {
 
                     </div>
 
-                    <div className="mobileNavExpand text-center">
+                    <div className="mobileNavExpand text-center fade-in-fwd">
                         <Link to="/about" onClick={this.burgerToggle}>
-                            <div className="mobileNavLink py-0 ">About</div>
+                            <div className="mobileNavLink s-font py-0">About</div>
                         </Link>
                         <hr className="my-1 py-0" />
 
                         <Link to="/work" onClick={this.burgerToggle}>
-                            <div className="mobileNavLink py-0 ">Work</div>
+                            <div className="mobileNavLink s-font py-0">Work</div>
                         </Link>
                         <hr className="my-1 py-0" />
 
                         <Link to="/projects" onClick={this.burgerToggle} >
-                            <div className="mobileNavLink py-0 ">Projects</div>
+                            <div className="mobileNavLink s-font py-0">Projects</div>
                         </Link>
                         <hr className="my-1 py-0" />
-
                         <Link to="/photography" onClick={this.burgerToggle}>
-                            <div className="mobileNavLink py-0 ">Photography</div>
+                            <div className="mobileNavLink s-font py-0">Photography</div>
                         </Link>
 
 

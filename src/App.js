@@ -6,8 +6,9 @@ import Nav from './components/layout/Nav';
 import About from './components/about/About';
 import Story from './components/about/Story';
 import Career from './components/about/Career';
-import Work from './components/work/Work';
 import Projects from './components/projects/Projects';
+import FGFBrands from './components/projects/FGFBrands';
+import ElementsPhysicalTherapy from './components/projects/ElementsPhysicalTherapy';
 import Huddle from './components/projects/Huddle';
 import Weatherly from './components/projects/Weatherly';
 import PersonalWebsite from './components/projects/PersonalWebsite';
@@ -17,9 +18,8 @@ import Calgary from './components/photography/Calgary';
 import './App.css';
 import './components/layout/Nav.css';
 import './components/about/About.css';
-import './components/work/FGF.css';
-import './components/work/EPT.css';
 import './components/projects/Project.css';
+import './components/layout/PageTitle.css';
 
 class App extends Component {
 
@@ -34,15 +34,18 @@ class App extends Component {
           <Switch>
             <Route exact path="/" />
             <Route exact path="/about" component={About} />
-            <Route exact path="/work" component={Work} />
+            <Route exact path="/about/story" component={Story} />
+            <Route exact path="/about/career" component={Career} />
+
             <Route exact path="/projects" component={Projects} />
+            <Route exact path="/projects/fgfbrands" component={FGFBrands} />
+            <Route exact path="/projects/elementsphysicaltherapy" component={ElementsPhysicalTherapy} />
             <Route exact path="/projects/huddle" component={Huddle} />
             <Route exact path="/projects/weatherly" component={Weatherly} />
             <Route exact path="/projects/personalwebsite" component={PersonalWebsite} />
             <Route exact path="/projects/fitbud" component={FitBud} />
+
             <Route exact path="/photography" component={Photography} />
-            <Route exact path="/about/story" component={Story} />
-            <Route exact path="/about/career" component={Career} />
             <Route exact path="/photography/calgary" component={Calgary} />
           </Switch>
         </div>

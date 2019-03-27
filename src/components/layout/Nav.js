@@ -11,23 +11,23 @@ const Nav = () => {
 
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item">
-                            <Link to="/about">
-                                <div className="nav-link">About</div>
+                            <Link to="/about" className="linkdec">
+                                <div className="nav-link hvr-pop s-font">About</div>
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/work">
-                                <div className="nav-link">Work</div>
+                            <Link to="/work" className="linkdec">
+                                <div className="nav-link hvr-pop s-font">Work</div>
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/projects">
-                                <div className="nav-link">Projects</div>
+                            <Link to="/projects" className="linkdec">
+                                <div className="nav-link hvr-pop s-font">Projects</div>
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/photography">
-                                <div className="nav-link">Photography</div>
+                            <Link to="/photography" className="linkdec">
+                                <div className="nav-link hvr-pop s-font">Photography</div>
                             </Link>
                         </li>
                     </ul>
