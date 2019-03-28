@@ -41,11 +41,6 @@ class MNav extends Component {
                         </Link>
                         <hr className="my-1 py-0" />
 
-                        <Link to="/work" onClick={this.burgerToggle}>
-                            <div className="mobileNavLink s-font py-0">Work</div>
-                        </Link>
-                        <hr className="my-1 py-0" />
-
                         <Link to="/projects" onClick={this.burgerToggle} >
                             <div className="mobileNavLink s-font py-0">Projects</div>
                         </Link>

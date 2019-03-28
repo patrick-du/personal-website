@@ -16,11 +16,6 @@ const Nav = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/work" className="linkdec">
-                                <div className="nav-link hvr-pop s-font">Work</div>
-                            </Link>
-                        </li>
-                        <li className="nav-item">
                             <Link to="/projects" className="linkdec">
                                 <div className="nav-link hvr-pop s-font">Projects</div>
                             </Link>

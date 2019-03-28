@@ -65,7 +65,7 @@
     }
     
     #projCol1 {
-        width: 40%;
+        width: 45%;
         height: 12rem;
     }
     #above768 {
@@ -105,7 +105,7 @@
     }
     
     #projCol1 {
-        width: 40%;
+        width: 45%;
         height: 15rem;
     }
     #above768 {
@@ -118,7 +118,7 @@
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (min-width: 1200px){
     .projectCard {
         width: 100%;
         height: auto;
@@ -143,8 +143,8 @@
         font-size: 16px;
     }
     #projCol1 {
-        width: 40%;
-        height: 15rem;
+        width: 45%;
+        height: 18rem;
     }
     #above768 {
         display: inline-flex;
@@ -155,3 +155,5 @@
     }
 
 }
+
+

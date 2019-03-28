@@ -62,13 +62,13 @@ blockquote{
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1499.98px) {
   .container-padding {
-    padding: 4rem 13rem;
+    padding: 4rem 16rem;
   }
 }
 
 @media (min-width: 1500px) {
   .container-padding {
-    padding: 4rem 22rem;
+    padding: 4rem 25rem;
   }
 }
 
