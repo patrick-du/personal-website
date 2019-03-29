@@ -15,6 +15,7 @@ import PersonalWebsite from './components/projects/PersonalWebsite';
 import FitBud from './components/projects/Fitbud';
 import Photography from './components/photography/Photography';
 import Calgary from './components/photography/Calgary';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 import './components/layout/Nav.css';
 import './components/about/About.css';
@@ -31,25 +32,28 @@ class App extends Component {
           <MNav />
           <Nav />
           {/*<Bg />*/}
-          <Switch>
-            <Route exact path="/" />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/about/story" component={Story} />
-            <Route exact path="/about/career" component={Career} />
+          <ScrollToTop>
+            <Switch>
+              <Route exact path="/" />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/about/story" component={Story} />
+              <Route exact path="/about/career" component={Career} />
 
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/projects/fgfbrands" component={FGFBrands} />
-            <Route exact path="/projects/elementsphysicaltherapy" component={ElementsPhysicalTherapy} />
-            <Route exact path="/projects/huddle" component={Huddle} />
-            <Route exact path="/projects/weatherly" component={Weatherly} />
-            <Route exact path="/projects/personalwebsite" component={PersonalWebsite} />
-            <Route exact path="/projects/fitbud" component={FitBud} />
+              <Route exact path="/projects" component={Projects} />
+              <Route exact path="/projects/fgfbrands" component={FGFBrands} />
+              <Route exact path="/projects/elementsphysicaltherapy" component={ElementsPhysicalTherapy} />
+              <Route exact path="/projects/huddle" component={Huddle} />
+              <Route exact path="/projects/weatherly" component={Weatherly} />
+              <Route exact path="/projects/personalwebsite" component={PersonalWebsite} />
+              <Route exact path="/projects/fitbud" component={FitBud} />
 
-            <Route exact path="/photography" component={Photography} />
-            <Route exact path="/photography/calgary" component={Calgary} />
-          </Switch>
+              <Route exact path="/photography" component={Photography} />
+              <Route exact path="/photography/calgary" component={Calgary} />
+            </Switch>
+          </ScrollToTop>
         </div>
       </Router>
+
     );
   }
 }
