@@ -6,7 +6,7 @@ import BorderPic from '../projects/BorderPic';
 const Weatherly = () => {
     return (
         <div className="container-fluid container-padding fade-in-bottom-project-1">
-            <PostTop subtitle="Side Project" title="Weatherly" cancel="/projects/huddle" next="/projects/personalwebsite" />
+            <PostTop subtitle="Side Project" title="Weatherly" previous="/projects/huddle" next="/projects/personalwebsite" />
             <p className="s-font">Weatherly is a weekly forecast progressive web app that includes features such as usage offline and push notifications. It fetches data from <a href="https://darksky.net/dev" target="_blank" className="hvr-underline-from-left purple">DarkSky API</a> which provides access to daily forecasts for the coming week.</p>
             <BorderPic imgPath="Weatherly1.png" picDesc="Desktop Version" />
             <p className="s-font">This project was created soon after I finished a JavaScript course to practice HTTP methods and DOM manipulation. Seeing that progressive web apps were on the rise, I decided to implement it into this application.</p>
@@ -26,6 +26,7 @@ const Weatherly = () => {
             <Link to="../../" className="linkdec">
                 <p className="s-font text-center text-muted vert-move mt-5 mb-0">Created by Patrick Du 🎈</p>
             </Link>
+
         </div>
 
     )

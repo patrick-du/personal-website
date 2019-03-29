@@ -6,7 +6,7 @@ import PostTop from '../layout/PostTop';
 const Story = () => {
     return (
         <div className="container-fluid container-padding fade-in-bottom-project-1">
-            <PostTop subtitle="My Story" title="How I Started Coding" cancel="/about" next="/about/career" />
+            <PostTop subtitle="My Story" title="How I Started Coding" previous="/about" next="/about/career" />
             <p className="s-font">Whenever I was asked about my future plans I immediately blurted out that I would be a physiotherapist. What else would you be doing in kinesiology otherwise? I mean besides applying for a prestigious medical school, becoming a chiropractor, personal trainer, or everyone’s favourite - a gym teacher.</p>
             <p className="s-font">I portrayed myself as a confident and prepared student, when in reality I really had no idea what I wanted to do. On the other hand, all my friends seemed to have a clear-cut idea of what they wanted to do, the clubs they would join for experience, or the clinics they would volunteer at.</p>
             <p className="s-font">Attending a school at the forefront of innovation means that I am constantly surrounded by studious individuals. Whether it was during the easy going summer term or the weeks leading up to finals, I constantly found friends working on side projects. In Kinesiology, there aren’t many opportunities for side projects. My days would generally consist of studying, working out, and drinking protein shakes as you would expect.</p>

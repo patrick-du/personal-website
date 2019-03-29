@@ -11,7 +11,7 @@ const FitBud = () => {
     }
     return (
         <div className="container-fluid container-padding fade-in-bottom-project-1">
-            <PostTop subtitle="uOttaHack 2019" title="Fitbud" cancel="/projects" next="/projects/fgfbrands" />
+            <PostTop subtitle="uOttaHack 2019" title="Fitbud" previous="/projects/personalwebsite" next="/projects/fgfbrands" />
             <p className="s-font">Fitbud is an all-in-one fitness app that provides a solution to common issues experienced by gym-goers of every skill level.</p>
             <p className="s-font">Some issues we tackled included finding a gym partner, tracking progress (reps, sets, exercise), and even asking for advice at the gym. This app provides all the steps from planning your next visit to reflecting on your last workout onto the the same streamlined platform.</p>
             <BorderPic imgPath="FitBud2.png" picDesc="Home Screen: User Info, Newsfeed, Sidebar Navigation" />
