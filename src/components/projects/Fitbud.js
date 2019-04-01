@@ -27,6 +27,20 @@ const FitBud = () => {
 
             <p className="s-font">This app was developed at <a href="https://devpost.com/software/fitbud" target="_blank" className="hvr-underline-from-left purple">uOttaHacks 2019</a> with React and Node (Express JS). View the full project on <a href="https://github.com/patrick-du/FitBud" target="_blank" className="hvr-underline-from-left purple">Github</a>.</p>
             <hr />
+            <div className="row">
+                <div className="col-2">
+                    <Link to="/projects/personalwebsite">
+                        <i class="fas fa-arrow-left hvr-wobble-horizontal-2" style={{ fontSize: '25px', color: '#2c3e50' }}></i>
+                    </Link>
+                </div>
+                <div className="col"></div>
+                <div className="col-2 text-right">
+                    <Link to="/projects/fgfbrands">
+                        <i class="fas fa-arrow-right hvr-wobble-horizontal-1" style={{ fontSize: '25px', color: '#2c3e50' }}></i>
+                    </Link>
+                </div>
+            </div>
+
             <Link to="../../" className="linkdec">
                 <p className="s-font text-center text-muted vert-move mt-5 mb-0">Created by Patrick Du 🎈</p>
             </Link>

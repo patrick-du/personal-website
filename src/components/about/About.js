@@ -39,7 +39,6 @@ class About extends Component {
                         <p className="s-font hvr-underline-from-left purple slide-in-left">Career Aspirations: Plans for the Future</p>
                     </Link>
                 </div>
-
             </div >
         )
     }

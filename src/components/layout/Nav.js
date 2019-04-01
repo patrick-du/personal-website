@@ -29,7 +29,7 @@ const Nav = () => {
 
 
                 </div>
-                <Link to="/"><button type="button" className="btn nav-btn float-right s-font med">Contact</button></Link>
+                <Link to="/"><button type="button" className="btn nav-btn float-right s-font med">Resume</button></Link>
             </nav>
         </React.Fragment>
     );

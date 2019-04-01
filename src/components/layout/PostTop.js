@@ -9,7 +9,7 @@ const PostTop = (props) => {
             <div className="row">
                 <div className="col-2">
                     <Link to={previous}>
-                        <i class="fas fa-arrow-left hvr-wobble-horizontal-2" style={{ fontSize: '30px', color: '#546de5' }}></i>
+                        <i class="fas fa-arrow-left hvr-wobble-horizontal-2" style={{ fontSize: '25px', color: '#2c3e50' }}></i>
                     </Link>
                 </div>
                 <div className="col-8">
@@ -17,7 +17,7 @@ const PostTop = (props) => {
                 </div>
                 <div className="col-2 text-right">
                     <Link to={next}>
-                        <i class="fas fa-arrow-right hvr-wobble-horizontal-1" style={{ fontSize: '30px', color: '#546de5' }}></i>
+                        <i class="fas fa-arrow-right hvr-wobble-horizontal-1" style={{ fontSize: '25px', color: '#2c3e50' }}></i>
                     </Link>
                 </div>
             </div>
