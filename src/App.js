@@ -17,8 +17,11 @@ import FitBud from './components/projects/Fitbud';
 import Photography from './components/photography/Photography';
 import Calgary from './components/photography/Calgary';
 import ScrollToTop from './components/ScrollToTop';
+import Footer from './components/layout/Footer';
+
 import './App.css';
 import './components/layout/Nav.css';
+import './components/layout/Footer.css';
 import './components/layout/ContactExpand.css';
 import './components/landing/Landing.css';
 import './components/about/About.css';

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Resume from '../../assets/Reflective.pdf'
 
 class MNav extends Component {
 
@@ -24,7 +25,6 @@ class MNav extends Component {
                             <div className="icon float-right align-middle" onClick={this.toggleActive}>
                                 <div className="hamburger float-right" />
                             </div>
-
                         </div>
                     </div>
 
@@ -41,8 +41,10 @@ class MNav extends Component {
                         <Link to="/photography" onClick={this.toggleActive}>
                             <div className="mobileNavLink s-font py-0">Photography</div>
                         </Link>
-
-
+                        <hr className="my-1 py-0" />
+                        <Link to="/photography" onClick={this.toggleActive}>
+                            <div className="mobileNavLink s-font py-0">Resume</div>
+                        </Link>
 
 
                     </div>

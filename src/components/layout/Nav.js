@@ -17,7 +17,7 @@ const Nav = () => {
                         </li>
                         <li className="nav-item">
                             <Link to="/projects" className="linkdec">
-                                <div className="nav-link hvr-pop s-font">Projects</div>
+                                <div className="nav-link hvr-pop s-font">My Work</div>
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -25,11 +25,14 @@ const Nav = () => {
                                 <div className="nav-link hvr-pop s-font">Photography</div>
                             </Link>
                         </li>
+
                     </ul>
 
+                    <Link to="/">
+                        <button type="button" className="btn nav-btn float-right s-font med ml-auto">Resume</button>
+                    </Link>
 
                 </div>
-                <Link to="/"><button type="button" className="btn nav-btn float-right s-font med">Resume</button></Link>
             </nav>
         </React.Fragment>
     );

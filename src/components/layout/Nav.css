@@ -1,5 +1,4 @@
 .navbar {
-    box-shadow: 0 0 10px #ccc;
 }
 
 .nav-btn {
@@ -40,6 +39,7 @@
 
 .mobileNavLink {
     color:  #546de5;
+    font-size: 18px;
 }
   
 
@@ -192,7 +192,7 @@
 }
 
 #mobile.active {
-  height: 13rem;
+  height: 15rem;
 }
 
 .mobileNavExpand.active {

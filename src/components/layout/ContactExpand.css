@@ -6,6 +6,7 @@
     transition: 0.2s ease-in-out;
 }
 
+
 .socialIcons {
     font-size: 25px; 
     color: white;
@@ -16,7 +17,7 @@
 
 
 .socialSizeChange {
-    width: 300px !important;
+    width: 225px !important;
     border-radius: 100px !important;
 }
 
