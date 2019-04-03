@@ -17,6 +17,7 @@ import FitBud from './components/projects/Fitbud';
 import Photography from './components/photography/Photography';
 import Calgary from './components/photography/Calgary';
 import ScrollToTop from './components/ScrollToTop';
+import Loader from './components/layout/Loader';
 import Footer from './components/layout/Footer';
 
 import './App.css';
@@ -27,6 +28,8 @@ import './components/landing/Landing.css';
 import './components/about/About.css';
 import './components/projects/Project.css';
 import './components/layout/PageTitle.css';
+import './components/layout/Loader.css';
+
 
 class App extends Component {
 
@@ -37,6 +40,7 @@ class App extends Component {
         <div class="app">
           <MNav />
           <Nav />
+          <Loader />
           {/*<Bg />*/}
           <ScrollToTop>
             <Switch>
