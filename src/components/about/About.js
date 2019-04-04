@@ -7,7 +7,7 @@ class About extends Component {
     render() {
 
         return (
-            <div className="container-fluid container-padding">
+            <div className="container-fluid projectContainer mx-auto px-0">
 
                 <div className="fade-in-fwd">
                     <PageTitle pageName="About Me" descriptionBottom="A small introduction..." />
@@ -46,7 +46,7 @@ class About extends Component {
                         <p className="s-font hvr-underline-from-left purple slide-in-left">Career Aspirations: Plans for the Future</p>
                     </Link>
                 </div>
-            </div >
+            </div>
         )
     }
 }

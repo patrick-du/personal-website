@@ -4,7 +4,9 @@ import PostTop from '../layout/PostTop';
 
 const FGFBrands = () => {
     return (
-        <div className="container-fluid container-padding fade-in-bottom-project-1">
+        <div className="container-fluid fade-in-bottom-project-1 projectContainer mx-auto px-0">
+
+
             <PostTop subtitle="Co-op Term 1" title="FGF Brands" previous="/projects/fitbud" next="/projects/huddle" />
 
 
@@ -15,6 +17,7 @@ const FGFBrands = () => {
                 <p className="s-font text-center text-muted vert-move mt-5 mb-0">Created by Patrick Du 🎈</p>
             </Link>
         </div>
+
 
     )
 

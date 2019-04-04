@@ -4,7 +4,8 @@ import ProjectCard from './ProjectCard';
 
 const Projects = () => {
     return (
-        <div className="container-fluid container-padding">
+        <div className="container-fluid projectContainer mx-auto px-0">
+
             <div className="fade-in-fwd">
                 <PageTitle pageName="Work Experience" descriptionBottom="Internships and clubs" />
             </div>
@@ -19,7 +20,7 @@ const Projects = () => {
 
             </div>
             <div className="fade-in-top-about-1">
-                <ProjectCard link="/projects/huddle" backgroundColor="#55efc4" imgPath="huddle.png" projDesc="React Native • Node JS" projWhat="Modern sports betting mobile app" projName="Huddle" projType="Side Project" />
+                <ProjectCard link="/projects/huddle" backgroundColor="#55efc4" imgPath="Untitled.png" projDesc="React Native • Node JS" projWhat="Modern sports betting mobile app" projName="Huddle" projType="Side Project" />
 
             </div>
 
@@ -38,7 +39,6 @@ const Projects = () => {
 
             </div>
 
-            <br />
         </div>
     );
 }

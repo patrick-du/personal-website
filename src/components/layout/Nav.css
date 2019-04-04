@@ -1,5 +1,5 @@
-.navbar {
-box-shadow: 0 0 10px #ccc;
+nav {
+  box-shadow: 0 0 10px #ccc;
 }
 
 .nav-btn {
@@ -49,12 +49,20 @@ box-shadow: 0 0 10px #ccc;
         #desktop {
                 display: none;
             }
+            .navContainer {
+              width: 20rem;
+              height: 100%;
+            }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
         #desktop {
                 display: none;
+            }
+            .navContainer {
+              width: 28rem;
+              height: 100%;
             }
 }
 
@@ -63,6 +71,10 @@ box-shadow: 0 0 10px #ccc;
         #mobile {
                 display: none;   
                }
+              .navContainer {
+                width: 41rem;
+                height: 100%;
+              }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -70,6 +82,10 @@ box-shadow: 0 0 10px #ccc;
         #mobile {
                 display: none;   
                }
+               .navContainer {
+                width: 50rem;
+                height: 100%;
+              }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -77,6 +93,10 @@ box-shadow: 0 0 10px #ccc;
         #mobile {
                 display: none;   
                }
+               .navContainer {
+                width: 55rem;
+                height: 100%;
+              }
 }
 
 .fade-in-fwd {

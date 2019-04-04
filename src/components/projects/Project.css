@@ -1,54 +1,80 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .projectContainer {
+        width: 20rem;
+        height: 100%;
+        margin: 2rem 0;
+    }
     .projectCard {
         width: 100%;
-        height: auto;
+        height: 22rem;
         box-shadow: 0 0 10px #ccc;
         margin: 2rem 0;
     }
+
     .projectCardImage {
         width: 100%;
-        max-height: 100%;
-    }
-    .imgRow {
         height: 15rem;
     }
+    
     #above768 {
         display: none;
     }
+
+   
+    
+
+    
+ 
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .projectContainer {
+        width: 28rem;
+        height: 100%;
+        margin: 2rem 0;
+    }
     .projectCard {
         width: 100%;
-        height: auto;
+        height: 26rem;
         box-shadow: 0 0 10px #ccc;
         margin: 2rem 0;
     }
+
     .projectCardImage {
         width: 100%;
-        max-height: 100%;
-     }
-    .imgRow {
-        height: 20rem;
+        height: 19rem;
     }
+    
     #above768 {
         display: none;
     }
+
+
+
+
+
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .projectContainer {
+        width: 41rem;
+        height: 100%;
+        margin: 2rem 0;
+    }
     .projectCard {
         width: 100%;
-        height: auto;
+        height: 14rem;
         box-shadow: 0 0 10px #ccc;
         margin: 2rem 0;
     }
     .projectCardImage {
         width: 100%;
-        max-height: 100%;
+        height: 14rem;
     }
     
     #projName {
@@ -66,8 +92,9 @@
     
     #projCol1 {
         width: 45%;
-        height: 12rem;
+        height: 100%;
     }
+    
     #above768 {
         display: inline-flex;
         width: 100%;
@@ -79,16 +106,22 @@
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .projectContainer {
+        width: 50rem;
+        height: 100%;
+        margin: 2rem 0;
+    }
+
     .projectCard {
         width: 100%;
-        height: auto;
+        height: 16rem;
         box-shadow: 0 0 10px #ccc;
         margin: 2rem 0;
 
     }
     .projectCardImage {
         width: 100%;
-        max-height: 100%;
+        height: 16rem;
      }
    
     #projName {
@@ -106,7 +139,7 @@
     
     #projCol1 {
         width: 45%;
-        height: 15rem;
+        height: 100%;
     }
     #above768 {
         display: inline-flex;
@@ -119,17 +152,24 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px){
+    .projectContainer {
+        width: 55rem;
+        height: 100%;
+        margin: 2rem 0;
+    }
+
     .projectCard {
         width: 100%;
-        height: auto;
+        height: 18rem;
         box-shadow: 0 0 10px #ccc;
         margin: 2rem 0;
     }
+
     .projectCardImage {
         width: 100%;
-        max-height: 100%;
+        height: 18rem;
      }
-    
+   
     #projName {
         font-size: 22px;
     }
@@ -142,9 +182,10 @@
     #projDesc {
         font-size: 16px;
     }
+    
     #projCol1 {
         width: 45%;
-        height: 18rem;
+        height: 100%;
     }
     #above768 {
         display: inline-flex;

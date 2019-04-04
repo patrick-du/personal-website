@@ -18,7 +18,7 @@ const ProjectCard = (props) => {
                 </div>
 
                 <div id="above768">
-                    <div id="projCol1" className="text-center" style={{ backgroundColor: backgroundColor }}>
+                    <div id="projCol1" style={{ backgroundColor: backgroundColor }}>
                         <img src={require(`../../assets/${imgPath}`)} alt="" className="projectCardImage p-3" />
                     </div>
                     <div id="projCol2" style={{ padding: '1rem' }}>
