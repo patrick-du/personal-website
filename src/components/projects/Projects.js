@@ -6,38 +6,23 @@ const Projects = () => {
     return (
         <div className="container-fluid projectContainer mx-auto px-0">
 
-            <div className="fade-in-fwd">
                 <PageTitle pageName="Work Experience" descriptionBottom="Internships and clubs" />
-            </div>
 
-            <div className="fade-in-top-about-1">
-                <ProjectCard link="/projects/fgfbrands" backgroundColor="#fd79a8" imgPath="huddle.png" projDesc="FGF Brands" projWhat="My first real-world programming experience" projName="Front-End Developer Intern" projType="January 2019 - April 2019" />
+                <ProjectCard link="/projects/fgfbrands" backgroundColor="#70a1ff" imgPath="Weatherly.png" projDesc="FGF Brands" projWhat="My first co-op term at FGF Brands doing something I had little knowledge about..." projName="Front-End Developer Intern" projType="January 2019 - April 2019" />
                 {/*<ProjectCard link="/projects/elementsphysicaltherapy" backgroundColor="#ffbe76" imgPath="huddle.png" projDesc="Elements Physical Therapy" projWhat="Exploring the daily lives of exercise therapists" projName="Exercise Therapist Assistant" projType="June 2018 - August 2018" />*/}
-            </div>
 
-            <div className="fade-in-fwd">
                 <PageTitle pageName="Selected Projects" descriptionBottom="Side projects and hackathon submissions" />
 
-            </div>
-            <div className="fade-in-top-about-1">
-                <ProjectCard link="/projects/huddle" backgroundColor="#55efc4" imgPath="Weatherly.png" projDesc="React Native • Node JS" projWhat="Modern sports betting mobile app" projName="Huddle" projType="Side Project" />
+                <ProjectCard link="/projects/huddle" backgroundColor="#ff6b81" imgPath="Weatherly.png" projDesc="React Native • Node JS" projWhat="A modern sports betting mobile app to connect fans and support local venues..." projName="Huddle" projType="Side Project" />
 
-            </div>
 
-            <div className="fade-in-top-about-1">
-                <ProjectCard link="/projects/weatherly" backgroundColor="#ebd0f4" imgPath="Weatherly.png" projDesc="Vanilla JS • HTML • CSS" projWhat="Weather forecast progressive web app" projName="Weatherly" projType="Side Project" />
+                <ProjectCard link="/projects/weatherly" backgroundColor="#ebd0f4" imgPath="Weatherly.png" projDesc="JavaScript • HTML5 • CSS3" projWhat="A weekly forecast progressive web app with offline usage and push notifications..." projName="Weatherly" projType="Side Project" />
 
-            </div>
 
-            <div className="fade-in-top-about-1">
-                <ProjectCard link="/projects/personalwebsite" backgroundColor="#ff7675" imgPath="Weatherly.png" projDesc="React" projWhat="Portfolio to showcase my projects and work " projName="Personal Website" projType="Side Project" />
+                <ProjectCard link="/projects/personalwebsite" backgroundColor="#7bed9f" imgPath="Weatherly.png" projDesc="React.js" projWhat="A portfolio to illustrate who I am and showcase my projects and past work..." projName="Personal Website" projType="Side Project" />
 
-            </div>
 
-            <div className="fade-in-top-about-1">
-                <ProjectCard link="/projects/fitbud" backgroundColor="#ffc8a2" imgPath="FitBud.png" projDesc="React • Node JS • Express JS" projWhat="All-in-one fitness app" projName=" FitBud" projType="uOttaHack 2019" />
-
-            </div>
+                <ProjectCard link="/projects/fitbud" backgroundColor="#ffc8a2" imgPath="FitBud.png" projDesc="React.js • Node JS • Express JS" projWhat="An all-in-one fitness app to simplify a trip to the gym..." projName=" FitBud" projType="uOttaHack 2019" />
 
         </div>
     );

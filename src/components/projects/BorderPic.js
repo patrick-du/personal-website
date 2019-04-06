@@ -15,7 +15,7 @@ const BorderPic = (props) => {
     return (
         <div className="my-5">
             <img src={require(`../../assets/${imgPath}`)} alt="" style={styles.image} />
-            <p className="text-center s-font lightText mt-3">{picDesc}</p>
+            <p className="text-center s-font mt-3" style={{color: '#7f8c8d'}}>{picDesc}</p>
         </div>
 
 

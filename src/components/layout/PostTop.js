@@ -5,7 +5,7 @@ const PostTop = (props) => {
     const { subtitle, title, previous, next } = props
     return (
         <React.Fragment>
-            <p className="s-font med py-0 my-0 lightText text-center">{subtitle}</p>
+            <p className="s-font py-0 my-0 text-center" style={{color: '#7f8c8d'}}>{subtitle}</p>
             <div className="row">
                 <div className="col-2">
                     <Link to={previous}>
