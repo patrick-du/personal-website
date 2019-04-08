@@ -17,7 +17,9 @@ const PersonalWebsite = () => {
     )
 
 }
-
+// https://jonyablonski.com/
+// www.pratibhajoshi.com
+// http://aydaoz.com/?ref=lapaninja#about
 const styles = {
 
 }
