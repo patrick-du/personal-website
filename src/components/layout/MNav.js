@@ -10,40 +10,10 @@ class MNav extends Component {
         document.getElementById('mobile').classList.toggle('active');
     }
 
-    closeNav() {
-        document.getElementById('mNav').style.height = '0%';
-    }
-
-    openNav() {
-        document.getElementById('mNav').style.height = '100%';
-    }
-
     render() {
 
         return (
-            // <nav className="sticky-top py-1 navbar-light s-font">
-            //     <div className="navContainer mx-auto">
-            //         <div id="mNav" className="overlay">
-            //             <div className="icon float-right" onClick={this.closeNav}>
-            //                 <div className="hamburger float-right" />
-            //             </div>
 
-            //             <div className="overlay-content">
-            //                 <a href="#">Home</a>
-            //                 <a href="#">About</a>
-            //                 <a href="#">Work</a>
-            //                 <a href="#">Resume</a>
-            //             </div>
-
-
-            //         </div>
-
-
-            //         <div className="icon float-right" onClick={this.openNav}>
-            //             <div className="hamburger float-right" />
-            //         </div>
-
-            //     </div>
 
 
             // </nav>
@@ -67,34 +37,30 @@ class MNav extends Component {
                             </div>
 
                             <div className="mobileNavExpand text-center">
-                                <Link to="/" onClick={this.toggleActive}>
-                                    <div className="mobileNavLink p-font">HOME</div>
-                                </Link>
+                                <div className="my-5">
+                                    <Link to="/about" onClick={this.toggleActive}>
+                                        <div className="mobileNavLink p-font">ABOUT</div>
+                                    </Link>
+                                    <Link to="/projects" onClick={this.toggleActive} >
+                                        <div className="mobileNavLink p-font">WORK</div>
+                                    </Link>
+                                    <Link to="/photography" onClick={this.toggleActive} >
+                                        <div className="mobileNavLink p-font">PHOTOGRAPHY</div>
+                                    </Link>
+                                    <Link to="/photography" onClick={this.toggleActive}>
+                                        <div className="mobileNavLink p-font">RESUME</div>
+                                    </Link>
+                                </div>
                                 <hr />
-                                <Link to="/about" onClick={this.toggleActive}>
-                                    <div className="mobileNavLink p-font">ABOUT</div>
-                                </Link>
-                                <hr />
-
-                                <Link to="/projects" onClick={this.toggleActive} >
-                                    <div className="mobileNavLink p-font">WORK</div>
-                                </Link>
-                                <hr />
-
-                                <Link to="/photography" onClick={this.toggleActive}>
-                                    <div className="mobileNavLink p-font">RESUME</div>
-                                </Link>
-                                <hr />
-                                <div className="row mx-0" style={{ fontSize: 40 }}>
+                                <div className="row mx-0 mt-5" style={{ fontSize: 40 }}>
                                     <div className="col ml-0">
-                                        <a href="mailto:patrickduu@gmail.com"><i class="far fa-envelope" style={{ color: '#2C3E50' }} /></a>
+                                        <a href="mailto:patrickduu@gmail.com"><i class="far fa-envelope" style={{ color: '#D44638' }} /></a>
                                     </div>
                                     <div className="col">
-                                        <a href="https://github.com/patrick-du" target="_blank"><i class="fab fa-github mx-auto" style={{ color: '#2C3E50' }} /></a>
-
+                                        <a href="https://github.com/patrick-du" target="_blank"><i class="fab fa-github mx-auto" style={{ color: '#6e5494' }} /></a>
                                     </div>
                                     <div className="col pr-0">
-                                        <a href="https://www.linkedin.com/in/patrick-du3/" target="_blank"><i class="fab fa-linkedin-in" style={{ color: '#2C3E50' }} /></a>
+                                        <a href="https://www.linkedin.com/in/patrick-du3/" target="_blank"><i class="fab fa-linkedin-in" style={{ color: '#0077B5' }} /></a>
 
                                     </div>
 

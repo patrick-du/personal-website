@@ -4,7 +4,7 @@ import PostTop from '../layout/PostTop';
 
 const Huddle = () => {
     return (
-        <div className="container-fluid fade-in-bottom-project-1 projectContainer mx-auto px-0">
+        <div className="container-fluid projectContainer mx-auto px-0">
             <PostTop subtitle="Side Project" title="Huddle" previous="/projects/fgfbrands" next="/projects/weatherly" />
             <p className="s-font" style={styles.body}>A modern football betting mobile app connecting fans while supporting local venues.</p>
             <p className="s-font" style={styles.body}>This app was designed and developed at <a href="https://devpost.com/software/huddle-3bi47k" target="_blank" className="hvr-underline-from-left purple">DeltaHacks V</a>. Our team decided to continue forward with this project as we saw potential in the complete app. </p>

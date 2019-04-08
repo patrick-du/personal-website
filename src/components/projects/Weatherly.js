@@ -5,7 +5,7 @@ import BorderPic from '../projects/BorderPic';
 
 const Weatherly = () => {
     return (
-        <div className="container-fluid fade-in-bottom-project-1 projectContainer mx-auto px-0">
+        <div className="container-fluid projectContainer mx-auto px-0">
             <PostTop subtitle="Side Project" title="Weatherly" previous="/projects/huddle" next="/projects/personalwebsite" />
             <p className="s-font">Weatherly is a weekly forecast progressive web app that includes features such as usage offline and push notifications. It fetches data from <a href="https://darksky.net/dev" target="_blank" className="hvr-underline-from-left purple">DarkSky API</a> which provides access to daily forecasts for the coming week.</p>
             <BorderPic imgPath="Weatherly1.png" picDesc="Desktop Version" />

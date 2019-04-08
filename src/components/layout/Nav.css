@@ -1,82 +1,8 @@
-nav {
-}
-
-.nav-btn {
-    color: white;
-    background-color: #546de5;
-    transition: 0.3s ease;
-}
-  
-.nav-btn:hover {
-    background-color: #778beb;
-    color: white;
-}
-  
-.nav-item {
-    padding: 0 20px;
-}
-
-.nav-link {
-    color: black !important;
-    transition: 0.3s ease-in-out
-}
-
-.nav-link:hover {
-    color: #546de5 !important;
-}
-
-
-
-
-
-
-
-
-
-.overlay a {
-  text-decoration: none;
-  padding-top: 8px;
-  font-size: 36px;
-  color: #f1f1f1;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Mobile Nav */
 #mobile {
     height: 4.5rem;
     width: 100%;
     background-color: white;
-    box-shadow: 0 0 10px #ccc;
     position: fixed;
     left: 0;
     top: 0;
@@ -88,7 +14,7 @@ nav {
 }
 
 .mobileNavLink {
-    padding: 15px;
+    padding: 10px;
     font-size: 30px;
     font-weight: 500;
 }
@@ -99,7 +25,7 @@ nav {
 }
 
 .mobileNavExpand.active {
-    padding-top: 18%;
+    padding-top: 10%;
     display: block;
 }
 
@@ -108,13 +34,9 @@ nav {
 }
 
 
-
-
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-        #desktop {
-                display: none;
-            }
+        
             .navContainer {
               width: 20rem;
               height: 100%;
@@ -123,9 +45,7 @@ nav {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-        #desktop {
-                display: none;
-            }
+     
             .navContainer {
 
               width: 28rem;
@@ -135,9 +55,7 @@ nav {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-        #mobile {
-                display: none;   
-               }
+
               .navContainer {
                 width: 41rem;
                 height: 100%;
@@ -146,9 +64,7 @@ nav {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-        #mobile {
-                display: none;   
-               }
+
                .navContainer {
                 width: 50rem;
                 height: 100%;
@@ -157,9 +73,7 @@ nav {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-        #mobile {
-                display: none;   
-               }
+
                .navContainer {
                 width: 55rem;
                 height: 100%;

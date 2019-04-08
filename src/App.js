@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MNav from './components/layout/MNav';
-import Nav from './components/layout/Nav';
 import Landing from './components/landing/Landing';
 import About from './components/about/About';
 import Story from './components/about/Story';
@@ -15,20 +14,15 @@ import Weatherly from './components/projects/Weatherly';
 import PersonalWebsite from './components/projects/PersonalWebsite';
 import FitBud from './components/projects/Fitbud';
 import Photography from './components/photography/Photography';
-import Calgary from './components/photography/Calgary';
 import ScrollToTop from './components/ScrollToTop';
-import Loader from './components/layout/Loader';
-import Footer from './components/layout/Footer';
 
 import './App.css';
 import './components/layout/Nav.css';
-import './components/layout/Footer.css';
 import './components/layout/ContactExpand.css';
 import './components/landing/Landing.css';
 import './components/about/About.css';
 import './components/projects/Project.css';
 import './components/layout/PageTitle.css';
-import './components/layout/Loader.css';
 
 
 class App extends Component {
@@ -39,8 +33,6 @@ class App extends Component {
       <Router>
         <div class="app">
           <MNav />
-          <Nav />
-          <Loader />
           {/*<Bg />*/}
           <ScrollToTop>
             <Switch>
@@ -58,7 +50,6 @@ class App extends Component {
               <Route exact path="/projects/fitbud" component={FitBud} />
 
               <Route exact path="/photography" component={Photography} />
-              <Route exact path="/photography/calgary" component={Calgary} />
             </Switch>
           </ScrollToTop>
         </div>
