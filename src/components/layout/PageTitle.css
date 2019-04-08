@@ -5,3 +5,13 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+#pageTitlePageTitle {
+    color: #2C3E50;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-weight: 700 !important
+}

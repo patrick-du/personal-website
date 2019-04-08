@@ -1,42 +1,59 @@
 @media (max-width: 575.98px) {
+    .landingTitle {
+        font-size: 70px !important;
+        font-weight: 700;
+    }
+    
     .landingDesc {
-        font-size: 25px !important;
+        font-size: 22px !important;
         font-weight: 400 !important;
-
     }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .landingTitle {
+        font-size: 80px !important;
+        font-weight: 700;
+    }
     .landingDesc {
-        font-size: 25px !important;
+        font-size: 30px !important;
         font-weight: 400 !important;
+    }
 
+    .landingNext {
+        font-size: 18px !important;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .landingTitle {
+        font-size: 80px !important;
+        font-weight: 700;
+    }
     .landingDesc {
         font-size: 30px !important;
         font-weight: 400 !important;
-
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .landingTitle {
+        font-size: 80px !important;
+        font-weight: 700;
+    }
     .landingDesc {
         font-size: 30px !important;
         font-weight: 400 !important;
-
     }
 }
 
 @media (min-width: 1200px) {
+    .landingTitle {
+        font-size: 80px !important;
+        font-weight: 700;
+    }
     .landingDesc {
         font-size: 30px !important;
         font-weight: 400 !important;
     }
-}
-
-.landingTextBg {
-    background-color: #e8ebfa;
 }
