@@ -12,10 +12,15 @@ const Career = () => {
                 <footer className="blockquote-footer">Steve Jobs</footer>
             </blockquote>
             <p className="s-font">By studying Kinesiology I will acquire a profound understanding of physiological, biomechanical, and psychological dynamic principles and mechanisms of movement allowing me to innovate technology for the fitness and health industry in ways that a computer science or engineering graduate cannot.</p>
-            <Link to="../../" className="linkdec">
-                <p className="s-font text-center text-muted vert-move mt-5 mb-0">Created by Patrick Du 🎈</p>
+            <hr />
+            <Link to="/about/story" className="linkdec">
+                <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
+                            <i class="fas fa-arrow-right" style={{ fontSize: '18px', float: "right" }} />
+                    <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>How I Started Coding</p>
+                </div>
             </Link>
-        </div>
+
+        </div >
     )
 
 }

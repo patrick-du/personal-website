@@ -1,7 +1,7 @@
 /*Global Styles*/
 h1 {
   font-family: 'Roboto', sans-serif;
-  color: #2c3e50;
+  color: #2b2b2b;
   font-weight: 500 !important;
   font-size: 40px !important;
 }
@@ -10,13 +10,13 @@ h1 {
 
 .p-font{
   font-family: 'Roboto', sans-serif;
-  color: #2c3e50;
+  color: #2b2b2b;
   font-weight: 500;
 }
 
 .s-font {
   font-family:'Muli', sans-serif;
-  color: #2c3e50;
+  color: #2b2b2b;
   font-weight: 400;
 }
 
@@ -41,35 +41,19 @@ blockquote{
   padding-left:1rem;
 }
 
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-
+.postBottom {
+  background-color: white;
+  border: 1px solid #546de5;
+  color: #546de5;
+  border-radius: 50%;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-
+.postBottom:hover {
+  background-color: #546de5;
+  border: 1px solid white;
+  color: white;
+  border-radius: 50%;
 }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  
-}
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1499.98px) {
-  
-}
-
-@media (min-width: 1500px) {
-  
-}
-
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------------*/
@@ -177,3 +161,4 @@ blockquote{
 .hvr-underline-from-left-spotify:hover:before, .hvr-underline-from-left-spotify:focus:before, .hvr-underline-from-left-spotify:active:before {
   right: 0;
 }
+
