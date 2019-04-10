@@ -12,9 +12,9 @@ const Projects = () => {
 
             <PageTitle pageName="Projects" descriptionBottom="Side projects & hackathons" picture="bitmoji8" />
 
-            <ProjectCard link="/projects/huddle" backgroundColor="#ff6b81" imgPath="Weatherly.png" projDesc="React Native, Spring, MySQL" projWhat="A modern sports betting mobile app to connect fans and support local venues..." projName="Huddle" projType="Side Project" />
+            <ProjectCard link="/projects/huddle" backgroundColor="#ff6b81" imgPath="huddlexd.png" projDesc="React Native, Spring, MySQL" projWhat="A modern sports betting mobile app to connect fans and support local venues..." projName="Huddle" projType="Side Project" />
             <ProjectCard link="/projects/weatherly" backgroundColor="#ebd0f4" imgPath="Weatherly.png" projDesc="JavaScript, HTML, CSS" projWhat="A weekly forecast progressive web app with offline usage and push notifications..." projName="Weatherly" projType="Side Project" />
-            <ProjectCard link="/projects/personalwebsite" backgroundColor="#7bed9f" imgPath="Weatherly.png" projDesc="React JS" projWhat="A portfolio to illustrate who I am and showcase my projects and past work..." projName="Personal Website" projType="Side Project" />
+            <ProjectCard link="/projects/personalwebsite" backgroundColor="#7bed9f" imgPath="asdasd.gif" projDesc="React JS" projWhat="A portfolio to illustrate who I am and showcase my projects and past work..." projName="Personal Website" projType="Side Project" />
             <ProjectCard link="/projects/fitbud" backgroundColor="#ffc8a2" imgPath="FitBud.png" projDesc="React JS, Node JS, Express JS" projWhat="An all-in-one fitness app to simplify a trip to the gym..." projName=" FitBud" projType="uOttaHack 2019" />
 
         </div>
