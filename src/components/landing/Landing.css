@@ -47,6 +47,11 @@
         font-size: 30px !important;
         font-weight: 400 !important;
     }
+    .bitmoji {
+        margin-left: 0px;
+        width: 280px;
+        height: 280px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -58,6 +63,11 @@
         font-size: 30px !important;
         font-weight: 400 !important;
     }
+    .bitmoji {
+        margin-left: 0px;
+        width: 280px;
+        height: 280px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -68,5 +78,10 @@
     .landingDesc {
         font-size: 30px !important;
         font-weight: 400 !important;
+    }
+    .bitmoji {
+        margin-left: 0px;
+        width: 280px;
+        height: 280px;
     }
 }

@@ -40,16 +40,16 @@ class MNav extends Component {
                                 <hr />
                                 <div className="my-5">
                                     <Link to="/about" onClick={this.toggleActive} className="linkdec">
-                                        <div className="mobileNavLink s-font">ABOUT</div>
+                                        <div className="mobileNavLink hvr-underline-from-center-nav s-font">ABOUT</div>
                                     </Link>
                                     <Link to="/projects" onClick={this.toggleActive} className="linkdec" >
-                                        <div className="mobileNavLink s-font">WORK</div>
+                                        <div className="mobileNavLink hvr-underline-from-center-nav s-font">WORK</div>
                                     </Link>
                                     <Link to="/photography" onClick={this.toggleActive} className="linkdec" >
-                                        <div className="mobileNavLink s-font">PHOTOGRAPHY</div>
+                                        <div className="mobileNavLink hvr-underline-from-center-nav s-font">PHOTOGRAPHY</div>
                                     </Link>
                                     <a href={Resume} target="_blank" onClick={this.toggleActive} className="linkdec">
-                                        <div className="mobileNavLink s-font">RESUME</div>
+                                        <div className="mobileNavLink hvr-underline-from-center-nav s-font">RESUME</div>
                                     </a>
                                 </div>
                                 <hr />

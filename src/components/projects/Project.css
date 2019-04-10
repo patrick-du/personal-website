@@ -150,20 +150,20 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px){
     .projectContainer {
-        width: 55rem;
+        width: 50rem;
         height: 100%;
         margin: 2rem 0;
     }
 
     .projectCard {
         width: 100%;
-        height: 18rem;
+        height: 16rem;
         margin: 2rem 0;
-    }
 
+    }
     .projectCardImage {
-        width: 25rem;
-        height: 18rem;
+        width: 22.5rem;
+        height: 16rem;
      }
    
     #projName {
@@ -180,7 +180,7 @@
     }
     
     #projCol1 {
-        width: 25rem;
+        width: 22.5rem;
         height: 100%;
     }
     #above768 {

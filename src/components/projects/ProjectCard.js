@@ -5,7 +5,7 @@ const ProjectCard = (props) => {
     const { link, imgPath, projName, projDesc, projWhat, projType, backgroundColor } = props;
     return (
         <Link to={link} className="linkdec">
-            <div className="projectCard">
+            <div className="projectCard hvr-box hvr-grow">
 
                 <div id="under768">
                     <div className="imgRow text-center" style={{ backgroundColor: backgroundColor }}>

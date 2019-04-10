@@ -11,7 +11,7 @@ class About extends Component {
         return (
             <div className="container-fluid projectContainer mx-auto px-0">
 
-                <PageTitle pageName="About Me" descriptionBottom="A small introduction..." />
+                <PageTitle pageName="About Me" descriptionBottom="A small introduction..." picture="bitmoji4" />
 
 
 
