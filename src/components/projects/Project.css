@@ -5,6 +5,8 @@
         height: 100%;
         margin: 2rem 0;
     }
+
+    
     
     .projectCard {
         width: 100%;
@@ -21,6 +23,15 @@
         display: none;
     }
 
+    .insideProjectTitle {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .insideProjectSubTitle {
+        font-size: 16px;
+        color: #7f8c8d;
+    }
    
     
 
@@ -53,7 +64,15 @@
 
 
 
+    .insideProjectTitle {
+        font-size: 32px;
+        font-weight: 700;
+    }
 
+    .insideProjectSubTitle {
+        font-size: 18px;
+        color: #7f8c8d;
+    }
 
 
 }
@@ -101,6 +120,16 @@
         display: none;
     }
 
+    .insideProjectTitle {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .insideProjectSubTitle {
+        font-size: 18px;
+        color: #7f8c8d;
+    }
+
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -144,6 +173,15 @@
     }
     #under768 {
         display: none;
+    }
+    .insideProjectTitle {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .insideProjectSubTitle {
+        font-size: 18px;
+        color: #7f8c8d;
     }
 }
 
@@ -189,6 +227,15 @@
     }
     #under768 {
         display: none;
+    }
+    .insideProjectTitle {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .insideProjectSubTitle {
+        font-size: 18px;
+        color: #7f8c8d;
     }
 
 }

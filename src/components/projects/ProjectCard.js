@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
 
                 <div id="under768">
                     <div className="imgRow text-center" style={{ backgroundColor: backgroundColor }}>
-                        <img src={require(`../../assets/${imgPath}`)} alt="" className="projectCardImage p-1" />
+                        <img src={require(`../../assets/${imgPath}`)} alt="" className="projectCardImage" />
                     </div>
                     <div className="projectCardText pt-3">
                         <div className="s-font" id="projName" style={{ fontWeight: '600', fontSize: '18px' }}>{projName}
