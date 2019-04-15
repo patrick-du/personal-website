@@ -27,7 +27,6 @@ import './components/layout/PageTitle.css';
 
 class App extends Component {
 
-  /*https://flatuicolors.com/palette/ru*/
   render() {
     return (
       <Router>
@@ -40,19 +39,20 @@ class App extends Component {
               <Route exact path="/about" component={About} />
               <Route exact path="/about/story" component={Story} />
               <Route exact path="/about/career" component={Career} />
-
-              <Route exact path="/projects" component={Projects} />
-              <Route exact path="/projects/fgfbrands" component={FGFBrands} />
-              <Route exact path="/projects/elementsphysicaltherapy" component={ElementsPhysicalTherapy} />
-              <Route exact path="/projects/huddle" component={Huddle} />
-              <Route exact path="/projects/weatherly" component={Weatherly} />
-              <Route exact path="/projects/personalwebsite" component={PersonalWebsite} />
-              <Route exact path="/projects/fitbud" component={FitBud} />
+              <Route exact path="/work" component={Projects} />
+              <Route exact path="/work/fgfbrands" component={FGFBrands} />
+              <Route exact path="/work/elementsphysicaltherapy" component={ElementsPhysicalTherapy} />
+              <Route exact path="/work/huddle" component={Huddle} />
+              <Route exact path="/work/weatherly" component={Weatherly} />
+              <Route exact path="/work/personalwebsite" component={PersonalWebsite} />
+              <Route exact path="/work/fitbud" component={FitBud} />
 
               <Route exact path="/photography" component={Photography} />
+
             </Switch>
           </ScrollToTop>
         </div>
+
       </Router>
 
     );

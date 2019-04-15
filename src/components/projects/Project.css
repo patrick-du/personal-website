@@ -1,3 +1,8 @@
+.topProjectImage {
+    width: 100%;
+    box-shadow: 0 0 5px #ccc;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .projectContainer {

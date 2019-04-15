@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Resume from '../../assets/Reflective.pdf'
-
+import Logo from '../../assets/logo.png'
 class MNav extends Component {
 
     toggleActive() {
         document.querySelector('.icon').classList.toggle('active');
         document.querySelector('.mobileNavExpand').classList.toggle('active');
         document.getElementById('mobile').classList.toggle('active');
+    }
 
+    removeActive() {
+        document.querySelector('.icon').classList.remove('active');
+        document.querySelector('.mobileNavExpand').classList.remove('active');
+        document.getElementById('mobile').classList.remove('active');
     }
 
     render() {
@@ -26,13 +31,20 @@ class MNav extends Component {
                             <div className="row">
                                 <div className="col px-0">
                                     <Link to="/">
-                                        <div className="navbar-brand mr-auto pt-3" style={{ color: ' #2b2b2b' }}><p>Patrick.</p></div>
-
+                                        <a class="navbar-brand pt-2 hvr-grow" href="#" onClick={this.removeActive}>
+                                            <img src={Logo} width="45" height="45" alt="" />
+                                        </a>
                                     </Link>
+                                    {/* 
+                                        <div className="navbar-brand mr-auto pt-3" style={{ color: ' #2b2b2b', fontWeight: '700' }}><p>Patrick.</p></div>
+
+                                    */}
                                 </div>
                                 <div className="col px-0">
-                                    <div className="icon float-right align-middle" onClick={this.toggleActive}>
+
+                                    <div className="icon hvr-grow float-right align-middle" onClick={this.toggleActive}>
                                         <div className="hamburger float-right" />
+
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +54,7 @@ class MNav extends Component {
                                     <Link to="/about" onClick={this.toggleActive} className="linkdec">
                                         <div className="mobileNavLink hvr-underline-from-center-nav s-font">ABOUT</div>
                                     </Link>
-                                    <Link to="/projects" onClick={this.toggleActive} className="linkdec" >
+                                    <Link to="/work" onClick={this.toggleActive} className="linkdec" >
                                         <div className="mobileNavLink hvr-underline-from-center-nav s-font">WORK</div>
                                     </Link>
                                     <Link to="/photography" onClick={this.toggleActive} className="linkdec" >
