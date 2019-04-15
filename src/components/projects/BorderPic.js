@@ -9,7 +9,7 @@ const BorderPic = (props) => {
         },
         image: {
             width: '100%',
-            boxShadow: '0 0 10px #ccc'
+            boxShadow: '0 0 5px #ccc'
 
         }
     }
