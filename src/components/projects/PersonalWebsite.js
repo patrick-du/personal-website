@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 const PersonalWebsite = () => {
     return (
         <div className="container-fluid mx-auto px-0">
-            <img src={require(`../../assets/websiteB.png`)} className="topProjectImage" />
+            <img src={require(`../../assets/websiteB-opt.png`)} className="topProjectImage" />
 
 
             <div className="projectContainer mx-auto px-0">

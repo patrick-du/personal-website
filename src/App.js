@@ -16,6 +16,8 @@ import FitBud from './components/projects/Fitbud';
 import Photography from './components/photography/Photography';
 import ScrollToTop from './components/ScrollToTop';
 
+
+
 import './App.css';
 import './components/layout/Nav.css';
 import './components/layout/ContactExpand.css';
@@ -23,17 +25,18 @@ import './components/landing/Landing.css';
 import './components/about/About.css';
 import './components/projects/Project.css';
 import './components/layout/PageTitle.css';
+import './components/photography/Photography.css';
 
 
 class App extends Component {
 
   render() {
     return (
+
       <Router>
         <div class="app">
           <MNav />
-          {/*<Bg />*/}
-          <ScrollToTop>
+          < ScrollToTop >
             <Switch>
               <Route exact path="/" component={Landing} />
               <Route exact path="/about" component={About} />
@@ -46,14 +49,12 @@ class App extends Component {
               <Route exact path="/work/weatherly" component={Weatherly} />
               <Route exact path="/work/personalwebsite" component={PersonalWebsite} />
               <Route exact path="/work/fitbud" component={FitBud} />
-
               <Route exact path="/photography" component={Photography} />
-
             </Switch>
           </ScrollToTop>
         </div>
+      </Router >
 
-      </Router>
 
     );
   }

@@ -13,7 +13,6 @@ const Projects = () => {
 
                 <ProjectCard link="/work/fgfbrands" backgroundColor="#70a1ff" imgPath="fgfB.png" projDesc="FGF Brands" projWhat="My first co-op term at FGF Brands doing something I had little knowledge about..." projName="Front-End Developer Intern" projType="January 2019 - April 2019" />
                 {/* <ProjectCard link="/work/elementsphysicaltherapy" backgroundColor="#ffbe76" imgPath="Weatherly.png" projDesc="Elements Physical Therapy" projWhat="Exploring the daily lives of exercise therapists" projName="Exercise Therapist Assistant" projType="June 2018 - August 2018" /> */}
-
                 <PageTitle pageName="Projects" descriptionBottom="Side projects & hackathons" picture="bitmoji8" />
 
                 <ProjectCard link="/work/huddle" backgroundColor="#ff6b81" imgPath="huddleA.png" projDesc="React Native, Java (Spring), Maven, MySQL" projWhat="A modern sports betting mobile app to connect fans and support local venues..." projName="Huddle" projType="Side Project" />

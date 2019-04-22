@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 const Weatherly = () => {
     return (
         <div className="container-fluid px-0">
-            <img src={require(`../../assets/weatherlyB.png`)} className="topProjectImage" />
+            <img src={require(`../../assets/weatherlyB-opt.png`)} className="topProjectImage" />
 
             <div className="projectContainer mx-auto px-0">
                 <Fade big>

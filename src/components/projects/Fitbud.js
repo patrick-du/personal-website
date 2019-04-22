@@ -12,7 +12,7 @@ const FitBud = () => {
     }
     return (
         <div className="container-fluid  mx-auto px-0">
-            <img src={require(`../../assets/fitbudB.png`)} className="topProjectImage" />
+            <img src={require(`../../assets/fitbudB-opt.png`)} className="topProjectImage" />
             <div className="projectContainer mx-auto px-0">
                 <Fade big>
 
