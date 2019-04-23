@@ -31,9 +31,9 @@ const Weatherly = () => {
                     <hr />
                 </Fade>
                 <Fade bottom>
-                    <Link to="/work/personalwebsite" className="linkdec">
+                    <Link to="/work/personalwebsite" className="linkdec hvr-icon-wobble-horizontal">
                         <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
-                            <i class="fas fa-arrow-right" style={{ fontSize: '18px', float: "right" }} />
+                            <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
                             <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>Personal Website</p>
                         </div>
                     </Link>

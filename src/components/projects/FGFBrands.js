@@ -12,18 +12,22 @@ const FGFBrands = () => {
             <div className="projectContainer mx-auto px-0">
                 <Fade big>
                     <PostTop subtitle="Work Term" title="FGF Brands" previous="/work/fitbud" next="/work/huddle" />
-                    <p className="s-font">At <a href="https://www.fgfbrands.com" target="_blank" className="hvr-underline-from-left purple">FGF Brands</a>, I played a major role in several large projects - developing the FGF progressive web app, creating a company web framework for future apps, and programming over 2000 NFC tags for the engineering department. Over the course of the coop term, I was able to pick up new languages, frameworks, and libraries such as Bootstrap, JavaScript, React, and React Native. Working at FGF Brands for my first coop term was an incredible experience with lots of opportunities to grow by myself as well as in a team. The company highly values one's ability to work in a team as well as their work ethic - two skills I developed tremendously during my time at FGF. </p>
+                    <p className="s-font">For my first coop, I spent 4 months working at FGF Brands as an "Innovation Driven" Web Developer in the IT department. Despite knowing little to nothing about web development, I learned a whole lot throughout the term which I'm excited to share.</p>
+                    <p className="s-font">Our team utilized the Agile Scrum software development methodology combined with an open office environment making it extremely simple to seek help, make friends, and collaborate on projects.</p>
+                    <p className="s-font">Over the course of the term, I was able to pick up on new languages, frameworks, and libraries such as Bootstrap, JavaScript, C#, React, React Native, and Node JS (Express)! I played a major role in several projects such as performing a proof of concept (POC) for the FGF progressive web app, developing a company web framework, and creating a C# console application to assist in managing SharePoint data.</p>
+                    <BorderPic imgPath="FGF1.png" picDesc="Before and After" />
+                    <p className="s-font">Working at FGF was an incredible experience with lots of opportunities to grow by myself as well as in a team. The company highly values one's ability to work in a team as well as their work ethic - two skills I was able to further develop during my time at FGF.</p>
+                    <p className="s-font">I'm excited for what's to come next and can't wait for the next coop term!</p>
                     <hr />
                 </Fade>
                 <Fade bottom>
-                    <Link to="/work/huddle" className="linkdec">
+                    <Link to="/work/huddle" className="linkdec hvr-icon-wobble-horizontal">
                         <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
-                            <i class="fas fa-arrow-right" style={{ fontSize: '18px', float: "right" }} />
+                            <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
                             <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>Huddle</p>
                         </div>
                     </Link>
                 </Fade >
-
             </div>
 
         </div>
