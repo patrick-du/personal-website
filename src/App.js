@@ -16,6 +16,7 @@ import FitBud from './components/projects/Fitbud';
 import Photography from './components/photography/Photography';
 import Banff from './components/photography/Banff';
 import Calgary from './components/photography/Calgary';
+import Toronto from './components/photography/Toronto';
 import ScrollToTop from './components/ScrollToTop';
 
 
@@ -54,6 +55,7 @@ class App extends Component {
               <Route exact path="/photography" component={Photography} />
               <Route exact path="/photography/banff" component={Banff} />
               <Route exact path="/photography/calgary" component={Calgary} />
+              <Route exact path="/photography/toronto" component={Toronto} />
             </Switch>
           </ScrollToTop>
         </div>

@@ -16,7 +16,7 @@ class Landing extends Component {
 
                     <p className="s-font landingDesc">I'm Patrick, a web developer from Toronto. I enjoy creating delightful web experiences focused on functionality and minimalism.</p>
                     <a href={Resume} target="_blank" className="linkdec">
-                        <p className="s-font landingNext mt-5" style={{ color: '#7f8c8d' }}>View my resume </p>
+                        <p className="s-font landingNext mt-5 landingResume" style={{ color: '#7f8c8d' }}>View my resume</p>
                     </a>
                 </Fade>
             </div >

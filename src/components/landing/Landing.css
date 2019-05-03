@@ -1,3 +1,11 @@
+.landingResume{
+    transition: 0.3s ease-in-out !important;
+}
+
+.landingResume:hover {
+    color: #546de5 !important;
+}
+
 @media (max-width: 575.98px) {
     .landingTitle {
         font-size: 60px !important;

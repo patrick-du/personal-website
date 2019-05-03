@@ -9,25 +9,26 @@ const Banff = () => {
         <div className="projectContainer mx-auto px-0">
             <Fade big>
             <div className="row mx-0">
-                <div className="col-9 px-0">
-                    <p className="s-font" id="pageTitlePageTitle">Exploring Calgary</p>
+                <div className="col px-0">
+                    <p className="s-font" id="pageTitlePageTitle">Calgary</p>
                     <p className="s-font" id="pageTitlePageDesc">Summer 2018</p>
                 </div>
             </div>
             <hr className="my-3" />
-            <BorderPic imgPath="calgary1.jpg" picDesc="Devonian Gardens // 08-08-2018"/>
-            {/*<BorderPic imgPath="calgary2.jpg" picDesc="Olympic Park // 08-10-2018"/>*/}
-            <BorderPic imgPath="calgary3.jpg" picDesc="08-9-2018"/>
-            <BorderPic imgPath="calgary4.jpg" picDesc="08-08-2018"/>
+            <BorderPic imgPath="calgary1-min.jpg" picDesc="Devonian Gardens // 08-08-2018"/>
+            <BorderPic imgPath="calgary2-min.jpg" picDesc="Devonian Gardens // 08-10-2018"/>
+            <BorderPic imgPath="calgary3-min.jpg" picDesc="08-9-2018"/>
+            <BorderPic imgPath="calgary4-min.jpg" picDesc="08-08-2018"/>
+            <BorderPic imgPath="calgary5-min.jpg" picDesc="08-08-2018"/>
+            <BorderPic imgPath="calgary6-min.jpg" picDesc="8th Ave SE & 4 St SE // 08-08-2018"/>
         </Fade>
 
         <hr />
     <Fade bottom>
-
-        <Link to="/photography/Banff" className="linkdec hvr-icon-wobble-horizontal">
+        <Link to="/photography/toronto" className="linkdec hvr-icon-wobble-horizontal">
             <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
                 <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
-                <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>Banff National Park</p>
+                <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>Toronto</p>
             </div>
         </Link>
     </Fade>

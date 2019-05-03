@@ -2,28 +2,44 @@ import React from 'react';
 import PageTitle from '../layout/PageTitle';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
+import BorderPic from '../projects/BorderPic';
 
 
 const Photography = () => {
 
     return (
         <div className="container-fluid projectContainer mx-auto px-0">
-
             <PageTitle pageName="Collections" descriptionBottom="Canon EOS Rebel T5 EF-S 18-55mm" picture="bitmoji5" />
-
-            <Link to="/photography/banff">
-            <div className="photoCard hvr-box hvr-grow">
-                <div className="s-font text-center">Banff</div>
-            </div>
+            <Link to="/photography/banff" className="linkdec">
+                <div className="s-font med hvr-icon-wobble-horizontal" style={{ fontWeight: '600', fontSize: '18px' }}>Banff National Park
+                            <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
+                    <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>Summer 2018</p>
+                </div>
             </Link>
 
-
-
-            <Link to="/photography/calgary">
-                <div className="photoCard hvr-box hvr-grow">
-                    <div className="s-font text-center">Calgary</div>
+            <hr />
+            <Link to="/photography/calgary" className="linkdec">
+                <div className="s-font med hvr-icon-wobble-horizontal" style={{ fontWeight: '600', fontSize: '18px' }}>Calgary
+                            <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
+                    <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }} >Summer 2018</p>
                 </div>
-
+            </Link>
+            <hr />
+            <Link to="/photography/calgary" className="linkdec">
+                <div className="s-font med hvr-icon-wobble-horizontal" style={{ fontWeight: '600', fontSize: '18px' }}>Toronto
+                            <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
+                    <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }} >Summer 2018</p>
+                </div>
+            </Link>
+            <Link to="/photography/banff">
+                <div className="photoCard hvr-box hvr-grow text-center" style={{ backgroundColor: 'black' }}>
+                    <div className="s-font collectionName">Banff National Park<br /><div className="collectionSubName">Summer 2018</div></div>
+                </div>
+            </Link>
+            <Link to="/photography/toronto">
+                <div className="photoCard hvr-box hvr-grow">
+                    <div className="s-font collectionName text-center">Toronto<br /><div className="collectionSubName">Summer 2018</div></div>
+                </div>
             </Link>
 
         </div >
