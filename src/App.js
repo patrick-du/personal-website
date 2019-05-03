@@ -14,6 +14,8 @@ import Weatherly from './components/projects/Weatherly';
 import PersonalWebsite from './components/projects/PersonalWebsite';
 import FitBud from './components/projects/Fitbud';
 import Photography from './components/photography/Photography';
+import Banff from './components/photography/Banff';
+import Calgary from './components/photography/Calgary';
 import ScrollToTop from './components/ScrollToTop';
 
 
@@ -50,6 +52,8 @@ class App extends Component {
               <Route exact path="/work/personalwebsite" component={PersonalWebsite} />
               <Route exact path="/work/fitbud" component={FitBud} />
               <Route exact path="/photography" component={Photography} />
+              <Route exact path="/photography/banff" component={Banff} />
+              <Route exact path="/photography/calgary" component={Calgary} />
             </Switch>
           </ScrollToTop>
         </div>
