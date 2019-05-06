@@ -23,8 +23,8 @@
     }
     .bitmoji {
         margin-left: 0px;
-        width: 230px;
-        height: 230px;
+        width: 200px !important;
+        height: 200px !important;
     }
 }
 
@@ -36,6 +36,9 @@
     .landingDesc {
         font-size: 30px !important;
         font-weight: 400 !important;
+    }
+    .landingNext {
+        font-size: 20px !important;
     }
     .bitmoji {
         margin-left: 0px;
@@ -55,6 +58,9 @@
         font-size: 30px !important;
         font-weight: 400 !important;
     }
+    .landingNext {
+        font-size: 20px !important;
+    }
     .bitmoji {
         margin-left: 0px;
         width: 280px;
@@ -71,6 +77,9 @@
         font-size: 30px !important;
         font-weight: 400 !important;
     }
+    .landingNext {
+        font-size: 20px !important;
+    }
     .bitmoji {
         margin-left: 0px;
         width: 280px;
@@ -86,6 +95,9 @@
     .landingDesc {
         font-size: 30px !important;
         font-weight: 400 !important;
+    }
+    .landingNext {
+        font-size: 20px !important;
     }
     .bitmoji {
         margin-left: 0px;

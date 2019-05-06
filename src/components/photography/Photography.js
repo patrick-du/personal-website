@@ -31,16 +31,7 @@ const Photography = () => {
                     <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }} >Summer 2018</p>
                 </div>
             </Link>
-            <Link to="/photography/banff">
-                <div className="photoCard hvr-box hvr-grow text-center" style={{ backgroundColor: 'black' }}>
-                    <div className="s-font collectionName">Banff National Park<br /><div className="collectionSubName">Summer 2018</div></div>
-                </div>
-            </Link>
-            <Link to="/photography/toronto">
-                <div className="photoCard hvr-box hvr-grow">
-                    <div className="s-font collectionName text-center">Toronto<br /><div className="collectionSubName">Summer 2018</div></div>
-                </div>
-            </Link>
+            
 
         </div >
     );
