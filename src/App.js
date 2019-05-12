@@ -10,6 +10,7 @@ import Projects from './components/projects/Projects';
 import FGFBrands from './components/projects/FGFBrands';
 import ElementsPhysicalTherapy from './components/projects/ElementsPhysicalTherapy';
 import Huddle from './components/projects/Huddle';
+import UserAuth from './components/projects/UserAuth';
 import Weatherly from './components/projects/Weatherly';
 import PersonalWebsite from './components/projects/PersonalWebsite';
 import FitBud from './components/projects/Fitbud';
@@ -49,6 +50,7 @@ class App extends Component {
               <Route exact path="/work/fgfbrands" component={FGFBrands} />
               <Route exact path="/work/elementsphysicaltherapy" component={ElementsPhysicalTherapy} />
               <Route exact path="/work/huddle" component={Huddle} />
+              <Route exact path="/work/userauth" component={UserAuth} />
               <Route exact path="/work/weatherly" component={Weatherly} />
               <Route exact path="/work/personalwebsite" component={PersonalWebsite} />
               <Route exact path="/work/fitbud" component={FitBud} />

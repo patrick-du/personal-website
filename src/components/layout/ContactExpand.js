@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Resume from '../../assets/Reflective.pdf';
+import Resume from '../../assets/Resume.pdf';
 class ContactExpand extends Component {
     socialFcn = () => {
         document.querySelector('.social').classList.toggle('socialSizeChange');

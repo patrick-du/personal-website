@@ -28,10 +28,10 @@ class Huddle extends Component {
                         <hr />
                     </Fade>
                     <Fade bottom>
-                        <Link to="/work/weatherly" className="linkdec hvr-icon-wobble-horizontal">
+                        <Link to="/work/userauth" className="linkdec hvr-icon-wobble-horizontal">
                             <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
                             <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
-                                <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>Weatherly</p>
+                                <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>User Authentication</p>
                             </div>
                         </Link>
                     </Fade>

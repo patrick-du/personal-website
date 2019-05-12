@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Resume from '../../assets/Reflective.pdf'
+import Resume from '../../assets/Resume.pdf'
 import Fade from 'react-reveal/Fade';
 
 

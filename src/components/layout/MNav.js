@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Resume from '../../assets/Reflective.pdf'
+import Resume from '../../assets/Resume.pdf'
 import Logo from '../../assets/logo.png'
 import Fade from 'react-reveal/Fade';
 
@@ -32,11 +32,13 @@ class MNav extends Component {
                         <div className="col">
                             <div className="row">
                                 <div className="col px-0">
-                                    <Link to="/">
+                                    {/*<Link to="/">
                                         <a class="navbar-brand pt-2 hvr-grow" href="#" onClick={this.removeActive}>
                                             <img src={Logo} width="45" height="45" alt="" />
                                         </a>
-                                    </Link>
+                                    </Link0
+                                    */}
+
                                     {/* 
                                         <div className="navbar-brand mr-auto pt-3" style={{ color: ' #2b2b2b', fontWeight: '700' }}><p>Patrick.</p></div>
 
@@ -54,6 +56,9 @@ class MNav extends Component {
                                 <Fade big>
                                     <hr />
                                     <div className="my-5">
+                                        <Link to="/" onClick={this.toggleActive} className="linkdec">
+                                            <div className="mobileNavLink hvr-underline-from-center-nav s-font">HOME</div>
+                                        </Link>
                                         <Link to="/about" onClick={this.toggleActive} className="linkdec">
                                             <div className="mobileNavLink hvr-underline-from-center-nav s-font">ABOUT</div>
                                         </Link>

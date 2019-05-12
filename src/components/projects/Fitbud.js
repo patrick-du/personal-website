@@ -25,7 +25,7 @@ const FitBud = () => {
                     <p className="s-font">Exercise tracking is an extremely important element to success at the gym. Through tracking one's reps, sets, and weight, users can easily view their progression and take proper measures to overcome future plateaus. Our app provide users with the ability to create their own workout routine or use our premade training templates.</p>
                     <BorderPic imgPath="FitBud5.png" picDesc="Workout Screen: Exercise Log and Spotify Music Player" />
                     <p className="s-font">Lastly, we developed a built-in music player connected to the user's Spotify account in order to eliminate the need to switch between your workout routine, music, and even social media notifications. The main purpose was to streamline everything the user would need during their training session onto one platform.</p>
-                    <p className="s-font">This app was developed at <a href="https://devpost.com/software/fitbud" target="_blank" className="hvr-underline-from-left purple">uOttaHacks 2019</a> with React and Node (Express JS). View the full project on <a href="https://github.com/patrick-du/FitBud" target="_blank" className="hvr-underline-from-left purple">Github</a>.</p>
+                    <p className="s-font">This app was developed at <a href="https://devpost.com/software/fitbud" target="_blank" className="hvr-underline-from-left purple">uOttaHacks 2019</a> with React and Node JS (Express). View the full project on <a href="https://github.com/patrick-du/FitBud" target="_blank" className="hvr-underline-from-left purple">Github</a>.</p>
                     <hr />
                 </Fade>
                 <Fade bottom>

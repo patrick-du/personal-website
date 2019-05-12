@@ -16,7 +16,7 @@ const Projects = () => {
                 <PageTitle pageName="Projects" descriptionBottom="Side projects & hackathons" picture="bitmoji8" />
 
                 <ProjectCard link="/work/huddle" backgroundColor="#ff6b81" imgPath="huddleA.png" projDesc="React Native, Java (Spring), Maven, MySQL" projWhat="A modern sports betting mobile app to connect fans and support local venues..." projName="Huddle" projType="Side Project" />
-
+                <ProjectCard link="/work/userauth" backgroundColor="#ff7675" imgPath="huddleA.png" projDesc="Node JS, Express JS, MongoDB" projWhat="A user authentication boilerplate for future projects..." projName="User Authentication" projType="Side Project" />
                 <ProjectCard link="/work/weatherly" backgroundColor="#ebd0f4" imgPath="weatherlyA.png" projDesc="JavaScript, HTML, CSS" projWhat="A weekly forecast progressive web app with offline usage and push notifications..." projName="Weatherly" projType="Side Project" />
                 <ProjectCard link="/work/personalwebsite" backgroundColor="#7bed9f" imgPath="websiteB.png" projDesc="React JS" projWhat="A portfolio to illustrate who I am and showcase my projects and past work..." projName="Personal Website" projType="Side Project" />
                 <ProjectCard link="/work/fitbud" backgroundColor="#ffc8a2" imgPath="fitbudA.png" projDesc="React JS, Node JS, Express JS" projWhat="An all-in-one fitness app to simplify a trip to the gym..." projName=" FitBud" projType="uOttaHack 2019" />
