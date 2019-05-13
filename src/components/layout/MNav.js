@@ -68,17 +68,23 @@ class MNav extends Component {
                                         <Link to="/photography" onClick={this.toggleActive} className="linkdec" >
                                             <div className="mobileNavLink hvr-underline-from-center-nav s-font">PHOTOGRAPHY</div>
                                         </Link>
-                                        <a href={Resume} target="_blank" onClick={this.toggleActive} className="linkdec">
+                                        {/*<a href={Resume} target="_blank" onClick={this.toggleActive} className="linkdec">
                                             <div className="mobileNavLink hvr-underline-from-center-nav s-font">RESUME</div>
-                                        </a>
+                                        </a> */}
+                                        
                                     </div>
                                     <hr />
                                     <div className="row mx-0 mt-5" style={{ fontSize: 35 }}>
                                         <div className="col ml-0">
+                                            <a href={Resume} target="_blank" onClick={this.toggleActive} className="linkdec">
+                                            <i class="far fa-file icon0"></i>
+                                            </a>
+                                        </div>
+                                        <div className="col">
                                             <a href="mailto:patrickduu@gmail.com"><i class="far fa-envelope icon1" /></a>
                                         </div>
                                         <div className="col">
-                                            <a href="https://github.com/patrick-du" target="_blank"><i class="fab fa-github mx-auto icon2" /></a>
+                                            <a href="https://github.com/patrick-du" target="_blank" onClick={this.toggleActive}><i class="fab fa-github mx-auto icon2" /></a>
                                         </div>
                                         <div className="col pr-0">
                                             <a href="https://www.linkedin.com/in/patrick-du3/" target="_blank"><i class="fab fa-linkedin-in icon3" /></a>
