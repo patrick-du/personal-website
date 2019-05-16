@@ -27,7 +27,7 @@ const Weatherly = () => {
                     <BorderPic imgPath="Weatherly2.png" picDesc="Mobile Version: Install Prompt, Loading Data, Native App Feel" />
 
                     <p className="s-font">Despite facing an abundance of issues whether it be with plain JavaScript or registering Service Workers, I am glad that I stuck through with the project as it was a rewarding experience.</p>
-                    <p className="s-font">This app was developed with HTML, CSS, and JavaScript. View the full project on <a href="https://github.com/patrick-du/patrick-du.github.io" target="_blank" className="hvr-underline-from-left purple">Github</a> or <a href="https://patrick-du.github.io" target="_blank" className="hvr-underline-from-left purple">try it yourself</a>.</p>
+                    <p className="s-font">This app was developed with HTML, CSS, and JavaScript. View the full project on <a href="https://github.com/patrick-du/patrick-du.github.io" target="_blank" className="hvr-underline-from-left purple">Github</a> or <a href="https://patrickdu-weatherly.herokuapp.com" target="_blank" className="hvr-underline-from-left purple">try it yourself</a>.</p>
                     <hr />
                 </Fade>
                 <Fade bottom>

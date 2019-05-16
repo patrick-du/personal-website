@@ -18,7 +18,8 @@ const Weatherly = () => {
                     <p>User Authentication provides a secure way for users to register and login to their account without third-party strategies. I utilized Passport JS, an authentication middleware, and adopted their local username and password authentication strategy. I stored the accounts in MongoDB Atlas, a NoSQL database, and retrieved data through ad-hoc queries.</p>
                         
                     <BorderPic imgPath="userAuth6.png" picDesc="Account Screen, Update Account Details" />
-                    <p className="s-font">This app was developed with Node JS (Express) and MongoDB. View the full project on <a href="https://github.com/patrick-du/auth-bp" target="_blank" className="hvr-underline-from-left purple">Github</a>.</p>
+
+                    <p className="s-font">This app was developed with Node JS (Express) and MongoDB. View the full project on <a href="https://github.com/patrick-du/auth-bp" target="_blank" className="hvr-underline-from-left purple">Github</a> or <a href="https://patrickdu-userauth-boilerplate.herokuapp.com" target="_blank" className="hvr-underline-from-left purple">try it yourself</a>.</p>
                 <hr/>
                 </Fade>
                 <Fade bottom>
