@@ -16,8 +16,8 @@ const FGFBrands = () => {
                     <p className="s-font">Our team utilized the Agile Scrum software development methodology combined with an open office environment making it extremely simple to seek help, make friends, and collaborate on projects.</p>
                     <p className="s-font">Over the course of the term, I was able to pick up on new languages, frameworks, and libraries such as Bootstrap, JavaScript, C#, React, React Native, and Node JS (Express)! I played a major role in several projects such as performing a proof of concept (POC) for the FGF progressive web app, developing a company web framework, and creating a C# console application to assist in managing SharePoint data.</p>
                     <BorderPic imgPath="FGF1.png" picDesc="Before and After" />
-                    <p className="s-font">Working at FGF was an incredible experience with lots of opportunities to grow by myself as well as in a team. The company highly values one's ability to work in a team as well as their work ethic - two skills I was able to further develop during my time at FGF.</p>
-                    <p className="s-font">I'm excited for what's to come next and can't wait for the next coop term!</p>
+                    <p className="s-font">Working at FGF was an incredible experience with lots of opportunities to grow by myself as well as in a team. The company highly values one's ability to work in a team and their work ethic - two skills I was able to further develop during my time at FGF.</p>
+                    <p className="s-font">I'm excited for what's to come next and can't wait for my next coop term!</p>
                     <hr />
                 </Fade>
                 <Fade bottom>

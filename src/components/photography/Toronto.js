@@ -16,7 +16,6 @@ const Toronto = () => {
             </div>
             <hr className="my-3" />
             <BorderPic imgPath="toronto1-min.jpg" picDesc="Ripley's Aquarium // 06-06-2018"/>
-            {/*<BorderPic imgPath="toronto2.jpg" picDesc="Ripley's Aquarium // 06-06-2018"/>*/}
             <BorderPic imgPath="toronto3-min.jpg" picDesc="Ripley's Aquarium // 06-06-2018"/>
             <BorderPic imgPath="toronto5-min.jpg" picDesc="Ripley's Believe It or Not // 06-07-2018"/>
             <BorderPic imgPath="toronto4-min.jpg" picDesc="View from CN Tower // 06-07-2018"/>

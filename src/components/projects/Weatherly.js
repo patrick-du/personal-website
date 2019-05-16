@@ -20,13 +20,13 @@ const Weatherly = () => {
                     <p className="s-font">It consists of three main requirements:
                 <ul>
                             <li>HTTPS: to be a PWA, the web app must be served over a secure network</li>
-                            <li>Web App Manifest: a JSON file that gives info about the web app including the name, icons, orientation, display, etc </li>
+                            <li>Web App Manifest: a JSON file that gives info about the web app including the name, icons, orientation, display, and more </li>
                             <li>Registered Service Worker: a JS script with event-driven workers that intercept network requests and cache information asynchronously to load data for offline use  </li>
                         </ul>
                     </p>
                     <BorderPic imgPath="Weatherly2.png" picDesc="Mobile Version: Install Prompt, Loading Data, Native App Feel" />
 
-                    <p className="s-font">Despite facing an abundance of issues whether it be with plain JavaScript or registering Service Workers, I am glad that I stuck through with the project as it was a rewarding learning experience.</p>
+                    <p className="s-font">Despite facing an abundance of issues whether it be with plain JavaScript or registering Service Workers, I am glad that I stuck through with the project as it was a rewarding experience.</p>
                     <p className="s-font">This app was developed with HTML, CSS, and JavaScript. View the full project on <a href="https://github.com/patrick-du/patrick-du.github.io" target="_blank" className="hvr-underline-from-left purple">Github</a> or <a href="https://patrick-du.github.io" target="_blank" className="hvr-underline-from-left purple">try it yourself</a>.</p>
                     <hr />
                 </Fade>

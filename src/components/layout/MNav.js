@@ -81,13 +81,13 @@ class MNav extends Component {
                                             </a>
                                         </div>
                                         <div className="col">
-                                            <a href="mailto:patrickduu@gmail.com"><i class="far fa-envelope icon1" /></a>
+                                            <a href="mailto:patrickduu@gmail.com" onClick={this.toggleActive}><i class="far fa-envelope icon1" /></a>
                                         </div>
                                         <div className="col">
                                             <a href="https://github.com/patrick-du" target="_blank" onClick={this.toggleActive}><i class="fab fa-github mx-auto icon2" /></a>
                                         </div>
                                         <div className="col pr-0">
-                                            <a href="https://www.linkedin.com/in/patrick-du3/" target="_blank"><i class="fab fa-linkedin-in icon3" /></a>
+                                            <a href="https://www.linkedin.com/in/patrick-du3/" target="_blank" onClick={this.toggleActive}><i class="fab fa-linkedin-in icon3" /></a>
 
                                         </div>
 
