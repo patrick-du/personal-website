@@ -13,7 +13,7 @@ class Landing extends Component {
                 <Fade big>
                     <p className="p-font landingTitle mt-5">HELLO<span style={{ color: '#546de5', fontSize: '120%' }}>.</span></p>
                     {/*<img className="bitmoji" src={require(`../../assets/bitmoji2.png`)} />*/}
-                        <p className="s-font landingDesc">I'm Patrick, a student at UWaterloo. I enjoy creating delightful web experiences focused on functionality and minimalism. Currently, I am seeking a Fall 2019 internship to improve my skills as a software developer.</p>
+                        <p className="s-font landingDesc">I'm Patrick, a student at UWaterloo. I enjoy creating delightful web experiences focused on functionality and minimalism. Currently, I am seeking a Summer 2020 internship to improve my skills as a full stack developer.</p>
                     <a href={Resume} target="_blank" className="linkdec">
                         <p className="s-font landingNext mt-3 landingResume" style={{ color: '#7f8c8d' }}>No time? View my resume.</p>
                     </a>

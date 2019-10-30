@@ -11,7 +11,8 @@ const Projects = () => {
             <PageTitle pageName="Experience" descriptionBottom="Work term internships" picture="bitmoji6" />
             <Fade big>
 
-                <ProjectCard link="/work/fgfbrands" backgroundColor="#70a1ff" imgPath="fgfB-opt.png" projDesc="FGF Brands" projWhat="My first co-op term at FGF Brands doing something I had little knowledge about..." projName="Front-End Developer Intern" projType="January 2019 - April 2019" />
+                <ProjectCard link="/work/oculyshealthinformatics" backgroundColor="#FF4F00" imgPath="fgfB-opt.png" projDesc="Oculys Health Informatics" projWhat="Currently under construction..." projName="Software Developer Intern" projType="September 2019 - December 2019" />
+                <ProjectCard link="/work/fgfbrands" backgroundColor="#70a1ff" imgPath="fgfB-opt.png" projDesc="FGF Brands" projWhat="My first co-op term at FGF Brands doing something I had little knowledge about..." projName="Web Developer Intern" projType="January 2019 - April 2019" />
                 {/* <ProjectCard link="/work/elementsphysicaltherapy" backgroundColor="#ffbe76" imgPath="Weatherly.png" projDesc="Elements Physical Therapy" projWhat="Exploring the daily lives of exercise therapists" projName="Exercise Therapist Assistant" projType="June 2018 - August 2018" /> */}
                 <PageTitle pageName="Projects" descriptionBottom="Side projects & hackathons" picture="bitmoji8" />
 

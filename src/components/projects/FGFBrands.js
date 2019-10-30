@@ -11,7 +11,7 @@ const FGFBrands = () => {
 
             <div className="projectContainer mx-auto px-0">
                 <Fade big>
-                    <PostTop subtitle="Work Term" title="FGF Brands" previous="/work/fitbud" next="/work/huddle" />
+                    <PostTop subtitle="Work Term" title="FGF Brands" previous="/work/oculyshealthinformatics" next="/work/huddle" />
                     <p className="s-font">For my first coop, I spent 4 months working at FGF Brands as an "Innovation Driven" Web Developer in the IT department. Despite knowing little to nothing about web development, I learned a whole lot throughout the term which I'm excited to share.</p>
                     <p className="s-font">Our team utilized the Agile Scrum software development methodology combined with an open office environment making it extremely simple to seek help, make friends, and collaborate on projects.</p>
                     <p className="s-font">Over the course of the term, I was able to pick up on new languages, frameworks, and libraries such as Bootstrap, JavaScript, C#, React, React Native, and Node JS (Express)! I played a major role in several projects such as performing a proof of concept (POC) for the FGF progressive web app, developing a company web framework, and creating a C# console application to assist in managing SharePoint data.</p>

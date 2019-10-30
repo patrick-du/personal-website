@@ -16,7 +16,7 @@ const FitBud = () => {
             <div className="projectContainer mx-auto px-0">
                 <Fade big>
 
-                    <PostTop subtitle="uOttaHack 2019" title="Fitbud" previous="/work/personalwebsite" next="/work/fgfbrands" />
+                    <PostTop subtitle="uOttaHack 2019" title="Fitbud" previous="/work/personalwebsite" next="/work/oculyshealthinformatics" />
                     <p className="s-font">Fitbud is an all-in-one fitness app that provides a solution to common issues experienced by gym-goers of every skill level.</p>
                     <p className="s-font">Some issues my team tackled included finding a gym partner, tracking progress (reps, sets, exercise), and even asking for advice at the gym. This app provides all the steps from planning your next visit to reflecting on your last workout onto the same streamlined platform.</p>
                     <BorderPic imgPath="FitBud2.png" picDesc="Home Screen: User Info, Newsfeed, Sidebar Navigation" />
@@ -30,10 +30,10 @@ const FitBud = () => {
                 </Fade>
                 <Fade bottom>
 
-                    <Link to="/work/fgfbrands" className="linkdec hvr-icon-wobble-horizontal">
+                    <Link to="/work/oculyshealthinformatics" className="linkdec hvr-icon-wobble-horizontal">
                         <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
                             <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
-                            <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>FGF Brands</p>
+                            <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>Oculys Health Informatics</p>
                         </div>
                     </Link>
                 </Fade>
