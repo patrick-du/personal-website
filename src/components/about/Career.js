@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PostTop from '../layout/PostTop';
 import Fade from 'react-reveal/Fade';
+import NextPageBottom from '../layout/NextPageBottom';
 
 const Career = () => {
     return (
@@ -18,14 +19,7 @@ const Career = () => {
             </Fade>
 
             <hr />
-            <Fade bottom>
-                <Link to="/about/story" className="linkdec">
-                    <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
-                            <i class="fas fa-arrow-right" style={{ fontSize: '18px', float: "right" }} />
-                        <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>How I Started Coding</p>
-                    </div>
-                </Link>
-            </Fade>
+            <NextPageBottom route="/about/story" title="Up Next" subtitle="How I Started Coding"/>
 
         </div >
     )

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import BorderPic from '../projects/BorderPic'
+import NextPageBottom from '../layout/NextPageBottom';
 
 const Banff = () => {
     return (
@@ -27,15 +28,8 @@ const Banff = () => {
         </Fade>
 
         <hr />
-    <Fade bottom>
+    <NextPageBottom route="/photography/calgary" title="Up Next" subtitle="Calgary"/>
 
-        <Link to="/photography/calgary" className="linkdec hvr-icon-wobble-horizontal">
-            <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
-                <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
-                <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>Calgary</p>
-            </div>
-        </Link>
-    </Fade>
 
 </div>
 </div>

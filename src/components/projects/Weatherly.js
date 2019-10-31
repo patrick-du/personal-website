@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PostTop from '../layout/PostTop';
 import BorderPic from '../projects/BorderPic';
 import Fade from 'react-reveal/Fade';
+import NextPageBottom from '../layout/NextPageBottom';
 
 const Weatherly = () => {
     return (
@@ -30,14 +31,9 @@ const Weatherly = () => {
                     <p className="s-font">This app was developed with HTML, CSS, and JavaScript. View the full project on <a href="https://github.com/patrick-du/patrick-du.github.io" target="_blank" className="hvr-underline-from-left purple">Github</a> or <a href="https://patrickdu-weatherly.herokuapp.com" target="_blank" className="hvr-underline-from-left purple">try it yourself</a>.</p>
                     <hr />
                 </Fade>
-                <Fade bottom>
-                    <Link to="/work/personalwebsite" className="linkdec hvr-icon-wobble-horizontal">
-                        <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
-                            <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
-                            <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>Personal Website</p>
-                        </div>
-                    </Link>
-                </Fade>
+                
+                <NextPageBottom route="/work/personalwebsite" title="Up Next" subtitle="Personal Website"/>
+
 
             </div>
 

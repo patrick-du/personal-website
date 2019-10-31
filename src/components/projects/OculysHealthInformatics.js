@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PostTop from '../layout/PostTop';
 import BorderPic from './BorderPic';
 import Fade from 'react-reveal/Fade';
+import NextPageBottom from '../layout/NextPageBottom';
 
 const OculysHealthInformatics = () => {
     return (
@@ -15,14 +16,9 @@ const OculysHealthInformatics = () => {
                     <p className="s-font">Coming soon!</p>
                     <hr />
                 </Fade>
-                <Fade bottom>
-                    <Link to="/work/fgfbrands" className="linkdec hvr-icon-wobble-horizontal">
-                        <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
-                            <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
-                            <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>FGF Brands</p>
-                        </div>
-                    </Link>
-                </Fade >
+               
+                <NextPageBottom route="/work/fgfbrands" title="Up Next" subtitle="FGF Brands"/>
+
             </div>
 
         </div>

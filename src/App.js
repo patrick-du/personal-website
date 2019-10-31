@@ -22,11 +22,10 @@ import Calgary from './components/photography/Calgary';
 import Toronto from './components/photography/Toronto';
 import ScrollToTop from './components/ScrollToTop';
 
-
-
 import './App.css';
 import './components/layout/Nav.css';
 import './components/layout/ContactExpand.css';
+import './components/layout/NextPageBottom.css';
 import './components/landing/Landing.css';
 import './components/about/About.css';
 import './components/projects/Project.css';

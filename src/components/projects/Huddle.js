@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PostTop from '../layout/PostTop';
 import Fade from 'react-reveal/Fade';
 import BorderPic from './BorderPic';
+import NextPageBottom from '../layout/NextPageBottom';
 
 class Huddle extends Component {
 
@@ -27,14 +28,9 @@ class Huddle extends Component {
                         <p className="s-font">This app was developed with React Native, Java (Spring), Maven, and MySQL. View the full project on <a href="https://github.com/patrick-du/Personal-Website-v2" target="_blank" className="hvr-underline-from-left purple">Github</a>.</p>
                         <hr />
                     </Fade>
-                    <Fade bottom>
-                        <Link to="/work/userauth" className="linkdec hvr-icon-wobble-horizontal">
-                            <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
-                            <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
-                                <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>User Authentication</p>
-                            </div>
-                        </Link>
-                    </Fade>
+
+                    <NextPageBottom route="/work/userauth" title="Up Next" subtitle="User Authentication"/>
+
                 </div>
 
             </div>

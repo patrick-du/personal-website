@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PostTop from '../layout/PostTop';
 import BorderPic from './BorderPic';
 import Fade from 'react-reveal/Fade';
+import NextPageBottom from '../layout/NextPageBottom';
 
 const FGFBrands = () => {
     return (
@@ -20,14 +21,8 @@ const FGFBrands = () => {
                     <p className="s-font">I'm excited for what's to come next and can't wait for my next coop term!</p>
                     <hr />
                 </Fade>
-                <Fade bottom>
-                    <Link to="/work/huddle" className="linkdec hvr-icon-wobble-horizontal">
-                        <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
-                            <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
-                            <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>Huddle</p>
-                        </div>
-                    </Link>
-                </Fade >
+                <NextPageBottom route="/work/huddle" title="Up Next" subtitle="Huddle"/>
+
             </div>
 
         </div>

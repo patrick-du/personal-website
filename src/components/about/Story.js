@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import BorderPic from '../projects/BorderPic';
 import PostTop from '../layout/PostTop';
 import Fade from 'react-reveal/Fade';
+import NextPageBottom from '../layout/NextPageBottom';
 
 
 const Story = () => {
@@ -27,15 +28,7 @@ const Story = () => {
             </Fade>
 
             <hr />
-            <Fade bottom>
-
-                <Link to="/about/career" className="linkdec">
-                    <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}>Up Next
-                            <i class="fas fa-arrow-right" style={{ fontSize: '18px', float: "right" }} />
-                        <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }} >Plans for the Future</p>
-                    </div>
-                </Link>
-            </Fade>
+            <NextPageBottom route="/about/career" title="Up Next" subtitle="Plans for the Future"/>
 
         </div>
 

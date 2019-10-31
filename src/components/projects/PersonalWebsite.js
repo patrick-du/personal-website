@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PostTop from '../layout/PostTop';
 import BorderPic from './BorderPic'
 import Fade from 'react-reveal/Fade';
+import NextPageBottom from '../layout/NextPageBottom';
 
 const PersonalWebsite = () => {
     return (
@@ -18,14 +19,9 @@ const PersonalWebsite = () => {
                     <p className="s-font">This website was developed for personal and professional usage. It is the 2nd version of my portfolio and the original can be found <a href="https://patrickdu.herokuapp.com" target="_blank" className="hvr-underline-from-left purple">here</a>. View the full project on <a href="https://github.com/patrick-du/Personal-Website-v2" target="_blank" className="hvr-underline-from-left purple">Github</a>.</p>
                     <hr />
                 </Fade>
-                <Fade bottom>
-                    <Link to="/work/fitbud" className="linkdec hvr-icon-wobble-horizontal">
-                        <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
-                            <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
-                            <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>FitBud</p>
-                        </div>
-                    </Link>
-                </Fade>
+                
+                <NextPageBottom route="/work/fitbud" title="Up Next" subtitle="FitBud"/>
+
 
             </div>
         </div>

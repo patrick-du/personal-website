@@ -9,7 +9,7 @@ const Photography = () => {
 
     return (
         <div className="container-fluid projectContainer mx-auto px-0">
-            <PageTitle pageName="Collections" descriptionBottom="Canon EOS Rebel T5 EF-S 18-55mm" picture="bitmoji5" />
+            <PageTitle pageName="Collections" descriptionBottom="Vacation" picture="bitmoji5" />
             <Link to="/photography/losangeles" className="linkdec">
                 <div className="s-font med hvr-icon-wobble-horizontal" style={{ fontWeight: '600', fontSize: '18px' }}>Los Angeles, California
                             <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PostTop from '../layout/PostTop';
 import BorderPic from './BorderPic';
 import Fade from 'react-reveal/Fade';
+import NextPageBottom from '../layout/NextPageBottom';
 
 const FitBud = () => {
     const styles = {
@@ -28,16 +29,7 @@ const FitBud = () => {
                     <p className="s-font">This app was developed at <a href="https://devpost.com/software/fitbud" target="_blank" className="hvr-underline-from-left purple">uOttaHacks 2019</a> with React and Node JS (Express). View the full project on <a href="https://github.com/patrick-du/FitBud" target="_blank" className="hvr-underline-from-left purple">Github</a>.</p>
                     <hr />
                 </Fade>
-                <Fade bottom>
-
-                    <Link to="/work/oculyshealthinformatics" className="linkdec hvr-icon-wobble-horizontal">
-                        <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
-                            <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
-                            <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>Oculys Health Informatics</p>
-                        </div>
-                    </Link>
-                </Fade>
-
+                <NextPageBottom route="/work/oculyshealthinformatics" title="Up Next" subtitle="Oculys Health Informatics"/>
             </div>
         </div>
 

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PostTop from '../layout/PostTop';
 import BorderPic from '../projects/BorderPic';
 import Fade from 'react-reveal/Fade';
+import NextPageBottom from '../layout/NextPageBottom';
 
 const Weatherly = () => {
     return (
@@ -22,14 +23,9 @@ const Weatherly = () => {
                     <p className="s-font">This app was developed with Node JS (Express) and MongoDB. View the full project on <a href="https://github.com/patrick-du/auth-bp" target="_blank" className="hvr-underline-from-left purple">Github</a> or <a href="https://patrickdu-userauth-boilerplate.herokuapp.com" target="_blank" className="hvr-underline-from-left purple">try it yourself</a>.</p>
                 <hr/>
                 </Fade>
-                <Fade bottom>
-                    <Link to="/work/weatherly" className="linkdec hvr-icon-wobble-horizontal">
-                        <div className="s-font med" style={{ fontWeight: '600', fontSize: '18px' }}> Up Next
-                            <i class="fas fa-arrow-right hvr-icon" style={{ fontSize: '18px', float: "right" }} />
-                            <p style={{ fontWeight: '400', fontSize: '16px', color: '#7f8c8d' }}>Weatherly</p>
-                        </div>
-                    </Link>
-                </Fade>
+                
+                <NextPageBottom route="/work/weatherly" title="Up Next" subtitle="Weatherly"/>
+
 
             </div>
 
