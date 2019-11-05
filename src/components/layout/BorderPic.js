@@ -16,7 +16,7 @@ const BorderPic = (props) => {
     return (
         <div className="my-5 hvr-grow">
             <img src={require(`../../assets/${imgPath}`)} alt="" style={styles.image} />
-            <p className="text-center s-font mt-1" style={{ color: '#7f8c8d' }}>{picDesc}</p>
+            <p className="text-center general-font mt-1" style={{ color: '#7f8c8d' }}>{picDesc}</p>
         </div>
 
 

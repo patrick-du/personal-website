@@ -1,20 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-import BorderPic from '../projects/BorderPic'
+import BorderPic from '../layout/BorderPic'
 import NextPageBottom from '../layout/NextPageBottom';
+import PostTop from '../layout/PostTop';
 
 const Banff = () => {
     return (
         <div className="container-fluid mx-auto px-0" >
         <div className="projectContainer mx-auto px-0">
             <Fade big>
-            <div className="row mx-0">
-                <div className="col px-0">
-                    <p className="s-font" id="pageTitlePageTitle">Banff National Park</p>
-                    <p className="s-font" id="pageTitlePageDesc">Summer 2018</p>
-                </div>
-            </div>
+            <PostTop subtitle="Summer 2018" title="Banff National Park, Alberta"/>
             <hr className="my-3" />
             <BorderPic imgPath="banff1-min.jpg" picDesc="Moraine Lake (Post BC Wildfire) // 08-11-2018"/>
             <BorderPic imgPath="banff2-min.jpg" picDesc="Lake Louise // 08-11-2018"/>

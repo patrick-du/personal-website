@@ -3,95 +3,117 @@
     box-shadow: 0 0 5px #ccc !important;
 }
 
+.projectContainer {
+    height: 100%;
+    margin: 2rem 0;
+}
+
+.projectCard {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.projectCardImage {
+    width: 100%;
+}
+
+#projName {
+    font-family: 'SFProDisplay-Medium';
+    color: #2b2b2b;
+}
+
+#projDesc {
+    font-family: 'SFProDisplay-Regular';
+    color: #7f8c8d !important
+}
+
+#projWhat {
+    font-family: 'SFProDisplay-Light';
+    color: #2b2b2b;
+}
+
+#projRightArrow {
+    float: right;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .projectContainer {
-        width: 20rem;
-        height: 100%;
-        margin: 2rem 0;
-    }
-    
-    .projectCard {
-        width: 100%;
-        height: 22rem;
-        margin: 2rem 0;
-    }
-
-    .projectCardImage {
-        width: 100%;
-        height: 15rem;
-    }
-    
     #above768 {
         display: none;
     }
 
-    .insideProjectTitle {
-        font-size: 28px;
-        font-weight: 700;
+    .projectContainer {
+        width: 20rem;
+    }
+    
+    .projectCard {
+        height: 22rem;
     }
 
-    .insideProjectSubTitle {
+    .projectCardImage {
+        height: 15rem;
+    }
+
+    #projName {
         font-size: 16px;
-        color: #7f8c8d;
     }
-   
-    
 
-    
- 
+    #projDesc {
+        font-size: 16px;
+    }
+
+    #projRightArrow {
+        font-size: 16px;
+    }
 
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .projectContainer {
-        width: 28rem;
-        height: 100%;
-        margin: 2rem 0;
-    }
-    .projectCard {
-        width: 100%;
-        height: 26rem;
-        margin: 2rem 0;
-    }
-
-    .projectCardImage {
-        width: 100%;
-        height: 19rem;
-    }
-    
     #above768 {
         display: none;
     }
 
-
-
-    .insideProjectTitle {
-        font-size: 32px;
-        font-weight: 700;
+    .projectContainer {
+        width: 28rem;
     }
 
-    .insideProjectSubTitle {
+    .projectCard {
+        height: 26rem;
+    }
+
+    .projectCardImage {
+        height: 19rem;
+    }
+
+    #projName {
         font-size: 18px;
-        color: #7f8c8d;
     }
 
-
+    #projDesc {
+        font-size: 16px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    #above768 {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    #under768 {
+        display: none;
+    }
+
     .projectContainer {
         width: 41rem;
-        height: 100%;
-        margin: 2rem 0;
     }
+
     .projectCard {
-        width: 100%;
         height: 14rem;
-        margin: 2rem 0;
     }
+
     .projectCardImage {
         width: 19rem;
         height: 14rem;
@@ -102,50 +124,36 @@
     }
 
     #projWhat {
-        font-size: 14px;
+        font-size: 16px;
         color: #2b2b2b;
     }
 
     #projDesc {
-        font-size: 14px;
+        font-size: 16px;
     }
     
     #projCol1 {
         width: 19rem;
         height: 100%;
     }
-    
-    #above768 {
-        display: inline-flex;
-        width: 100%;
-    }
-    #under768 {
-        display: none;
-    }
-
-    .insideProjectTitle {
-        font-size: 32px;
-        font-weight: 700;
-    }
-
-    .insideProjectSubTitle {
-        font-size: 18px;
-        color: #7f8c8d;
-    }
-
+  
 }
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) {
+    #above768 {
+        display: inline-flex;
+        width: 100%;
+    }
+    #under768 {
+        display: none;
+    }
+    
     .projectContainer {
         width: 50rem;
-        height: 100%;
-        margin: 2rem 0;
     }
 
     .projectCard {
-        width: 100%;
         height: 16rem;
-        margin: 2rem 0;
 
     }
     .projectCardImage {
@@ -153,13 +161,12 @@
         height: 16rem;
      }
    
-    #projName {
-        font-size: 22px;
+     #projName {
+        font-size: 20px;
     }
 
     #projWhat {
         font-size: 16px;
-        color: #2b2b2b;
     }
 
     #projDesc {
@@ -170,76 +177,25 @@
         width: 22.5rem;
         height: 100%;
     }
-    #above768 {
-        display: inline-flex;
-        width: 100%;
-    }
-    #under768 {
-        display: none;
-    }
-    .insideProjectTitle {
-        font-size: 32px;
-        font-weight: 700;
-    }
-
-    .insideProjectSubTitle {
-        font-size: 18px;
-        color: #7f8c8d;
-    }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px){
-    .projectContainer {
-        width: 50rem;
-        height: 100%;
-        margin: 2rem 0;
-    }
 
-    .projectCard {
-        width: 100%;
-        height: 16rem;
-        margin: 2rem 0;
-
-    }
-    .projectCardImage {
-        width: 22.5rem;
-        height: 16rem;
-     }
-   
-    #projName {
-        font-size: 22px;
-    }
-
-    #projWhat {
-        font-size: 16px;
-        color: #2b2b2b;
-    }
-
-    #projDesc {
-        font-size: 16px;
-    }
-    
-    #projCol1 {
-        width: 22.5rem;
-        height: 100%;
-    }
-    #above768 {
-        display: inline-flex;
-        width: 100%;
-    }
-    #under768 {
-        display: none;
-    }
-    .insideProjectTitle {
-        font-size: 32px;
-        font-weight: 700;
-    }
-
-    .insideProjectSubTitle {
-        font-size: 18px;
-        color: #7f8c8d;
-    }
-
-}
-
+/* Float */
+.hvr-float {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  

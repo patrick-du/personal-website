@@ -35,9 +35,17 @@ blockquote{
   color: #2b2b2b;
 }
 
+.blockquote-font {
+  font-family: 'SFProDisplay-Regular';
+  color: #2b2b2b;
+}
+
 @media (max-width: 575.98px) {
   .general-font {
       font-size: 16px;
+  }
+  .blockquote-font {
+      font-size: 20px;
   }
 }
 
@@ -45,6 +53,9 @@ blockquote{
   .general-font {
       font-size: 18px;
   }
+  .blockquote-font {
+    font-size: 22px;
+}
 }
 
 
@@ -224,4 +235,31 @@ blockquote{
   animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+}
+
+
+
+
+.hvr-grow {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
+.hvr-box {
+  transition: 0.2s;
+}
+
+.hvr-box:hover {
+  box-shadow: 0 0 5px #ccc;
 }
