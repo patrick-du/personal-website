@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="container-fluid projectContainer mx-auto px-0">
             <Fade big>
                 <PageTitle pageName="Experience" descriptionBottom="Work term internships" picture="bitmoji6" />
-                <ProjectCard link="/work/oculyshealthinformatics" imgPath="fgfB-opt.png" projDesc="Oculys Health Informatics" projWhat="Currently under construction..." projName="Software Developer Intern" projType="September 2019 - December 2019" />
+                {/* <ProjectCard link="/work/oculyshealthinformatics" imgPath="fgfB-opt.png" projDesc="Oculys Health Informatics" projWhat="Currently under construction..." projName="Software Developer Intern" projType="September 2019 - December 2019" /> */}
                 <ProjectCard link="/work/fgfbrands" imgPath="fgfB-opt.png" projDesc="FGF Brands" projWhat="My first co-op term at FGF Brands doing something I had little knowledge about..." projName="Web Developer Intern" projType="January 2019 - April 2019" />
                 <PageTitle pageName="Projects" descriptionBottom="Side projects & hackathons" picture="bitmoji8" />
                 <ProjectCard link="/work/huddle" imgPath="huddleB-opt.png" projDesc="React Native, Java (Spring), Maven, MySQL" projWhat="A modern sports betting mobile app to connect fans and support local venues..." projName="Huddle" projType="Side Project" />
