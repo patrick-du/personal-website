@@ -12,9 +12,6 @@ class Huddle extends Component {
         return (
             <div className="container-fluid mx-auto px-0" >
                 <img src={require(`../../assets/huddleB-opt.png`)} className="topProjectImage" />
-
-
-
                 <div className="projectContainer mx-auto px-0">
                     <Fade big>
                         <PostTop subtitle="Side Project" title="Huddle" previous="/work/fgfbrands" next="/work/weatherly" />
@@ -26,7 +23,7 @@ class Huddle extends Component {
                         <p className="general-font">To provide a competitive aspect to the app, we implemented a user rating system based on their pick accuracy. Thus, inclining users to continue to use Huddle in order to broadcast their ability to correctly make picks. </p>
                         <BorderPic imgPath="Huddle1.png" picDesc="Launch Screen, Game Selection, Venue Selection" />
 
-                        <p className="general-font">This app was developed with React Native, Java (Spring), Maven, and MySQL. View the full project on <a href="https://github.com/patrick-du/Personal-Website-v2" target="_blank" className="hvr-underline-from-left purple">Github</a>.</p>
+                        <p className="general-font">This app was developed with React Native, Java (Spring), Maven, and MySQL. View the full project on <a href="https://github.com/patrick-du/Huddle" target="_blank" className="hvr-underline-from-left purple">Github</a>.</p>
                         <hr />
                     </Fade>
 

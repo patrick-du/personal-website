@@ -17,7 +17,7 @@ const Weatherly = () => {
                     <hr className="my-3"/>
                     <p className="general-font">Weatherly is a weekly forecast progressive web app that includes features such as usage offline and push notifications. It fetches data from <a href="https://darksky.net/dev" target="_blank" className="hvr-underline-from-left purple">DarkSky API</a> which provides access to daily forecasts for the coming week.</p>
                     <BorderPic imgPath="Weatherly1.png" picDesc="Desktop Version" />
-                    <p className="general-font">This project was created soon after I finished a JavaScript course to practice HTTP methods and DOM manipulation. Seeing that progressive web apps were on the rise, I decided to implement it into this application.</p>
+                    <p className="general-font">This project was created soon after I finished a JavaScript course to practice HTTP request methods and DOM manipulation. Seeing that progressive web apps were on the rise, I decided to implement it into this application.</p>
                     <p className="general-font">For those unfamiliar, <a href="https://developers.google.com/web/progressive-web-apps/" target="_blank" className="hvr-underline-from-left purple">progressive web apps</a> (PWAs) are a new class of web application that provide native app experiences using a browser. It utilizes modern web features such as push notifications and cache. Additionally, there is a web app install prompt making it easy for users to install the PWA on their mobile or desktop device.</p>
                     <p className="general-font">It consists of three main requirements:
                 <ul>

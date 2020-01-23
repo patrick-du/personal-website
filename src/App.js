@@ -53,10 +53,10 @@ class App extends Component {
               <Route exact path="/work/fgfbrands" component={FGFBrands} />
               <Route exact path="/work/elementsphysicaltherapy" component={ElementsPhysicalTherapy} />
               <Route exact path="/work/huddle" component={Huddle} />
-              <Route exact path="/work/userauth" component={UserAuth} />
+              {/* <Route exact path="/work/userauth" component={UserAuth} /> */}
               <Route exact path="/work/weatherly" component={Weatherly} />
               <Route exact path="/work/personalwebsite" component={PersonalWebsite} />
-              <Route exact path="/work/fitbud" component={FitBud} />
+              {/* <Route exact path="/work/fitbud" component={FitBud} /> */}
               <Route exact path="/photography" component={Photography} />
               <Route exact path="/photography/losangeles" component={LosAngeles} />
               <Route exact path="/photography/banff" component={Banff} />
