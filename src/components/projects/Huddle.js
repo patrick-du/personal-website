@@ -8,13 +8,12 @@ import NextPageBottom from '../layout/NextPageBottom';
 class Huddle extends Component {
 
     render() {
-        const picIsLoaded = false;
         return (
             <div className="container-fluid mx-auto px-0" >
                 <img src={require(`../../assets/huddleB-opt.png`)} className="topProjectImage" />
                 <div className="projectContainer mx-auto px-0">
                     <Fade big>
-                        <PostTop subtitle="Side Project" title="Huddle" previous="/work/fgfbrands" next="/work/weatherly" />
+                        <PostTop subtitle="Side Project" title="Huddle"/>
                         <hr className="my-3"/>
                         <p className="general-font">A modern social media application that connects NFL fans while supporting local venues.</p>
                         <p className="general-font">The primary functionalities of Huddle are to allow fans to make picks, bet, and watch live games being streamed at local venues promoted by Huddle.</p>
@@ -27,7 +26,7 @@ class Huddle extends Component {
                         <hr />
                     </Fade>
 
-                    <NextPageBottom route="/work/userauth" title="Up Next" subtitle="User Authentication"/>
+                    <NextPageBottom route="/work/weatherly" title="Up Next" subtitle="Weatherly"/>
 
                 </div>
 

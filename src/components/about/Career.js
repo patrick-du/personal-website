@@ -7,7 +7,7 @@ import NextPageBottom from '../layout/NextPageBottom';
 const Career = () => {
     return (
         <div className="container-fluid projectContainer mx-auto px-0">
-            <PostTop subtitle="Career Aspirations" title="Plans for the Future" previous="/about" next="/about/story" />
+            <PostTop subtitle="Career Aspirations" title="Plans for the Future"/>
             <hr className="my-3"/>
             <Fade big>
                 <p className="general-font">For the future, I plan to complete my kinesiology degree with a <a className="hvr-underline-from-left purple" href="https://cs.uwaterloo.ca/current/programs/require/2018-2019/comptech_option.html" target="_blank">computing option</a> in order to expand my understanding of theory and core concepts such as data structures, algorithms, recursion, and more. By self-teaching code, many of these fundamentals can be missed out on or only lightly touched upon. Taking computer science courses will be beneficial to my overall understanding of the field and success whether it be during interview questions or simply working on side projects.</p>

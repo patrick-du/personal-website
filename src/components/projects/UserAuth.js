@@ -12,7 +12,7 @@ const Weatherly = () => {
 
             <div className="projectContainer mx-auto px-0">
                 <Fade big>
-                    <PostTop subtitle="Side Project" title="User Authentication" previous="/work/huddle" next="/work/personalwebsite" />
+                    <PostTop subtitle="Side Project" title="User Authentication"/>
                     <hr className="my-3"/>
                     <p className="general-font">User Authentication is a web & mobile boilerplate application for account registration, login, and updates. I developed this app for implementation in future projects as well as practice with Node (Express) and MongoDB.</p>
                     <BorderPic imgPath="userAuth5.png" picDesc="User Registration, User Login" />

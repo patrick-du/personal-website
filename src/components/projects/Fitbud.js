@@ -16,7 +16,7 @@ const FitBud = () => {
             <img src={require(`../../assets/fitbudB-opt.png`)} className="topProjectImage" />
             <div className="projectContainer mx-auto px-0">
                 <Fade big>
-                    <PostTop subtitle="uOttaHack 2019" title="Fitbud" previous="/work/personalwebsite" next="/work/oculyshealthinformatics" />
+                    <PostTop subtitle="uOttaHack 2019" title="Fitbud"/>
                     <hr className="my-3"/>
                     <p className="general-font">Fitbud is an all-in-one fitness app that provides a solution to common issues experienced by gym-goers of every skill level.</p>
                     <p className="general-font">Some issues my team tackled included finding a gym partner, tracking progress (reps, sets, exercise), and even asking for advice at the gym. This app provides all the steps from planning your next visit to reflecting on your last workout onto the same streamlined platform.</p>

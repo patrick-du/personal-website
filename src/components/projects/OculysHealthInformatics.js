@@ -7,10 +7,10 @@ import NextPageBottom from '../layout/NextPageBottom';
 const OculysHealthInformatics = () => {
     return (
         <div className="container-fluid mx-auto px-0">
-            <img src={require(`../../assets/fgfB-opt.png`)} className="topProjectImage" />
+            <img src={require(`../../assets/oculysA.png`)} className="topProjectImage" />
             <div className="projectContainer mx-auto px-0">
                 <Fade big>
-                    <PostTop subtitle="Work Term" title="Oculys Health Informatics" previous="/work/fitbud" next="/work/fgfbrands" />
+                    <PostTop subtitle="Work Term" title="Oculys Health Informatics"/>
                     <hr className="my-3"/>
                     <p className="general-font">Coming soon!</p>
                     <hr />

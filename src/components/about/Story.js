@@ -10,7 +10,7 @@ const Story = () => {
     return (
         <div className="container-fluid projectContainer mx-auto px-0">
 
-            <PostTop subtitle="My Story" title="How I Started Coding" previous="/about" next="/about/career" />
+            <PostTop subtitle="My Story" title="How I Started Coding"/>
             <hr className="my-3"/>
             <Fade big>
                 <p className="general-font">Whenever I was asked about my future plans I immediately blurted out that I would be a physiotherapist. What else would you be doing in kinesiology otherwise? I mean besides applying for a prestigious medical school, becoming a chiropractor, personal trainer, or everyone’s favourite - a gym teacher.</p>

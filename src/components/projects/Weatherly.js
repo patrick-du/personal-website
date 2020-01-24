@@ -13,7 +13,7 @@ const Weatherly = () => {
             <div className="projectContainer mx-auto px-0">
                 <Fade big>
 
-                    <PostTop subtitle="Side Project" title="Weatherly" previous="/work/huddle" next="/work/personalwebsite" />
+                    <PostTop subtitle="Side Project" title="Weatherly"/>
                     <hr className="my-3"/>
                     <p className="general-font">Weatherly is a weekly forecast progressive web app that includes features such as usage offline and push notifications. It fetches data from <a href="https://darksky.net/dev" target="_blank" className="hvr-underline-from-left purple">DarkSky API</a> which provides access to daily forecasts for the coming week.</p>
                     <BorderPic imgPath="Weatherly1.png" picDesc="Desktop Version" />

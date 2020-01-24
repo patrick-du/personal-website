@@ -12,7 +12,7 @@ const FGFBrands = () => {
 
             <div className="projectContainer mx-auto px-0">
                 <Fade big>
-                    <PostTop subtitle="Work Term" title="FGF Brands" previous="/work/oculyshealthinformatics" next="/work/huddle" />
+                    <PostTop subtitle="Work Term" title="FGF Brands"/>
                     <hr className="my-3"/>
                     <p className="general-font">For my first coop, I spent 4 months working at FGF Brands as an "Innovation Driven" Web Developer in the IT department. Despite knowing little to nothing about web development, I learned a whole lot throughout the term which I'm excited to share.</p>
                     <p className="general-font">Our team utilized the Agile Scrum software development methodology combined with an open office environment making it extremely simple to seek help, make friends, and collaborate on projects.</p>
@@ -22,7 +22,7 @@ const FGFBrands = () => {
                     <p className="general-font">I'm excited for what's to come next and can't wait for my next coop term!</p>
                     <hr />
                 </Fade>
-                <NextPageBottom route="/work/huddle" title="Up Next" subtitle="Huddle"/>
+                <NextPageBottom route="/work/serenity" title="Up Next" subtitle="Serenity"/>
 
             </div>
 
