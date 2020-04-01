@@ -19,7 +19,6 @@ const Projects = () => {
                 <ProjectCard link="/work/personalwebsite" imgPath="websiteB-opt.png" projDesc="React" projWhat="A portfolio to illustrate who I am and showcase my experience, projects, and photography..." projName="Personal Website" projType="Side Project" />
                 {/* <ProjectCard link="/work/fitbud" imgPath="fitbudA.png" projDesc="React, Node (Express)" projWhat="An all-in-one fitness app to simplify a trip to the gym..." projName=" FitBud" projType="uOttaHack 2019" /> */}
             </Fade>
-
         </div>
     );
 }

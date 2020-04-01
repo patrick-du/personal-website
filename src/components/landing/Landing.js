@@ -12,7 +12,7 @@ class Landing extends Component {
             <div className="container-fluid projectContainer mx-auto px-0">
                 <Fade big>
                     <p className="landingTitle mt-5">HELLO<span style={{ color: '#546de5', fontSize: '120%' }}>.</span></p>
-                    <p className="landingDesc">I'm Patrick, a 3rd year student at the University of Waterloo. I enjoy creating delightful web experiences focused on functionality and minimalism. Currently, I am seeking a Summer 2020 internship to improve my skills as a developer.</p>
+                    <p className="landingDesc">I'm Patrick, a 3rd year student at the University of Waterloo. I enjoy creating delightful web experiences focused on functionality and minimalism. I am currently searching for a Summer 2020 internship, please reach out!</p>
                     <a href={Resume} target="_blank" className="linkdec landingNext mt-3 landingResume" style={{ color: '#7f8c8d' }}>
                          No time? View my resume.
                     </a>
