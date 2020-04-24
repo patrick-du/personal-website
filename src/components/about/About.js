@@ -39,14 +39,7 @@ class About extends Component {
               Spotify
             </a>
             .
-          </p>
-          <hr />
-          <p className="general-font mt-3">
-          I am a very goal-oriented individual and constantly aim for new heights whether it be in my academic development or simply setting new PRs at the gym. For the 2020 winter term, I have three main goals I hope to achieve and I am excited to see where my strong work ethic and perseverance will take me.
-          <br/><br/> Academic Goal: Explore machine learning and potential applications in the healthcare industry
-          <br/><br/> Fitness Goal: Bench press 275 lbs - Deadlift 520 lbs - Squat 385 lb
-          <br/><br/> Career Goal: Land a full stack developer position for my next coop term            
-          </p>
+          </p>         
           <hr />
           <NextPageBottom
             route="/about/story"
