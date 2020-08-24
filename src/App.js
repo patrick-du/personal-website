@@ -10,7 +10,6 @@ import Projects from './components/projects/Projects';
 import Serenity from './components/projects/Serenity';
 import OculysHealthInformatics from './components/projects/OculysHealthInformatics';
 import FGFBrands from './components/projects/FGFBrands';
-import ElementsPhysicalTherapy from './components/projects/ElementsPhysicalTherapy';
 import Huddle from './components/projects/Huddle';
 import UserAuth from './components/projects/UserAuth';
 import Weatherly from './components/projects/Weatherly';
@@ -25,11 +24,9 @@ import ScrollToTop from './components/ScrollToTop';
 
 import './App.css';
 import './components/layout/Nav.css';
-import './components/layout/ContactExpand.css';
 import './components/layout/PostTop.css';
 import './components/layout/NextPageBottom.css';
 import './components/landing/Landing.css';
-import './components/about/About.css';
 import './components/projects/Project.css';
 import './components/layout/PageTitle.css';
 import './components/photography/Photography.css';
@@ -52,7 +49,6 @@ class App extends Component {
               <Route exact path="/work" component={Projects} />
               <Route exact path="/work/oculyshealthinformatics" component={OculysHealthInformatics} />
               <Route exact path="/work/fgfbrands" component={FGFBrands} />
-              <Route exact path="/work/elementsphysicaltherapy" component={ElementsPhysicalTherapy} />
               <Route exact path="/work/serenity" component={Serenity} />
               <Route exact path="/work/huddle" component={Huddle} />
               {/* <Route exact path="/work/userauth" component={UserAuth} /> */}

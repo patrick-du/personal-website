@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import PostTop from '../layout/PostTop';
-import BorderPic from '../layout/BorderPic'
 import Fade from 'react-reveal/Fade';
 import NextPageBottom from '../layout/NextPageBottom';
 
@@ -27,12 +25,6 @@ const PersonalWebsite = () => {
         </div>
 
     )
-
-}
-// https://jonyablonski.com/
-// www.pratibhajoshi.com
-// http://aydaoz.com/?ref=lapaninja#about
-const styles = {
 
 }
 

@@ -1,16 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import PostTop from '../layout/PostTop';
 import BorderPic from '../layout/BorderPic';
 import Fade from 'react-reveal/Fade';
 import NextPageBottom from '../layout/NextPageBottom';
 
 const FitBud = () => {
-    const styles = {
-        list: {
-            color: 'orange'
-        }
-    }
     return (
         <div className="container-fluid  mx-auto px-0">
             <img src={require(`../../assets/fitbudB-opt.png`)} className="topProjectImage" />

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Resume from '../../assets/Resume.pdf'
-import Logo from '../../assets/logo.png'
 import Fade from 'react-reveal/Fade';
 
 class MNav extends Component {

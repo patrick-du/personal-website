@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import BorderPic from '../layout/BorderPic'
 import NextPageBottom from '../layout/NextPageBottom';

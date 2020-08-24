@@ -1,6 +1,5 @@
 import React from 'react';
 import PostTop from '../layout/PostTop';
-import BorderPic from '../layout/BorderPic';
 import Fade from 'react-reveal/Fade';
 import NextPageBottom from '../layout/NextPageBottom';
 
