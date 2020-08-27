@@ -1,7 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import BorderPic from '../layout/BorderPic';
-import NextPageBottom from '../layout/NextPageBottom';
+import PhotoWrapper from '../layout/PhotoWrapper';
+import FooterLink from '../layout/FooterLink';
 import PostTop from '../layout/PostTop';
 import { torontoCollection } from '../../data/photography/photos';
 
@@ -17,8 +17,8 @@ const Toronto = () => {
 
         <hr />
 
-        <NextPageBottom
-          route="/photography/losangeles"
+        <FooterLink
+          path="/photography/losangeles"
           title="Up Next"
           subtitle="Los Angeles"
         />
@@ -27,12 +27,12 @@ const Toronto = () => {
   );
 };
 
-const photos = torontoCollection.map(({ imgPath, picDesc }) => {
+const photos = torontoCollection.map(({ path, desc }) => {
   const props = {
-    imgPath,
-    picDesc,
+    path,
+    desc,
   };
-  return <BorderPic exact {...props} />;
+  return <PhotoWrapper exact {...props} />;
 });
 
 export default Toronto;

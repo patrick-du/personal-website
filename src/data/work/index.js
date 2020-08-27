@@ -1,7 +1,7 @@
 export const work = [
   {
     link: '/work',
-    imgPath: 'oculysA.png',
+    img: 'oculysA.png',
     projDesc: 'Oculys Health Informatics',
     projWhat: 'Coming soon...',
     projName: 'Software Developer',
@@ -9,7 +9,7 @@ export const work = [
   },
   {
     link: '/work/fgfbrands',
-    imgPath: 'fgfB-opt.png',
+    img: 'fgfB-opt.png',
     projDesc: 'FGF Brands',
     projWhat:
       'My first co-op term at FGF Brands doing something I had little knowledge about...',
@@ -21,7 +21,7 @@ export const work = [
 export const projects = [
   {
     link: '/work/serenity',
-    imgPath: 'serenityA.png',
+    img: 'serenityA.png',
     projDesc: 'React, Node (Express), MongoDB',
     projWhat:
       'A social wellness web platform that improves physial and mental well-being...',
@@ -30,7 +30,7 @@ export const projects = [
   },
   {
     link: '/work/huddle',
-    imgPath: 'huddleB-opt.png',
+    img: 'huddleB-opt.png',
     projDesc: 'React Native, Java (Spring), Maven, MySQL',
     projWhat:
       'A modern sports betting mobile app to connect fans and support local venues...',
@@ -39,7 +39,7 @@ export const projects = [
   },
   {
     link: '/work/userauth',
-    imgPath: 'userAuth.png',
+    img: 'userAuth.png',
     projDesc: 'Node (Express), MongoDB',
     projWhat:
       'A user authentication boilerplate for future web applications...',
@@ -48,7 +48,7 @@ export const projects = [
   },
   {
     link: '/work/weatherly',
-    imgPath: 'weatherlyA.png',
+    img: 'weatherlyA.png',
     projDesc: 'JavaScript, HTML, CSS',
     projWhat:
       'A weekly forecast progressive web app with offline usage and push notifications...',

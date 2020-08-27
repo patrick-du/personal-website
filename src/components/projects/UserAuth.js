@@ -1,8 +1,8 @@
 import React from 'react';
 import PostTop from '../layout/PostTop';
-import BorderPic from '../layout/BorderPic';
+import PhotoWrapper from '../layout/PhotoWrapper';
 import Fade from 'react-reveal/Fade';
-import NextPageBottom from '../layout/NextPageBottom';
+import FooterLink from '../layout/FooterLink';
 
 const Weatherly = () => {
   return (
@@ -22,9 +22,9 @@ const Weatherly = () => {
             implementation in future projects as well as practice with Node
             (Express) and MongoDB.
           </p>
-          <BorderPic
-            imgPath="userAuth5.png"
-            picDesc="User Registration, User Login"
+          <PhotoWrapper
+            path="userAuth5.png"
+            desc="User Registration, User Login"
           />
           <p className="general-font">
             User Authentication provides a secure way for users to register and
@@ -35,9 +35,9 @@ const Weatherly = () => {
             the application's endpoints.
           </p>
 
-          <BorderPic
-            imgPath="userAuth6.png"
-            picDesc="Account Screen, Update Account Details"
+          <PhotoWrapper
+            path="userAuth6.png"
+            desc="Account Screen, Update Account Details"
           />
 
           <p className="general-font">
@@ -46,7 +46,7 @@ const Weatherly = () => {
             <a
               href="https://github.com/patrick-du/auth-bp"
               target="_blank"
-              className="hvr-underline-from-left purple"
+              className="hvr-underline-blue blue"
             >
               Github
             </a>{' '}
@@ -54,7 +54,7 @@ const Weatherly = () => {
             <a
               href="https://patrickdu-userauth-boilerplate.herokuapp.com"
               target="_blank"
-              className="hvr-underline-from-left purple"
+              className="hvr-underline-blue blue"
             >
               try it yourself
             </a>
@@ -63,8 +63,8 @@ const Weatherly = () => {
           <hr />
         </Fade>
 
-        <NextPageBottom
-          route="/work/weatherly"
+        <FooterLink
+          path="/work/weatherly"
           title="Up Next"
           subtitle="Weatherly"
         />

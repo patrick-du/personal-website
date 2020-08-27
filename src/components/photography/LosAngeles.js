@@ -1,7 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import BorderPic from '../layout/BorderPic';
-import NextPageBottom from '../layout/NextPageBottom';
+import PhotoWrapper from '../layout/PhotoWrapper';
+import FooterLink from '../layout/FooterLink';
 import PostTop from '../layout/PostTop';
 import { losAngelesCollection } from '../../data/photography/photos';
 
@@ -16,8 +16,8 @@ const LosAngeles = () => {
         </Fade>
         <hr />
 
-        <NextPageBottom
-          route="/photography/banff"
+        <FooterLink
+          path="/photography/banff"
           title="Up Next"
           subtitle="Banff National Park"
         />
@@ -26,12 +26,12 @@ const LosAngeles = () => {
   );
 };
 
-const photos = losAngelesCollection.map(({ imgPath, picDesc }) => {
+const photos = losAngelesCollection.map(({ path, desc }) => {
   const props = {
-    imgPath,
-    picDesc,
+    path,
+    desc,
   };
-  return <BorderPic exact {...props} />;
+  return <PhotoWrapper exact {...props} />;
 });
 
 export default LosAngeles;

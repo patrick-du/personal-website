@@ -9,15 +9,15 @@ const Projects = () => {
     <div className="container-fluid projectContainer mx-auto px-0">
       <Fade big>
         <PageTitle
-          pageName="Experience"
-          descriptionBottom="Internships & Leadership"
-          picture="bitmoji6"
+          title="Experience"
+          subtitle="Internships & Leadership"
+          img="bitmoji6"
         />
         {workCards}
         <PageTitle
-          pageName="Projects"
-          descriptionBottom="Side projects & hackathons"
-          picture="bitmoji8"
+          title="Projects"
+          subtitle="Side projects & hackathons"
+          img="bitmoji8"
         />
         {projectsCards}
       </Fade>
@@ -26,10 +26,10 @@ const Projects = () => {
 };
 
 const workCards = work.map(
-  ({ link, imgPath, projDesc, projWhat, projName, projType }) => {
+  ({ link, img, projDesc, projWhat, projName, projType }) => {
     const props = {
       link,
-      imgPath,
+      img,
       projDesc,
       projWhat,
       projName,
@@ -40,10 +40,10 @@ const workCards = work.map(
 );
 
 const projectsCards = projects.map(
-  ({ link, imgPath, projDesc, projWhat, projName, projType }) => {
+  ({ link, img, projDesc, projWhat, projName, projType }) => {
     const props = {
       link,
-      imgPath,
+      img,
       projDesc,
       projWhat,
       projName,

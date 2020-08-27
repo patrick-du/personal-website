@@ -1,7 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import BorderPic from '../layout/BorderPic';
-import NextPageBottom from '../layout/NextPageBottom';
+import PhotoWrapper from '../layout/PhotoWrapper';
+import FooterLink from '../layout/FooterLink';
 import PostTop from '../layout/PostTop';
 import { banffCollection } from '../../data/photography/photos';
 
@@ -18,8 +18,8 @@ const Banff = () => {
         </Fade>
         {photos}
         <hr />
-        <NextPageBottom
-          route="/photography/calgary"
+        <FooterLink
+          path="/photography/calgary"
           title="Up Next"
           subtitle="Calgary"
         />
@@ -28,12 +28,12 @@ const Banff = () => {
   );
 };
 
-const photos = banffCollection.map(({ imgPath, picDesc }) => {
+const photos = banffCollection.map(({ path, desc }) => {
   const props = {
-    imgPath,
-    picDesc,
+    path,
+    desc,
   };
-  return <BorderPic exact {...props} />;
+  return <PhotoWrapper exact {...props} />;
 });
 
 export default Banff;

@@ -7,11 +7,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 import './App.css';
 import './components/layout/Nav.css';
-import './components/layout/PostTop.css';
-import './components/layout/NextPageBottom.css';
-import './components/landing/Landing.css';
 import './components/projects/Project.css';
-import './components/layout/PageTitle.css';
 import './components/photography/Photography.css';
 
 const App = () => {

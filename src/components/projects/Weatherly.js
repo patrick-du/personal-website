@@ -1,8 +1,8 @@
 import React from 'react';
 import PostTop from '../layout/PostTop';
-import BorderPic from '../layout/BorderPic';
+import PhotoWrapper from '../layout/PhotoWrapper';
 import Fade from 'react-reveal/Fade';
-import NextPageBottom from '../layout/NextPageBottom';
+import FooterLink from '../layout/FooterLink';
 
 const Weatherly = () => {
   return (
@@ -23,13 +23,13 @@ const Weatherly = () => {
             <a
               href="https://darksky.net/dev"
               target="_blank"
-              className="hvr-underline-from-left purple"
+              className="hvr-underline-blue blue"
             >
               DarkSky API
             </a>{' '}
             which provides access to daily forecasts for the coming week.
           </p>
-          <BorderPic imgPath="Weatherly1.png" picDesc="Desktop Version" />
+          <PhotoWrapper path="Weatherly1.png" desc="Desktop Version" />
           <p className="general-font">
             This project was created soon after I finished a JavaScript course
             to practice HTTP request methods and DOM manipulation. Seeing that
@@ -41,7 +41,7 @@ const Weatherly = () => {
             <a
               href="https://developers.google.com/web/progressive-web-apps/"
               target="_blank"
-              className="hvr-underline-from-left purple"
+              className="hvr-underline-blue blue"
             >
               progressive web apps
             </a>{' '}
@@ -69,9 +69,9 @@ const Weatherly = () => {
               </li>
             </ul>
           </p>
-          <BorderPic
-            imgPath="Weatherly2.png"
-            picDesc="Mobile Version: Install Prompt, Loading Data, Native App Feel"
+          <PhotoWrapper
+            path="Weatherly2.png"
+            desc="Mobile Version: Install Prompt, Loading Data, Native App Feel"
           />
 
           <p className="general-font">
@@ -85,7 +85,7 @@ const Weatherly = () => {
             <a
               href="https://github.com/patrick-du/patrick-du.github.io"
               target="_blank"
-              className="hvr-underline-from-left purple"
+              className="hvr-underline-blue blue"
             >
               Github
             </a>{' '}
@@ -93,7 +93,7 @@ const Weatherly = () => {
             <a
               href="https://patrickdu-weatherly.herokuapp.com"
               target="_blank"
-              className="hvr-underline-from-left purple"
+              className="hvr-underline-blue blue"
             >
               try it yourself
             </a>
@@ -102,10 +102,10 @@ const Weatherly = () => {
           <hr />
         </Fade>
 
-        <NextPageBottom
-          route="/work/personalwebsite"
+        <FooterLink
+          path="/work/oculyshealthinformatics"
           title="Up Next"
-          subtitle="Personal Website"
+          subtitle="Oculys Health Informatics"
         />
       </div>
     </div>

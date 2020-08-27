@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PostTop from '../layout/PostTop';
 import Fade from 'react-reveal/Fade';
-import BorderPic from '../layout/BorderPic';
-import NextPageBottom from '../layout/NextPageBottom';
+import PhotoWrapper from '../layout/PhotoWrapper';
+import FooterLink from '../layout/FooterLink';
 
 class Serenity extends Component {
   render() {
@@ -25,9 +25,9 @@ class Serenity extends Component {
               with simple prompts such as levels of stress, depression, anxiety
               and whether or not they exercised that day.
             </p>
-            <BorderPic
-              imgPath="serenityB.gif"
-              picDesc="Journal View, Journal Creation, Journal Deletion"
+            <PhotoWrapper
+              path="serenityB.gif"
+              desc="Journal View, Journal Creation, Journal Deletion"
             />
             <p className="general-font">
               Users can also utilize popular diagnostic tools such as the
@@ -37,9 +37,9 @@ class Serenity extends Component {
               initial symptoms as well as monitor symptom changes and treatment
               effects over time.{' '}
             </p>
-            <BorderPic
-              imgPath="serenityC.gif"
-              picDesc="Assessment Methods and Submission History"
+            <PhotoWrapper
+              path="serenityC.gif"
+              desc="Assessment Methods and Submission History"
             />
             <p className="general-font">
               Rather than encouraging exercise through quantitative measures
@@ -50,17 +50,14 @@ class Serenity extends Component {
               negative feelings. Ideally, this will improve their physical and
               mental wellbeing.
             </p>
-            <BorderPic
-              imgPath="serenityD.png"
-              picDesc="Statistics and Trends"
-            />
+            <PhotoWrapper path="serenityD.png" desc="Statistics and Trends" />
             <p className="general-font">
               This app was developed with React, Node (Express), and MongoDB.
               View the{' '}
               <a
                 href="https://github.com/patrick-du/serenity"
                 target="_blank"
-                className="hvr-underline-from-left purple"
+                className="hvr-underline-blue blue"
               >
                 web app
               </a>{' '}
@@ -68,7 +65,7 @@ class Serenity extends Component {
               <a
                 href="https://github.com/patrick-du/serenity-api"
                 target="_blank"
-                className="hvr-underline-from-left purple"
+                className="hvr-underline-blue blue"
               >
                 API
               </a>{' '}
@@ -77,11 +74,7 @@ class Serenity extends Component {
             <hr />
           </Fade>
 
-          <NextPageBottom
-            route="/work/huddle"
-            title="Up Next"
-            subtitle="Huddle"
-          />
+          <FooterLink path="/work/huddle" title="Up Next" subtitle="Huddle" />
         </div>
       </div>
     );

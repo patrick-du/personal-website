@@ -1,28 +1,28 @@
 import React from 'react';
 import PageTitle from '../layout/PageTitle';
-import NextPageBottom from '../layout/NextPageBottom';
+import FooterLink from '../layout/FooterLink';
 import photography from '../../data/photography';
 
 const Photography = () => {
   return (
     <div className="container-fluid projectContainer mx-auto px-0">
       <PageTitle
-        pageName="Collections"
-        descriptionBottom="Sometimes I take photos"
-        picture="bitmoji5"
+        title="Collections"
+        subtitle="Sometimes I take photos"
+        img="bitmoji5"
       />
       {cards}
     </div>
   );
 };
 
-const cards = photography.map(({ route, title, subtitle }) => {
+const cards = photography.map(({ path, title, subtitle }) => {
   const props = {
-    route,
+    path,
     title,
     subtitle,
   };
-  return <NextPageBottom {...props} />;
+  return <FooterLink {...props} />;
 });
 
 export default Photography;
