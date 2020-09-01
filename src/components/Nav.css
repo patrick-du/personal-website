@@ -1,0 +1,155 @@
+/* Mobile Nav */
+#mobile {
+    height: 4.5rem;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow-y: hidden;
+    transition: 0.3s; 
+}
+
+.mobileNavLink {
+    padding: 20px;
+    font-size: 30px;
+}
+
+#mobile.active {
+    height: 100%;    
+    background-color: white;
+}
+
+.mobileNavExpand.active {
+    display: block;
+}
+
+.mobileNavExpand {
+    display: none;
+}
+
+.navlink-font {
+    font-family: 'SFProDisplay-Light';
+    color: #2b2b2b;
+    transition: 0.3s ease-in-out
+}
+
+.navlink-font:hover {
+    color: #546de5;
+}
+
+
+/* Resume - Email - Github - LinkedIn */
+.icon0 {
+  color: #a3a3a3;
+  transition: 0.2s ease-in;
+  font-size: 20px;
+}
+
+.icon0:hover {
+  color: #2b2b2b
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navContainer {
+    width: 20rem;
+    height: 100%;
+  }
+  .icon0 {
+    margin-right: 30px;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {     
+  .navContainer {
+    width: 28rem;
+    height: 100%;
+  }
+  .icon0 {
+    margin-right: 40px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navContainer {
+    width: 41rem;
+    height: 100%;
+  }
+  .icon0 {
+    margin-right: 40px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .navContainer {
+    width: 50rem;
+    height: 100%;
+  }
+  .icon0 {
+    margin-right: 40px;
+  }
+}
+
+
+
+.icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.hamburger {
+  width: 30px;
+  height: 3px;
+  top: 1.9rem;
+  background:  #2b2b2b;
+  position: relative;
+  transition: .3s;
+}
+
+.hamburger:before,
+.hamburger:after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background:  #2b2b2b;
+  transition: .3s;
+}
+
+.hamburger:before {
+  top: -10px;
+}
+
+.hamburger:after { 
+  top: 10px;
+}
+
+.icon.active .hamburger {
+  background: rgba(0,0,0,0);
+  box-shadow: 0 2px 5px rgba(0,0,0,0);
+}
+
+.icon.active .hamburger:before {
+  top: 0;
+  transform: rotate(405deg);
+}
+.icon.active .hamburger:after {
+  top: 0;
+  transform: rotate(495deg);
+}
+
+
+
+
+

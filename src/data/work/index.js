@@ -1,6 +1,22 @@
-export const work = [
+export const experience = [
   {
-    link: '/work',
+    link: '/work/applyboard',
+    img: 'oculysA.png',
+    projDesc: 'ApplyBoard',
+    projWhat: 'Coming soon...',
+    projName: 'Software Engineer',
+    projType: 'May - September 2020',
+  },
+  {
+    link: '/work/uwblueprint',
+    img: 'oculysA.png',
+    projDesc: 'UW Blueprint',
+    projWhat: 'Coming soon...',
+    projName: 'Project Developer',
+    projType: 'January - April 2020',
+  },
+  {
+    link: '/work/oculyshealthinformatics',
     img: 'oculysA.png',
     projDesc: 'Oculys Health Informatics',
     projWhat: 'Coming soon...',

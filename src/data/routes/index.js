@@ -1,20 +1,22 @@
-import Landing from '../../components/landing/Landing';
-import About from '../../components/about/About';
-import Story from '../../components/about/Story';
-import Career from '../../components/about/Career';
-import Projects from '../../components/projects/Projects';
-import OculysHealthInformatics from '../../components/projects/OculysHealthInformatics';
-import FGFBrands from '../../components/projects/FGFBrands';
-import Serenity from '../../components/projects/Serenity';
-import Huddle from '../../components/projects/Huddle';
-import UserAuth from '../../components/projects/UserAuth';
-import Weatherly from '../../components/projects/Weatherly';
-import FitBud from '../../components/projects/Fitbud';
-import Photography from '../../components/photography/Photography';
-import LosAngeles from '../../components/photography/LosAngeles';
-import Banff from '../../components/photography/Banff';
-import Calgary from '../../components/photography/Calgary';
-import Toronto from '../../components/photography/Toronto';
+import Landing from '../../pages/Landing';
+import About from '../../pages/About';
+import Story from '../../pages/About/Story';
+import Career from '../../pages/About/Career';
+import Work from '../../pages/Work';
+import ApplyBoard from '../../pages/Work/ApplyBoard';
+import UWBlueprint from '../../pages/Work/UWBlueprint';
+import OculysHealthInformatics from '../../pages/Work/OculysHealthInformatics';
+import FGFBrands from '../../pages/Work/FGFBrands';
+import Serenity from '../../pages/Work/Serenity';
+import Huddle from '../../pages/Work/Huddle';
+import UserAuth from '../../pages/Work/UserAuth';
+import Weatherly from '../../pages/Work/Weatherly';
+import FitBud from '../../pages/Work/FitBud';
+import Photography from '../../pages/Photography';
+import LosAngeles from '../../pages/Photography/LosAngeles';
+import Banff from '../../pages/Photography/Banff';
+import Calgary from '../../pages/Photography/Calgary';
+import Toronto from '../../pages/Photography/Toronto';
 
 const routes = [
   {
@@ -35,7 +37,15 @@ const routes = [
   },
   {
     path: '/work',
-    component: Projects,
+    component: Work,
+  },
+  {
+    path: '/work/applyboard',
+    component: ApplyBoard,
+  },
+  {
+    path: '/work/uwblueprint',
+    component: UWBlueprint,
   },
   {
     path: '/work/oculyshealthinformatics',
