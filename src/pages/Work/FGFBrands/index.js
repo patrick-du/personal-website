@@ -14,35 +14,37 @@ const FGFBrands = () => {
           <PostTop subtitle="Work Term" title="FGF Brands" />
           <hr className="my-3" />
           <p className="general-font">
-            For my first coop, I spent 4 months working at FGF Brands as an
-            "Innovation Driven" Web Developer in the IT department. Despite
-            knowing little to nothing about web development, I learned a whole
-            lot throughout the term which I'm excited to share.
+            FGF Brands is a solutions provider that just happens to be a bakery
+            - passionate about baking and brand-building innovations. FGF
+            combines a true understanding of customer’s needs with an innovative
+            approach across all aspects of our business.
+          </p>
+          <hr />
+          <p className="general-font">
+            <b>Role: </b>"Innovation Driven" Web Developer on the Engineering
+            team
           </p>
           <p className="general-font">
-            Our team utilized the Agile Scrum software development methodology
-            combined with an open office environment making it extremely simple
-            to seek help, make friends, and collaborate on projects.
+            <b>Duration: </b>January to April 2019
           </p>
           <p className="general-font">
-            Over the course of the term, I was able to pick up on new languages,
-            frameworks, and libraries such as Bootstrap, JavaScript, C#, React,
-            React Native, and Node (Express)! Two main projects I worked on
-            included performing a proof of concept (POC) for the FGF progressive
-            web app and developing a component-based UI library for internal
-            tools development.
-          </p>
-          <PhotoWrapper img="FGF1.png" desc="Before and After" />
-          <p className="general-font">
-            Working at FGF was a great first coop experience with lots of
-            opportunities to grow and nuture my skills as a developer. The
-            company highly values one's ability to work in a team and their work
-            ethic - two skills I was able to further develop during my time at
-            FGF.
+            <b>Technologies: </b>JavaScript, jQuery, Bootstrap, HTML/CSS, C#
           </p>
           <p className="general-font">
-            I'm excited for what's to come next and can't wait for my next coop
-            term!
+            <b>Core Contributions</b>
+            <ul>
+              <li>
+                Constructed component-based UI library with HTML/CSS and
+                JavaScript serving as a style guide for internal tools
+                development to improve production speed and handle responsive
+                web design
+              </li>
+              <li>
+                Built progressive web app with offline support and push
+                notifications used to streamline manufacturing team processes
+                such as inventory checks and plant issue reports
+              </li>
+            </ul>
           </p>
         </Fade>
         <FooterLink path="/work/serenity" title="Up Next" subtitle="Serenity" />

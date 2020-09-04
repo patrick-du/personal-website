@@ -67,6 +67,7 @@
 .hvr-underline {
   color: #3d8ecd;
   -webkit-transform: perspective(1px) translateZ(0);
+  text-decoration: none !important;
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
@@ -80,6 +81,7 @@
   left: 0;
   right: 100%;
   bottom: 0;
+  text-decoration: none !important;
   background: #3d8ecd;
   height: 2px;
   -webkit-transition-property: right;

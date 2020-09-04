@@ -31,15 +31,31 @@ const FooterLink = ({ path, title, subtitle }) => {
     <>
       <hr />
       <Fade>
-        <Link to={path} className="linkdec hvr-icon-wobble-horizontal">
-          <StyledFontSize>
-            <StyledTitle>
-              {title}
-              <StyledIcon className="fas fa-chevron-right hvr-icon" />
-              <StyledSubtitle>{subtitle}</StyledSubtitle>
-            </StyledTitle>
-          </StyledFontSize>
-        </Link>
+        {/^https?:\/\//.test(path) ? (
+          <a
+            href={path}
+            target="_blank"
+            className="linkdec hvr-icon-wobble-horizontal"
+          >
+            <StyledFontSize>
+              <StyledTitle>
+                {title}
+                <StyledIcon className="fas fa-chevron-right hvr-icon" />
+                <StyledSubtitle>{subtitle}</StyledSubtitle>
+              </StyledTitle>
+            </StyledFontSize>
+          </a>
+        ) : (
+          <Link to={path} className="linkdec hvr-icon-wobble-horizontal">
+            <StyledFontSize>
+              <StyledTitle>
+                {title}
+                <StyledIcon className="fas fa-chevron-right hvr-icon" />
+                <StyledSubtitle>{subtitle}</StyledSubtitle>
+              </StyledTitle>
+            </StyledFontSize>
+          </Link>
+        )}
       </Fade>
     </>
   );

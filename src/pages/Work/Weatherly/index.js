@@ -97,9 +97,9 @@ const Weatherly = () => {
           </p>
         </Fade>
         <FooterLink
-          path="/work/oculyshealthinformatics"
+          path="/work/applyboard"
           title="Up Next"
-          subtitle="Oculys Health Informatics"
+          subtitle="ApplyBoard"
         />
       </div>
     </div>
