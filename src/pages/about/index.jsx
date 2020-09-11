@@ -16,9 +16,9 @@ const About = () => {
         <p className="general-font mt-3">
           I'm a 3rd year student at the University of Waterloo studying
           Kinesiology with a minor in Computing. <br /> <br />
-          Currently, I am a project developer at{' '}
+          Currently, I am a project developer on{' '}
           <a
-            className="hvr-underline blue"
+            className="hvr-underline"
             href="https://uwblueprint.org/"
             target="_blank"
           >
@@ -28,8 +28,8 @@ const About = () => {
           for social good. <br /> <br /> Most recently, I interned as a Software
           Engineer at{' '}
           <a
-            className="hvr-underline blue"
-            href="https://www.applyboard.com/about"
+            className="hvr-underline"
+            href="https://www.applyboard.com"
             target="_blank"
           >
             ApplyBoard

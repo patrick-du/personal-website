@@ -9,7 +9,7 @@ import OculysHealthInformatics from '../../pages/Work/OculysHealthInformatics';
 import FGFBrands from '../../pages/Work/FGFBrands';
 import Serenity from '../../pages/Work/Serenity';
 import Huddle from '../../pages/Work/Huddle';
-import UserAuth from '../../pages/Work/UserAuth';
+import Authentication from '../../pages/Work/Authentication';
 import Weatherly from '../../pages/Work/Weatherly';
 import FitBud from '../../pages/Work/FitBud';
 import Photography from '../../pages/Photography';
@@ -64,8 +64,8 @@ const routes = [
     component: Huddle,
   },
   {
-    path: '/work/userauth',
-    component: UserAuth,
+    path: '/work/authentication',
+    component: Authentication,
   },
   {
     path: '/work/weatherly',

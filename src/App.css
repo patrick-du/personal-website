@@ -65,7 +65,7 @@
 }
 
 .hvr-underline {
-  color: #3d8ecd;
+  color: #878FDD;
   -webkit-transform: perspective(1px) translateZ(0);
   text-decoration: none !important;
   transform: perspective(1px) translateZ(0);
@@ -82,7 +82,8 @@
   right: 100%;
   bottom: 0;
   text-decoration: none !important;
-  background: #3d8ecd;
+  background: #878FDD;
+  color: #878FDD;
   height: 2px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -92,9 +93,11 @@
   transition-timing-function: ease-out;
 }
 
+.hvr-underline:hover,
 .hvr-underline:hover:before,
 .hvr-underline:focus:before,
 .hvr-underline:active:before {
+  color: #878FDD;
   right: 0;
   text-decoration: none;
 }

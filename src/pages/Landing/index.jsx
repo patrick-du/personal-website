@@ -1,7 +1,7 @@
 import React from 'react';
-import Resume from '../../assets/Resume.pdf';
 import Fade from 'react-reveal/Fade';
 import styled from 'styled-components';
+import Resume from '../../assets/Resume.pdf';
 
 const StyledTitle = styled.p`
   font-family: 'SFProDisplay-Regular';
@@ -14,7 +14,7 @@ const StyledTitle = styled.p`
     font-size: 80px;
   }
   .period {
-    color: #3d8ecd;
+    color: #878fdd;
     font-size: 120%;
   }
 `;
@@ -36,7 +36,7 @@ const StyledResume = styled.a`
   color: #7f8c8d;
 
   &:hover {
-    color: #3d8ecd;
+    color: #878fdd;
   }
   @media (max-width: 575.98px) {
     font-size: 16px;
@@ -51,27 +51,38 @@ const Landing = () => {
     <div className="container-fluid projectContainer mx-auto px-0">
       <Fade big>
         <StyledTitle>
-          HELLO<span className="period">.</span>
+          HELLO
+          <span className="period">.</span>
         </StyledTitle>
         <StyledParagraph>
-          I'm Patrick, a 3rd year student at the University of Waterloo. I enjoy
-          creating delightful web experiences focused on functionality and
+          I&rsquo;m Patrick, a 3rd year student at the University of Waterloo. I
+          enjoy creating delightful web experiences focused on functionality and
           minimalism.
         </StyledParagraph>
         <br />
-        <StyledParagraph>Currently, searching for Fall Term Opportunities</StyledParagraph>
+        <StyledParagraph>
+          Seeking Winter & Summer 2021 opportunities.
+        </StyledParagraph>
         <StyledResume href={Resume} target="_blank" className="linkdec">
           No time? View my resume.
         </StyledResume>
         <div className="row mx-0 mt-5">
-          <a href="https://github.com/patrick-du" target="_blank">
-            <i class="fab fa-github icon0" />
+          <a
+            href="https://github.com/patrick-du"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-github icon0" />
           </a>
-          <a href="https://www.linkedin.com/in/patrick-du3/" target="_blank">
-            <i class="fab fa-linkedin-in icon0 " />
+          <a
+            href="https://www.linkedin.com/in/patrick-du3/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-linkedin-in icon0 " />
           </a>
           <a href="mailto:patrickduu@gmail.com">
-            <i class="fas fa-paper-plane icon0" />
+            <i className="fas fa-paper-plane icon0" />
           </a>
         </div>
       </Fade>

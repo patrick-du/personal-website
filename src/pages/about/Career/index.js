@@ -5,7 +5,7 @@ import FooterLink from '../../../components/FooterLink';
 import styled from 'styled-components';
 
 const StyledBlockquote = styled.blockquote`
-  border-left: 6px solid #3d8ecd;
+  border-left: 6px solid #878FDD;
   padding-left: 1rem;
 `;
 
@@ -31,7 +31,7 @@ const Career = () => {
           For the future, I plan to complete my kinesiology degree with a{' '}
           <a
             className="hvr-underline blue"
-            href="https://cs.uwaterloo.ca/current/programs/require/2018-2019/comptech_option.html"
+            href="https://cs.uwaterloo.ca/current/programs/require/2019-2020/comptech_option.html"
             target="_blank"
           >
             computing option

@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
-import PostTop from '../../../components/PostTop';
+import React from 'react';
 import Fade from 'react-reveal/Fade';
+import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import FooterLink from '../../../components/FooterLink';
 import { StyledProjectImage } from '../../../components/styles';
 
+const ProjectPhoto = require(`../../../assets/serenityB.png`);
+
 const Serenity = () => {
   return (
     <div className="container-fluid mx-auto px-0">
-      <StyledProjectImage src={require(`../../../assets/serenityB.png`)} />
+      <StyledProjectImage src={ProjectPhoto} />
       <div className="projectContainer mx-auto px-0">
         <Fade big>
           <PostTop subtitle="Side Project" title="Serenity" />
@@ -54,6 +56,7 @@ const Serenity = () => {
             <a
               href="https://github.com/patrick-du/serenity"
               target="_blank"
+              rel="noreferrer"
               className="hvr-underline blue"
             >
               web app
@@ -62,6 +65,7 @@ const Serenity = () => {
             <a
               href="https://github.com/patrick-du/serenity-api"
               target="_blank"
+              rel="noreferrer"
               className="hvr-underline blue"
             >
               API
@@ -70,7 +74,11 @@ const Serenity = () => {
           </p>
         </Fade>
 
-        <FooterLink path="/work/huddle" title="Up Next" subtitle="Huddle" />
+        <FooterLink
+          path="/work/authentication"
+          title="Up Next"
+          subtitle="Authentication Boilerplates"
+        />
       </div>
     </div>
   );

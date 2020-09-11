@@ -1,6 +1,5 @@
 import React from 'react';
 import PostTop from '../../../components/PostTop';
-import PhotoWrapper from '../../../components/PhotoWrapper';
 import Fade from 'react-reveal/Fade';
 import FooterLink from '../../../components/FooterLink';
 import { StyledProjectImage } from '../../../components/styles';
@@ -8,7 +7,7 @@ import { StyledProjectImage } from '../../../components/styles';
 const FGFBrands = () => {
   return (
     <div className="container-fluid mx-auto px-0">
-      <StyledProjectImage src={require(`../../../assets/fgfB-opt.png`)} />
+      <StyledProjectImage src={require(`../../../assets/fgf2.png`)} />
       <div className="projectContainer mx-auto px-0">
         <Fade big>
           <PostTop subtitle="Work Term" title="FGF Brands" />

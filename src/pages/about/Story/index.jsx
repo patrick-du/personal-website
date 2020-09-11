@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import PostTop from '../../../components/PostTop';
-import Fade from 'react-reveal/Fade';
 import FooterLink from '../../../components/FooterLink';
 
 const Story = () => {
@@ -63,6 +62,7 @@ const Story = () => {
             className="hvr-underline blue"
             href="https://patrickdu.herokuapp.com"
             target="_blank"
+            rel="noreferrer"
           >
             first website
           </a>
@@ -73,11 +73,16 @@ const Story = () => {
           Following this project, my passion for coding continued to sprout and
           with coop applications coming up I decided to take a stab at applying
           for a position I was in no way qualified for. With a combination of
-          hard-work and lots of Tim Horton's coffee ☕ I was able to land an
-          interview and secure a web developer position at{' '}
-          <Link to="../../work" className="hvr-underline blue">
+          hard-work and lots of Tim Horton&rsquo;s coffee, I landed an interview
+          and secured a web developer position at{' '}
+          <a
+            className="hvr-underline"
+            href="https://www.fgfbrands.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             FGF Brands
-          </Link>{' '}
+          </a>{' '}
           for my first coop term. Since then, I have attended several hackathons
           and expanded my skill set immensely.
         </p>

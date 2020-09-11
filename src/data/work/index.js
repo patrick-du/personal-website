@@ -1,34 +1,36 @@
 export const experience = [
   {
+    link: '/work/uwblueprint',
+    img: 'uwblueprint.png',
+    projDesc: 'UW Blueprint',
+    projWhat: 'Building and promoting technology for social good...',
+    projName: 'Project Developer',
+    projType: 'January 2020 - Present',
+  },
+  {
     link: '/work/applyboard',
-    img: 'oculysA.png',
+    img: 'applyboard.png',
     projDesc: 'ApplyBoard',
-    projWhat: 'Coming soon...',
+    projWhat:
+      'Connecting international students & recruitment partners to educational opportunities at institutions around the world...',
     projName: 'Software Engineer',
     projType: 'May - September 2020',
   },
   {
-    link: '/work/uwblueprint',
-    img: 'oculysA.png',
-    projDesc: 'UW Blueprint',
-    projWhat: 'Coming soon...',
-    projName: 'Project Developer',
-    projType: 'January - April 2020',
-  },
-  {
     link: '/work/oculyshealthinformatics',
-    img: 'oculysA.png',
+    img: 'oculys.png',
     projDesc: 'Oculys Health Informatics',
-    projWhat: 'Coming soon...',
+    projWhat:
+      'Delivering efficient and patient-centered care by providing organizational transparency and coordination...',
     projName: 'Software Developer',
     projType: 'September - December 2019',
   },
   {
     link: '/work/fgfbrands',
-    img: 'fgfB-opt.png',
+    img: 'fgf.png',
     projDesc: 'FGF Brands',
     projWhat:
-      'My first co-op term at FGF Brands doing something I had little knowledge about...',
+      'Combining an understanding of customer needs with an innovative approach...',
     projName: 'Web Developer',
     projType: 'January - April 2019',
   },
@@ -40,8 +42,17 @@ export const projects = [
     img: 'serenityA.png',
     projDesc: 'React, Node (Express), MongoDB',
     projWhat:
-      'A social wellness web platform that improves physial and mental well-being...',
+      'A social wellness web platform that improves physical and mental well-being...',
     projName: 'Serenity',
+    projType: 'Side Project',
+  },
+  {
+    link: '/work/authentication',
+    img: 'authentication.png',
+    projDesc: 'React, Node (Express), MongoDB, Passport',
+    projWhat:
+      'Boilerplate projects for token-based authentication using OAuth 2.0 (Google & Facebook) and basic authentication...',
+    projName: 'Authentication Boilerplates',
     projType: 'Side Project',
   },
   {
@@ -51,15 +62,6 @@ export const projects = [
     projWhat:
       'A modern sports betting mobile app to connect fans and support local venues...',
     projName: 'Huddle',
-    projType: 'Side Project',
-  },
-  {
-    link: '/work/userauth',
-    img: 'userAuth.png',
-    projDesc: 'Node (Express), MongoDB',
-    projWhat:
-      'A user authentication boilerplate for future web applications...',
-    projName: 'User Authentication',
     projType: 'Side Project',
   },
   {

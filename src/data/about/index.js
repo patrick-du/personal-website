@@ -1,8 +1,9 @@
 const posts = [
   {
-    path: 'https://google.com',
-    title: 'A Remote Internship',
-    subtitle: 'Life @ ApplyBoard',
+    path: 'https://applyboard.com',
+    title: 'Coming Soon',
+    // title: 'A Remote Internship',
+    subtitle: 'Life at ApplyBoard',
   },
   {
     path: '/about/story',

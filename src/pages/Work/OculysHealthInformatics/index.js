@@ -7,7 +7,7 @@ import { StyledProjectImage } from '../../../components/styles';
 const OculysHealthInformatics = () => {
   return (
     <div className="container-fluid mx-auto px-0">
-      <StyledProjectImage src={require(`../../../assets/oculysA.png`)} />
+      <StyledProjectImage src={require(`../../../assets/oculys2.png`)} />
       <div className="projectContainer mx-auto px-0">
         <Fade big>
           <PostTop subtitle="Work Term" title="Oculys Health Informatics" />
