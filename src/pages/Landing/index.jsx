@@ -60,9 +60,7 @@ const Landing = () => {
           minimalism.
         </StyledParagraph>
         <br />
-        <StyledParagraph>
-          Seeking Winter & Summer 2021 opportunities.
-        </StyledParagraph>
+        <StyledParagraph>Seeking Summer 2021 SWE internships.</StyledParagraph>
         <StyledResume href={Resume} target="_blank" className="linkdec">
           No time? View my resume.
         </StyledResume>

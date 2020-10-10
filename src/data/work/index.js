@@ -40,7 +40,7 @@ export const projects = [
   {
     link: '/work/serenity',
     img: 'serenityA.png',
-    projDesc: 'React, Node (Express), MongoDB',
+    projDesc: 'React, Node (Express), MongoDB, Passport',
     projWhat:
       'A social wellness web platform that improves physical and mental well-being...',
     projName: 'Serenity',
