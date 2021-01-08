@@ -10,21 +10,21 @@ const Story = () => {
       <PostTop subtitle="My Story" title="How I Started Coding" />
       <hr className="my-3" />
       <Fade big>
-        <p className="general-font">
+        <p>
           Whenever I was asked about my future plans I immediately blurted out
           that I would be a physiotherapist. What else would you be doing in
           kinesiology otherwise? I mean besides applying for a prestigious
           medical school, becoming a chiropractor, personal trainer, or
           everyone’s favourite - a gym teacher.
         </p>
-        <p className="general-font">
+        <p>
           I portrayed myself as a confident and prepared student, when in
           reality I really had no idea what I wanted to do. On the other hand,
           all my friends seemed to have a clear-cut idea of what they wanted to
           do, the clubs they would join for experience, or the clinics they
           would volunteer at.
         </p>
-        <p className="general-font">
+        <p>
           Attending a school at the forefront of innovation means that I am
           constantly surrounded by studious individuals. Whether it was during
           the easy going summer term or the weeks leading up to finals, I
@@ -34,7 +34,7 @@ const Story = () => {
           shakes as you would expect.
         </p>
         <PhotoWrapper img="story.PNG" desc="My School Term" />
-        <p className="general-font">
+        <p>
           This was no different in the summer except there was no studying. In
           the time I should have spent studying, I was playing video games and
           rewatching every single Marvel movie leading up to Avengers: Infinity
@@ -42,7 +42,7 @@ const Story = () => {
           each film with their own distinct storylines and purposes is
           absolutely incredible.
         </p>
-        <p className="general-font">
+        <p>
           Remember how I said my friends were always working on side projects?
           In the same span of time, my roommate had just completed 2 coding
           courses, developed a mini game, made his resume, and was in the
@@ -54,7 +54,7 @@ const Story = () => {
           img="story2.PNG"
           desc="My Roommate's Github Contributions 🤯"
         />
-        <p className="general-font">
+        <p>
           When I checked out his portfolio it inspired me to create my own
           website, so based on his recommendation I took a beginner HTML5 and
           CSS3 course. By the end of the summer, I launched my{' '}
@@ -69,7 +69,7 @@ const Story = () => {
           !
         </p>
         <PhotoWrapper img="story3.PNG" desc="My First Website" />
-        <p className="general-font">
+        <p>
           Following this project, my passion for coding continued to sprout and
           with coop applications coming up I decided to take a stab at applying
           for a position I was in no way qualified for. With a combination of

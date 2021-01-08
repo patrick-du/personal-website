@@ -5,6 +5,7 @@ import MNav from './components/MNav';
 import routes from './data/routes';
 import ScrollToTop from './components/ScrollToTop';
 
+import { GlobalStyles } from './styles/global';
 import './App.css';
 import './components/Nav.css';
 
@@ -12,6 +13,7 @@ const App = () => {
   return (
     <Router>
       <div class="app">
+        <GlobalStyles />
         <MNav />
         <ScrollToTop>
           <Switch>{routeComponents}</Switch>

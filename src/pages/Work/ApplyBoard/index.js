@@ -13,25 +13,25 @@ const ApplyBoard = () => {
         <Fade big>
           <PostTop subtitle="Work Term" title="ApplyBoard" />
           <hr className="my-3" />
-          <p className="general-font">
+          <p>
             ApplyBoard simplifies the study abroad search, application, and
             acceptance process by connecting international students, recruitment
             partners, and academic institutions on a single streamlined
             platform.
           </p>
           <hr />
-          <p className="general-font">
+          <p>
             <b>Role: </b>Software Engineer Intern on the Search team, previously
             Content team
           </p>
-          <p className="general-font">
+          <p>
             <b>Duration: </b>May to September 2020
           </p>
-          <p className="general-font">
+          <p>
             <b>Technologies: </b>React, Ruby on Rails, PostgreSQL, Docker, Git
             (GitHub), Jira
           </p>
-          <p className="general-font">
+          <p>
             <b>Core Contributions</b>
             <ul>
               <li>
@@ -57,7 +57,7 @@ const ApplyBoard = () => {
             </ul>
           </p>
           <PhotoWrapper img="applyboard3.png" desc="Team Lucene" />
-          <p className="general-font">
+          <p>
             Check out my{' '}
             <a
               className="hvr-underline"

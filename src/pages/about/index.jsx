@@ -22,7 +22,7 @@ const About = () => {
         img="bitmoji4"
       />
       <Fade big>
-        <p className="general-font mt-3">
+        <p className="mt-3">
           I&rsquo;m a 3rd year student at the University of Waterloo studying
           Kinesiology with a minor in Computing.
           <br />

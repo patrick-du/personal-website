@@ -12,24 +12,24 @@ const FGFBrands = () => {
         <Fade big>
           <PostTop subtitle="Work Term" title="FGF Brands" />
           <hr className="my-3" />
-          <p className="general-font">
+          <p>
             FGF Brands is a solutions provider that just happens to be a bakery
             - passionate about baking and brand-building innovations. FGF
             combines a true understanding of customer’s needs with an innovative
             approach across all aspects of our business.
           </p>
           <hr />
-          <p className="general-font">
+          <p>
             <b>Role: </b>"Innovation Driven" Web Developer on the Engineering
             team
           </p>
-          <p className="general-font">
+          <p>
             <b>Duration: </b>January to April 2019
           </p>
-          <p className="general-font">
+          <p>
             <b>Technologies: </b>JavaScript, jQuery, Bootstrap, HTML/CSS, C#
           </p>
-          <p className="general-font">
+          <p>
             <b>Core Contributions</b>
             <ul>
               <li>

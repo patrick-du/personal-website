@@ -12,23 +12,23 @@ const OculysHealthInformatics = () => {
         <Fade big>
           <PostTop subtitle="Work Term" title="Oculys Health Informatics" />
           <hr className="my-3" />
-          <p className="general-font">
+          <p>
             Oculys Health Informatics strives to reduce patient management
             bottlenecks by tapping into the disconnected silos of hospital
             administration and electronic medical record systems providing a
             real-time patient management system for hospitals.
           </p>
           <hr />
-          <p className="general-font">
+          <p>
             <b>Role: </b>Software Developer on the Core Engineering team
           </p>
-          <p className="general-font">
+          <p>
             <b>Duration: </b>September to December 2019
           </p>
-          <p className="general-font">
+          <p>
             <b>Technologies: </b>C#, ASP.NET MVC, Git (Bitbucket), Jira
           </p>
-          <p className="general-font">
+          <p>
             <b>Core Contributions</b>
             <ul>
               <li>

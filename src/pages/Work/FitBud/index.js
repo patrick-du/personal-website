@@ -13,11 +13,11 @@ const FitBud = () => {
         <Fade big>
           <PostTop subtitle="uOttaHack 2019" title="Fitbud" />
           <hr className="my-3" />
-          <p className="general-font">
+          <p>
             Fitbud is an all-in-one fitness app that provides a solution to
             common issues experienced by gym-goers of every skill level.
           </p>
-          <p className="general-font">
+          <p>
             Some issues my team tackled included finding a gym partner, tracking
             progress (reps, sets, exercise), and even asking for advice at the
             gym. This app provides all the steps from planning your next visit
@@ -28,7 +28,7 @@ const FitBud = () => {
             img="FitBud2.png"
             desc="Home Screen: User Info, Newsfeed, Sidebar Navigation"
           />
-          <p className="general-font">
+          <p>
             We incorporated the friend finding feature for all members of the
             gym with the main purpose being to create a friendly and safe
             environment for all gym-goers. This allows for members to make a new
@@ -38,7 +38,7 @@ const FitBud = () => {
             for applications of this feature are endless.
           </p>
           <PhotoWrapper img="FitBud4.png" desc="Discover Friends Screen" />
-          <p className="general-font">
+          <p>
             Exercise tracking is an extremely important element to success at
             the gym. Through tracking one's reps, sets, and weight, users can
             easily view their progression and take proper measures to overcome
@@ -49,14 +49,14 @@ const FitBud = () => {
             img="FitBud5.png"
             desc="Workout Screen: Exercise Log and Spotify Music Player"
           />
-          <p className="general-font">
+          <p>
             Lastly, we developed a built-in music player connected to the user's
             Spotify account in order to eliminate the need to switch between
             your workout routine, music, and even social media notifications.
             The main purpose was to streamline everything the user would need
             during their training session onto one platform.
           </p>
-          <p className="general-font">
+          <p>
             This app was developed with React and Node (Express). View the full
             project on{' '}
             <a

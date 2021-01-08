@@ -15,11 +15,11 @@ const Serenity = () => {
         <Fade big>
           <PostTop subtitle="Side Project" title="Serenity" />
           <hr className="my-3" />
-          <p className="general-font">
+          <p>
             Serenity is a social wellness web platform that assess mental
             well-being through mood tracking and data visualization patterns.
           </p>
-          <p className="general-font">
+          <p>
             Users keep track of their mood through the use of a daily journal
             with simple prompts such as levels of stress, depression, anxiety
             and whether or not they exercised that day.
@@ -28,7 +28,7 @@ const Serenity = () => {
             img="serenityC.gif"
             desc="Journal View, Journal Creation, Journal Deletion"
           />
-          <p className="general-font">
+          <p>
             Users can also utilize popular diagnostic tools such as the Patient
             Health Questionnaire (PHQ-9) and General Anxiety Disorder 7 (GAD-7)
             for mental health disorders. These are used by health care
@@ -40,7 +40,7 @@ const Serenity = () => {
             img="serenityD.gif"
             desc="Assessment Methods and Submission History"
           />
-          <p className="general-font">
+          <p>
             Rather than encouraging exercise through quantitative measures such
             as reps, sets, and weight, Serenity aims to make users aware of the
             correlation between even modest amounts of exercise and mental
@@ -50,7 +50,7 @@ const Serenity = () => {
             mental wellbeing.
           </p>
           <PhotoWrapper img="serenityE.png" desc="Statistics and Trends" />
-          <p className="general-font">
+          <p>
             This app was developed with React, Node (Express), and MongoDB. View
             the{' '}
             <a

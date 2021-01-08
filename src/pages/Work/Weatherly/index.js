@@ -13,7 +13,7 @@ const Weatherly = () => {
         <Fade big>
           <PostTop subtitle="Side Project" title="Weatherly" />
           <hr className="my-3" />
-          <p className="general-font">
+          <p>
             Weatherly is a weekly forecast progressive web app that includes
             features such as usage offline and push notifications. It fetches
             data from{' '}
@@ -27,13 +27,13 @@ const Weatherly = () => {
             which provides access to daily forecasts for the coming week.
           </p>
           <PhotoWrapper img="weatherly1.png" desc="Desktop Version" />
-          <p className="general-font">
+          <p>
             This project was created soon after I finished a JavaScript course
             to practice HTTP request methods and DOM manipulation. Seeing that
             progressive web apps were on the rise, I decided to implement it
             into this application.
           </p>
-          <p className="general-font">
+          <p>
             For those unfamiliar,{' '}
             <a
               href="https://developers.google.com/web/progressive-web-apps/"
@@ -48,7 +48,7 @@ const Weatherly = () => {
             install prompt making it easy for users to install the PWA on their
             mobile or desktop device.
           </p>
-          <p className="general-font">
+          <p>
             It consists of three main requirements:
             <ul>
               <li>
@@ -70,12 +70,12 @@ const Weatherly = () => {
             img="weatherly2.png"
             desc="Mobile Version: Install Prompt, Loading Data, Native App Feel"
           />
-          <p className="general-font">
+          <p>
             Despite facing an abundance of issues whether it be with plain
             JavaScript or registering Service Workers, I am glad that I stuck
             through with the project as it was a rewarding experience.
           </p>
-          <p className="general-font">
+          <p>
             This app was developed with HTML, CSS, and JavaScript. View the full
             project on{' '}
             <a

@@ -130,7 +130,6 @@ const ProjectCard = ({ link, img, projName, projDesc, projWhat, projType }) => {
             />
           </StyledProjectCol>
           <div style={{ padding: '1rem' }}>
-            <div className="general-font px-0">
               <StyledProjectName>{projName}</StyledProjectName>
               <StyledProjectWhat>{projWhat}</StyledProjectWhat>
               <StyledProjectDescription>
@@ -138,7 +137,6 @@ const ProjectCard = ({ link, img, projName, projDesc, projWhat, projType }) => {
                 <br/>
                 {projType}
               </StyledProjectDescription>
-            </div>
           </div>
         </StyledProjectAbove>
       </StyledProjectCard>

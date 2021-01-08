@@ -18,12 +18,12 @@ const Authentication = () => {
             title="Authentication Boilerplates"
           />
           <hr className="my-3" />
-          <p className="general-font">
+          <p>
             Authentication boilerplates were built with React, Node (Express),
             MongoDB, and Passport (Google, Facebook, Local Strategies) to learn
             how to implement common authentication methods.
           </p>
-          <p className="general-font">
+          <p>
             Further readings can be found in my{' '}
             <a
               className="hvr-underline"
@@ -36,9 +36,9 @@ const Authentication = () => {
             .
           </p>
           <hr />
-          <p className="general-font">
+          <p>
             <b>Boilerplate 1: Token-based authentication using OAuth 2.0</b>
-            <p className="general-font">
+            <p>
               View the web app on{' '}
               <a
                 className="hvr-underline"
@@ -68,7 +68,7 @@ const Authentication = () => {
             desc="User Account Information"
           />
           <hr />
-          <p className="general-font">
+          <p>
             <b>Boilerplate 2: Basic authentication with username & password</b>
             <p>
               {' '}

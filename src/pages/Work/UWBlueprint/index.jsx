@@ -15,45 +15,45 @@ const UWBlueprint = () => {
         <Fade big>
           <PostTop subtitle="Leadership Experience" title="UW Blueprint" />
           <hr className="my-3" />
-          <p className="general-font">
+          <p>
             UW Blueprint is a group of students dedicated to building and
             promoting technology for social good. We partner with non-profit
             organizations to provide technology services such as websites,
             mobile applications, analysis tools—free of charge.
           </p>
           <hr />
-          <p className="general-font">
+          <p>
             <b>Region of Waterloo Paramedic Services (PSV) </b>
           </p>
-          <p className="general-font">
+          <p>
             <b>Role: </b>
             Project Developer
           </p>
-          <p className="general-font">
+          <p>
             <b>Duration: </b>
             September to December 2020
           </p>
-          <p className="general-font">
+          <p>
             <b>Technologies: </b>
             React, TypeScript, Node, GraphQL, Apollo Client & Server, PostgreSQL
           </p>
           <hr />
-          <p className="general-font blue">
+          <p className="blue">
             <b>Social Development Centre Waterloo Region (SDC) </b>
           </p>
-          <p className="general-font">
+          <p>
             <b>Role: </b>
             Project Developer
           </p>
-          <p className="general-font">
+          <p>
             <b>Duration: </b>
             January to April 2020
           </p>
-          <p className="general-font">
+          <p>
             <b>Technologies: </b>
             React, TypeScript, Ruby on Rails, Docker
           </p>
-          <p className="general-font">
+          <p>
             <b>Core Contributions</b>
             <ul>
               <li>
@@ -66,7 +66,7 @@ const UWBlueprint = () => {
               </li>
             </ul>
           </p>
-          <p className="general-font">
+          <p>
             View the web app on{' '}
             <a
               className="hvr-underline"

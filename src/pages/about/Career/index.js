@@ -27,7 +27,7 @@ const Career = () => {
       <PostTop subtitle="Career Aspirations" title="Plans for the Future" />
       <hr className="my-3" />
       <Fade big>
-        <p className="general-font">
+        <p>
           For the future, I plan to complete my kinesiology degree with a{' '}
           <a
             className="hvr-underline blue"
@@ -48,9 +48,9 @@ const Career = () => {
             I think the biggest innovations of the 21st century will be at the
             intersection of biology and technology. A new era is beginning.
           </StyledBlockquoteTitle>
-          <footer className="general-font"> - Steve Jobs</footer>
+          <p> - Steve Jobs</p>
         </StyledBlockquote>
-        <p className="general-font">
+        <p>
           By studying Kinesiology I will acquire a profound understanding of
           physiological, biomechanical, and psychological dynamic principles and
           mechanisms of movement allowing me to innovate practical technology
