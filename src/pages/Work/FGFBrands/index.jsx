@@ -1,13 +1,13 @@
 import React from 'react';
-import PostTop from '../../../components/PostTop';
 import Fade from 'react-reveal/Fade';
+import PostTop from '../../../components/PostTop';
 import FooterLink from '../../../components/FooterLink';
-import { StyledProjectImage } from '../../../components/styles';
+import WorkImage from '../../../components/WorkImage';
 
 const FGFBrands = () => {
   return (
     <div className="container-fluid mx-auto px-0">
-      <StyledProjectImage src={require(`../../../assets/fgf2.png`)} />
+      <WorkImage photo="fgf2" />
       <div className="projectContainer mx-auto px-0">
         <Fade big>
           <PostTop subtitle="Work Term" title="FGF Brands" />
@@ -20,8 +20,7 @@ const FGFBrands = () => {
           </p>
           <hr />
           <p>
-            <b>Role: </b>"Innovation Driven" Web Developer on the Engineering
-            team
+            <b>Role: </b>Web Developer on the Engineering team
           </p>
           <p>
             <b>Duration: </b>January to April 2019

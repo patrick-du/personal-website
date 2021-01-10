@@ -1,24 +1,16 @@
 import React from 'react';
-import PostTop from '../../../components/PostTop';
 import Fade from 'react-reveal/Fade';
-import FooterLink from '../../../components/FooterLink';
 import styled from 'styled-components';
+import PostTop from '../../../components/PostTop';
+import FooterLink from '../../../components/FooterLink';
 
 const StyledBlockquote = styled.blockquote`
-  border-left: 6px solid #878FDD;
+  border-left: 6px solid #878fdd;
   padding-left: 1rem;
 `;
 
 const StyledBlockquoteTitle = styled.p`
-  font-family: 'SFProDisplay-Regular';
-  color: #2b2b2b;
-  margin-bottom: 0px;
-  @media (max-width: 575.98px) {
-    font-size: 20px;
-  }
-  @media (min-width: 576px) {
-    font-size: 22px;
-  }
+  font-size: 22px;
 `;
 
 const Career = () => {
@@ -33,6 +25,7 @@ const Career = () => {
             className="hvr-underline blue"
             href="https://cs.uwaterloo.ca/current/programs/require/2019-2020/comptech_option.html"
             target="_blank"
+            rel="noopener noreferrer"
           >
             computing option
           </a>{' '}

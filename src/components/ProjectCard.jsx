@@ -93,7 +93,6 @@ const StyledProjectDescription = styled.p`
 `;
 
 const StyledProjectWhat = styled.p`
-  font-family: 'SFProDisplay-Light';
   color: #2b2b2b;
   font-size: 16px;
 `;
@@ -130,13 +129,13 @@ const ProjectCard = ({ link, img, projName, projDesc, projWhat, projType }) => {
             />
           </StyledProjectCol>
           <div style={{ padding: '1rem' }}>
-              <StyledProjectName>{projName}</StyledProjectName>
-              <StyledProjectWhat>{projWhat}</StyledProjectWhat>
-              <StyledProjectDescription>
-                {projDesc}
-                <br/>
-                {projType}
-              </StyledProjectDescription>
+            <StyledProjectName>{projName}</StyledProjectName>
+            <StyledProjectWhat>{projWhat}</StyledProjectWhat>
+            <StyledProjectDescription>
+              {projDesc}
+              <br />
+              {projType}
+            </StyledProjectDescription>
           </div>
         </StyledProjectAbove>
       </StyledProjectCard>

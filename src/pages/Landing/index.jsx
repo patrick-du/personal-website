@@ -20,7 +20,6 @@ const StyledTitle = styled.p`
 `;
 
 const StyledParagraph = styled.p`
-  font-family: 'SFProDisplay-Light';
   @media (max-width: 575.98px) {
     font-size: 22px;
   }
@@ -68,14 +67,14 @@ const Landing = () => {
           <a
             href="https://github.com/patrick-du"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <i className="fab fa-github icon0" />
           </a>
           <a
             href="https://www.linkedin.com/in/patrick-du3/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <i className="fab fa-linkedin-in icon0 " />
           </a>

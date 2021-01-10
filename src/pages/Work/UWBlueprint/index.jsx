@@ -3,14 +3,12 @@ import Fade from 'react-reveal/Fade';
 import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import FooterLink from '../../../components/FooterLink';
-import { StyledProjectImage } from '../../../components/styles';
-
-const ProjectPhoto = require(`../../../assets/uwblueprint2.png`);
+import WorkImage from '../../../components/WorkImage';
 
 const UWBlueprint = () => {
   return (
     <div className="container-fluid mx-auto px-0">
-      <StyledProjectImage src={ProjectPhoto} />
+      <WorkImage photo="uwblueprint2" />
       <div className="projectContainer mx-auto px-0">
         <Fade big>
           <PostTop subtitle="Leadership Experience" title="UW Blueprint" />
@@ -72,7 +70,7 @@ const UWBlueprint = () => {
               className="hvr-underline"
               href="https://guarded-plains-51025.herokuapp.com/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Heroku
             </a>{' '}

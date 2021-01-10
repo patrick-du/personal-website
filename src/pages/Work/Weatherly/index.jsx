@@ -1,14 +1,14 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
-import Fade from 'react-reveal/Fade';
 import FooterLink from '../../../components/FooterLink';
-import { StyledProjectImage } from '../../../components/styles';
+import WorkImage from '../../../components/WorkImage';
 
 const Weatherly = () => {
   return (
     <div className="container-fluid px-0">
-      <StyledProjectImage src={require(`../../../assets/weatherlyB.png`)} />
+      <WorkImage photo="weatherlyB" />
       <div className="projectContainer mx-auto px-0">
         <Fade big>
           <PostTop subtitle="Side Project" title="Weatherly" />
@@ -20,6 +20,7 @@ const Weatherly = () => {
             <a
               href="https://darksky.net/dev"
               target="_blank"
+              rel="noopener noreferrer"
               className="hvr-underline blue"
             >
               DarkSky API
@@ -38,6 +39,7 @@ const Weatherly = () => {
             <a
               href="https://developers.google.com/web/progressive-web-apps/"
               target="_blank"
+              rel="noopener noreferrer"
               className="hvr-underline blue"
             >
               progressive web apps
@@ -81,6 +83,7 @@ const Weatherly = () => {
             <a
               href="https://github.com/patrick-du/patrick-du.github.io"
               target="_blank"
+              rel="noopener noreferrer"
               className="hvr-underline blue"
             >
               Github
@@ -89,6 +92,7 @@ const Weatherly = () => {
             <a
               href="https://patrickdu-weatherly.herokuapp.com"
               target="_blank"
+              rel="noopener noreferrer"
               className="hvr-underline blue"
             >
               try it yourself

@@ -4,11 +4,12 @@ import PageTitle from '../../components/PageTitle';
 import FooterLink from '../../components/FooterLink';
 import posts from '../../data/about';
 
-const cards = posts.map(({ path, title, subtitle }) => {
+const cards = posts.map(({ path, title, subtitle, disabled = false }) => {
   const props = {
     path,
     title,
     subtitle,
+    disabled,
   };
   return <FooterLink exact {...props} />;
 });
@@ -21,41 +22,38 @@ const About = () => {
         subtitle="A small introduction..."
         img="bitmoji4"
       />
+      <hr className="my-3" />
       <Fade big>
         <p className="mt-3">
           I&rsquo;m a 3rd year student at the University of Waterloo studying
-          Kinesiology with a minor in Computing.
+          Kinesiology with a minor in Computer Science.
           <br />
           <br />
-          Currently, I am a project developer on{' '}
+          Currently, I&rsquo;m interning as a software developer at{' '}
+          <a
+            className="hvr-underline"
+            href="https://www.d2l.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            D2L
+          </a>
+          . In the past, I&rsquo;ve interned at companies such as ApplyBoard,
+          Oculys Health Informatics, and FGF Brands.
+          <br />
+          <br />
+          In my spare time, I enjoy powerlifting, playing team-oriented sports
+          such as volleyball and basketball, discovering music, and building
+          technology for social good at{' '}
           <a
             className="hvr-underline"
             href="https://uwblueprint.org/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             UW Blueprint
           </a>
-          , a group of students dedicated to building and promoting technology
-          for social good.
-          <br />
-          <br />
-          Most recently, I interned as a Software Engineer at{' '}
-          <a
-            className="hvr-underline"
-            href="https://www.applyboard.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            ApplyBoard
-          </a>{' '}
-          in Kitchener, Ontario. In the past, I&rsquo;ve interned at companies
-          such as Oculys Health Informatics and FGF Brands.
-          <br />
-          <br />
-          In my free time, I enjoy powerlifting, playing team-oriented sports
-          such as volleyball and basketball, learning guitar, and discovering
-          new music on Spotify.
+          .
         </p>
         {cards}
       </Fade>

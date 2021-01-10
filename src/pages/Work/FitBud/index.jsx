@@ -1,14 +1,14 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
-import Fade from 'react-reveal/Fade';
 import FooterLink from '../../../components/FooterLink';
-import { StyledProjectImage } from '../../../components/styles';
+import WorkImage from '../../../components/WorkImage';
 
 const FitBud = () => {
   return (
     <div className="container-fluid  mx-auto px-0">
-      <StyledProjectImage src={require(`../../../assets/fitbudB-opt.png`)} />
+      <WorkImage photo="fitbudB-opt" />
       <div className="projectContainer mx-auto px-0">
         <Fade big>
           <PostTop subtitle="uOttaHack 2019" title="Fitbud" />
@@ -62,6 +62,7 @@ const FitBud = () => {
             <a
               href="https://github.com/patrick-du/FitBud"
               target="_blank"
+              rel="noopener noreferrer"
               className="hvr-underline blue"
             >
               Github
@@ -79,7 +80,5 @@ const FitBud = () => {
     </div>
   );
 };
-
-const styles = {};
 
 export default FitBud;

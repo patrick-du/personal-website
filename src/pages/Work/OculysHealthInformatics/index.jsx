@@ -1,13 +1,13 @@
 import React from 'react';
-import PostTop from '../../../components/PostTop';
 import Fade from 'react-reveal/Fade';
+import PostTop from '../../../components/PostTop';
 import FooterLink from '../../../components/FooterLink';
-import { StyledProjectImage } from '../../../components/styles';
+import WorkImage from '../../../components/WorkImage';
 
 const OculysHealthInformatics = () => {
   return (
     <div className="container-fluid mx-auto px-0">
-      <StyledProjectImage src={require(`../../../assets/oculys2.png`)} />
+      <WorkImage photo="oculys2" />
       <div className="projectContainer mx-auto px-0">
         <Fade big>
           <PostTop subtitle="Work Term" title="Oculys Health Informatics" />

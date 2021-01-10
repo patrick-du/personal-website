@@ -2,8 +2,8 @@ const posts = [
   {
     path: 'https://applyboard.com',
     title: 'Coming Soon',
-    // title: 'A Remote Internship',
     subtitle: 'Life at ApplyBoard',
+    disabled: true,
   },
   {
     path: '/about/story',

@@ -62,7 +62,7 @@ const Story = () => {
             className="hvr-underline blue"
             href="https://patrickdu.herokuapp.com"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             first website
           </a>
@@ -79,7 +79,7 @@ const Story = () => {
             className="hvr-underline"
             href="https://www.fgfbrands.com/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             FGF Brands
           </a>{' '}

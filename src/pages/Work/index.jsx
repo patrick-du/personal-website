@@ -1,8 +1,22 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import PageTitle from '../../components/PageTitle';
 import ProjectCard from '../../components/ProjectCard';
-import Fade from 'react-reveal/Fade';
 import { experience, projects } from '../../data/work';
+
+const cardsMapper = (cards) => {
+  return cards.map(({ link, img, projDesc, projWhat, projName, projType }) => {
+    const props = {
+      link,
+      img,
+      projDesc,
+      projWhat,
+      projName,
+      projType,
+    };
+    return <ProjectCard {...props} />;
+  });
+};
 
 const Projects = () => {
   return (
@@ -13,44 +27,18 @@ const Projects = () => {
           subtitle="Internships & Leadership"
           img="bitmoji6"
         />
-        {experienceCards}
+        <hr className="my-3" />
+        {cardsMapper(experience)}
         <PageTitle
           title="Projects"
           subtitle="Side projects & hackathons"
           img="bitmoji8"
         />
-        {projectsCards}
+        <hr className="my-3" />
+        {cardsMapper(projects)}
       </Fade>
     </div>
   );
 };
-
-const experienceCards = experience.map(
-  ({ link, img, projDesc, projWhat, projName, projType }) => {
-    const props = {
-      link,
-      img,
-      projDesc,
-      projWhat,
-      projName,
-      projType,
-    };
-    return <ProjectCard {...props} />;
-  },
-);
-
-const projectsCards = projects.map(
-  ({ link, img, projDesc, projWhat, projName, projType }) => {
-    const props = {
-      link,
-      img,
-      projDesc,
-      projWhat,
-      projName,
-      projType,
-    };
-    return <ProjectCard {...props} />;
-  },
-);
 
 export default Projects;

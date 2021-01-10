@@ -1,14 +1,14 @@
 import React from 'react';
-import PostTop from '../../../components/PostTop';
 import Fade from 'react-reveal/Fade';
+import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import FooterLink from '../../../components/FooterLink';
-import { StyledProjectImage } from '../../../components/styles';
+import WorkImage from '../../../components/WorkImage';
 
 const ApplyBoard = () => {
   return (
     <div className="container-fluid mx-auto px-0">
-      <StyledProjectImage src={require(`../../../assets/applyboard2.png`)} />
+      <WorkImage photo="applyboard2" />
       <div className="projectContainer mx-auto px-0">
         <Fade big>
           <PostTop subtitle="Work Term" title="ApplyBoard" />
@@ -63,6 +63,7 @@ const ApplyBoard = () => {
               className="hvr-underline"
               href="https://www.applyboard.com/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Life at ApplyBoard
             </a>{' '}

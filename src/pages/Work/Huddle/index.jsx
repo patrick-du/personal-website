@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import PostTop from '../../../components/PostTop';
+import React from 'react';
 import Fade from 'react-reveal/Fade';
+import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import FooterLink from '../../../components/FooterLink';
-import { StyledProjectImage } from '../../../components/styles';
+import WorkImage from '../../../components/WorkImage';
 
 const Huddle = () => {
   return (
     <div className="container-fluid mx-auto px-0">
-      <StyledProjectImage src={require(`../../../assets/huddleB-opt.png`)} />
+      <WorkImage photo="huddleB-opt" />
       <div className="projectContainer mx-auto px-0">
         <Fade big>
           <PostTop subtitle="Side Project" title="Huddle" />
@@ -54,6 +54,7 @@ const Huddle = () => {
             <a
               href="https://github.com/patrick-du/Huddle"
               target="_blank"
+              rel="noopener noreferrer"
               className="hvr-underline blue"
             >
               Github

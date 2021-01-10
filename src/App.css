@@ -1,9 +1,3 @@
-/*--------------------------------------------------------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------------------------------------------------------------------------*/
-/*Global Styling*/
-/*--------------------------------------------------------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------------------------------------------------------------------------*/
-
 .projectContainer {
   height: 100%;
   margin: 2rem 0;
@@ -48,7 +42,7 @@
 }
 
 .hvr-underline {
-  color: #878FDD;
+  color: #878fdd;
   -webkit-transform: perspective(1px) translateZ(0);
   text-decoration: none !important;
   transform: perspective(1px) translateZ(0);
@@ -65,8 +59,8 @@
   right: 100%;
   bottom: 0;
   text-decoration: none !important;
-  background: #878FDD;
-  color: #878FDD;
+  background: #878fdd;
+  color: #878fdd;
   height: 2px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -80,7 +74,7 @@
 .hvr-underline:hover:before,
 .hvr-underline:focus:before,
 .hvr-underline:active:before {
-  color: #878FDD;
+  color: #878fdd;
   right: 0;
   text-decoration: none;
 }

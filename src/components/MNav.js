@@ -17,7 +17,7 @@ class MNav extends Component {
 
   render() {
     return (
-      <React.Fragment>
+      <>
         <nav className="py-1 navbar-light" id="mobile">
           <div className="navContainer mx-auto">
             <div className="col">
@@ -76,7 +76,7 @@ class MNav extends Component {
         <br />
         <br />
         <br />
-      </React.Fragment>
+      </>
     );
   }
 }

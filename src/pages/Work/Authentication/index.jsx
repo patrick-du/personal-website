@@ -3,14 +3,12 @@ import Fade from 'react-reveal/Fade';
 import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import FooterLink from '../../../components/FooterLink';
-import { StyledProjectImage } from '../../../components/styles';
-
-const ProjectPhoto = require(`../../../assets/authentication.png`);
+import WorkImage from '../../../components/WorkImage';
 
 const Authentication = () => {
   return (
     <div className="container-fluid px-0">
-      <StyledProjectImage src={ProjectPhoto} />
+      <WorkImage photo="authentication" />
       <div className="projectContainer mx-auto px-0">
         <Fade big>
           <PostTop
@@ -29,7 +27,7 @@ const Authentication = () => {
               className="hvr-underline"
               href="https://github.com/patrick-du/Notes/blob/master/authentication.md"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               authentication notes
             </a>{' '}
@@ -44,7 +42,7 @@ const Authentication = () => {
                 className="hvr-underline"
                 href="https://patrickdu-mern-boilerplate.herokuapp.com/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Heroku
               </a>{' '}
@@ -53,7 +51,7 @@ const Authentication = () => {
                 className="hvr-underline"
                 href="https://github.com/patrick-du/MERN-Boilerplate"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Github
               </a>{' '}
@@ -77,7 +75,7 @@ const Authentication = () => {
                 className="hvr-underline"
                 href="https://patrickdu-userauth-boilerplate.herokuapp.com/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Heroku
               </a>{' '}
@@ -86,7 +84,7 @@ const Authentication = () => {
                 className="hvr-underline"
                 href="https://github.com/patrick-du/User-Authentication-Boilerplate"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Github
               </a>{' '}
@@ -103,11 +101,7 @@ const Authentication = () => {
           />
         </Fade>
 
-        <FooterLink
-          path="/work/huddle"
-          title="Up Next"
-          subtitle="Huddle"
-        />
+        <FooterLink path="/work/huddle" title="Up Next" subtitle="Huddle" />
       </div>
     </div>
   );

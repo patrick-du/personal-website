@@ -12,7 +12,6 @@ const StyledImage = styled.img`
 
 const StyledDescription = styled.p`
   text-align: center;
-  color: #7f8c8d;
   margin-top: 0.5rem;
   font-size: 18px;
   font-family: 'SFProDisplay-Regular';

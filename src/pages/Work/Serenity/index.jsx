@@ -3,14 +3,12 @@ import Fade from 'react-reveal/Fade';
 import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import FooterLink from '../../../components/FooterLink';
-import { StyledProjectImage } from '../../../components/styles';
-
-const ProjectPhoto = require(`../../../assets/serenityB.png`);
+import WorkImage from '../../../components/WorkImage';
 
 const Serenity = () => {
   return (
     <div className="container-fluid mx-auto px-0">
-      <StyledProjectImage src={ProjectPhoto} />
+      <WorkImage photo="serenityB" />
       <div className="projectContainer mx-auto px-0">
         <Fade big>
           <PostTop subtitle="Side Project" title="Serenity" />
@@ -56,7 +54,7 @@ const Serenity = () => {
             <a
               href="https://github.com/patrick-du/serenity"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="hvr-underline blue"
             >
               web app
@@ -65,7 +63,7 @@ const Serenity = () => {
             <a
               href="https://github.com/patrick-du/serenity-api"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="hvr-underline blue"
             >
               API
