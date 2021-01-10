@@ -58,6 +58,19 @@ const Landing = () => {
           enjoy creating delightful web experiences focused on functionality and
           minimalism.
         </StyledParagraph>
+        <StyledParagraph>
+          Currently, I&rsquo;m a software developer at{' '}
+          <a
+            className="hvr-underline"
+            href="https://www.desire2learn.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            D2L
+          </a>{' '}
+          working on enabling interoperability and data exchange between
+          Brightspace and external systems.
+        </StyledParagraph>
         <br />
         <StyledParagraph>Seeking Summer 2021 SWE internships.</StyledParagraph>
         <StyledResume href={Resume} target="_blank" className="linkdec">
