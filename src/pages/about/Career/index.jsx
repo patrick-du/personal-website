@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import styled from 'styled-components';
 import PostTop from '../../../components/PostTop';
 import FooterLink from '../../../components/FooterLink';
+import HyperLink from '../../../components/HyperLink';
 
 const StyledBlockquote = styled.blockquote`
   border-left: 6px solid #878fdd;
@@ -20,15 +21,11 @@ const Career = () => {
       <hr className="my-3" />
       <Fade big>
         <p>
-          For the future, I plan to complete my kinesiology degree with a{' '}
-          <a
-            className="hvr-underline blue"
-            href="https://cs.uwaterloo.ca/current/programs/require/2019-2020/comptech_option.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            computing option
-          </a>{' '}
+          For the future, I plan to complete my Kinesiology degree with a{' '}
+          <HyperLink
+            link="https://uwaterloo.ca/computer-science/sites/ca.computer-science/files/uploads/files/2020-2021_computing_minor_0.pdf"
+            text="Computer Science minor"
+          />{' '}
           in order to expand my understanding of theory and core concepts such
           as data structures, algorithms, recursion, and more. By self-teaching
           code, many of these fundamentals can be missed out on or only lightly

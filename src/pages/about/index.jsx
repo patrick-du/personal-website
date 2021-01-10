@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import PageTitle from '../../components/PageTitle';
 import FooterLink from '../../components/FooterLink';
 import posts from '../../data/about';
+import HyperLink from '../../components/HyperLink';
 
 const cards = posts.map(({ path, title, subtitle, disabled = false }) => {
   const props = {
@@ -30,14 +31,7 @@ const About = () => {
           <br />
           <br />
           Currently, I&rsquo;m interning as a software developer at{' '}
-          <a
-            className="hvr-underline"
-            href="https://www.d2l.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            D2L
-          </a>
+          <HyperLink link="https://www.d2l.com" text="D2L" />
           . In the past, I&rsquo;ve interned at companies such as ApplyBoard,
           Oculys Health Informatics, and FGF Brands.
           <br />
@@ -45,15 +39,7 @@ const About = () => {
           In my spare time, I enjoy powerlifting, playing team-oriented sports
           such as volleyball and basketball, discovering music, and building
           technology for social good at{' '}
-          <a
-            className="hvr-underline"
-            href="https://uwblueprint.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            UW Blueprint
-          </a>
-          .
+          <HyperLink link="https://www.uwblueprint.org" text="UW Blueprint" />.
         </p>
         {cards}
       </Fade>

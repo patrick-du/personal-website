@@ -4,6 +4,7 @@ import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import FooterLink from '../../../components/FooterLink';
 import WorkImage from '../../../components/WorkImage';
+import HyperLink from '../../../components/HyperLink';
 
 const Serenity = () => {
   return (
@@ -51,27 +52,18 @@ const Serenity = () => {
           <p>
             This app was developed with React, Node (Express), and MongoDB. View
             the{' '}
-            <a
-              href="https://github.com/patrick-du/serenity"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hvr-underline blue"
-            >
-              web app
-            </a>{' '}
+            <HyperLink
+              link="https://github.com/patrick-du/serenity"
+              text="web app"
+            />{' '}
             and{' '}
-            <a
-              href="https://github.com/patrick-du/serenity-api"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hvr-underline blue"
-            >
-              API
-            </a>{' '}
+            <HyperLink
+              link="https://github.com/patrick-du/serenity-api"
+              text="API"
+            />{' '}
             on Github.
           </p>
         </Fade>
-
         <FooterLink
           path="/work/authentication"
           title="Up Next"

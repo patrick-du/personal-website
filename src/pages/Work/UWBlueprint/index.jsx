@@ -4,6 +4,7 @@ import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import FooterLink from '../../../components/FooterLink';
 import WorkImage from '../../../components/WorkImage';
+import HyperLink from '../../../components/HyperLink';
 
 const UWBlueprint = () => {
   return (
@@ -36,7 +37,7 @@ const UWBlueprint = () => {
             React, TypeScript, Node, GraphQL, Apollo Client & Server, PostgreSQL
           </p>
           <hr />
-          <p className="blue">
+          <p>
             <b>Social Development Centre Waterloo Region (SDC) </b>
           </p>
           <p>
@@ -66,14 +67,10 @@ const UWBlueprint = () => {
           </p>
           <p>
             View the web app on{' '}
-            <a
-              className="hvr-underline"
-              href="https://guarded-plains-51025.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Heroku
-            </a>{' '}
+            <HyperLink
+              link="https://guarded-plains-51025.herokuapp.com/"
+              text="Heroku"
+            />{' '}
             .
           </p>
           <PhotoWrapper img="uwblueprint3.png" />

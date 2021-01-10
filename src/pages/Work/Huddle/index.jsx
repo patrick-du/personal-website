@@ -4,6 +4,7 @@ import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import FooterLink from '../../../components/FooterLink';
 import WorkImage from '../../../components/WorkImage';
+import HyperLink from '../../../components/HyperLink';
 
 const Huddle = () => {
   return (
@@ -51,18 +52,13 @@ const Huddle = () => {
           <p>
             This app was developed with React Native, Java (Spring), Maven, and
             MySQL. View the full project on{' '}
-            <a
-              href="https://github.com/patrick-du/Huddle"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hvr-underline blue"
-            >
-              Github
-            </a>
+            <HyperLink
+              link="https://github.com/patrick-du/Huddle"
+              text="Github"
+            />
             .
           </p>
         </Fade>
-
         <FooterLink
           path="/work/weatherly"
           title="Up Next"

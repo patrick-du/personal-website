@@ -4,6 +4,7 @@ import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import FooterLink from '../../../components/FooterLink';
 import WorkImage from '../../../components/WorkImage';
+import HyperLink from '../../../components/HyperLink';
 
 const Weatherly = () => {
   return (
@@ -17,15 +18,8 @@ const Weatherly = () => {
             Weatherly is a weekly forecast progressive web app that includes
             features such as usage offline and push notifications. It fetches
             data from{' '}
-            <a
-              href="https://darksky.net/dev"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hvr-underline blue"
-            >
-              DarkSky API
-            </a>{' '}
-            which provides access to daily forecasts for the coming week.
+            <HyperLink link="https://darksky.net" text="DarkSky API" /> which
+            provides access to daily forecasts for the coming week.
           </p>
           <PhotoWrapper img="weatherly1.png" desc="Desktop Version" />
           <p>
@@ -36,14 +30,10 @@ const Weatherly = () => {
           </p>
           <p>
             For those unfamiliar,{' '}
-            <a
-              href="https://developers.google.com/web/progressive-web-apps/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hvr-underline blue"
-            >
-              progressive web apps
-            </a>{' '}
+            <HyperLink
+              link="https://developers.google.com/web/progressive-web-apps/"
+              text="progressive web apps"
+            />{' '}
             (PWAs) are a new class of web application that provide native app
             experiences using a browser. It utilizes modern web features such as
             push notifications and cache. Additionally, there is a web app
@@ -80,23 +70,15 @@ const Weatherly = () => {
           <p>
             This app was developed with HTML, CSS, and JavaScript. View the full
             project on{' '}
-            <a
-              href="https://github.com/patrick-du/patrick-du.github.io"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hvr-underline blue"
-            >
-              Github
-            </a>{' '}
+            <HyperLink
+              link="https://github.com/patrick-du/patrick-du.github.io"
+              text="Github"
+            />{' '}
             or{' '}
-            <a
-              href="https://patrickdu-weatherly.herokuapp.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hvr-underline blue"
-            >
-              try it yourself
-            </a>
+            <HyperLink
+              link="https://patrickdu-weatherly.herokuapp.com"
+              text="try it yourself"
+            />
             .
           </p>
         </Fade>

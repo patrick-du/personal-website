@@ -23,9 +23,8 @@ const App = () => {
       <div className="app">
         <GlobalStyles />
         <MNav />
-        <ScrollToTop>
-          <Switch>{routeComponents}</Switch>
-        </ScrollToTop>
+        <ScrollToTop />
+        <Switch>{routeComponents}</Switch>
       </div>
     </Router>
   );

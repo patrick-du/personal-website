@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import PostTop from '../../../components/PostTop';
 import FooterLink from '../../../components/FooterLink';
+import HyperLink from '../../../components/HyperLink';
 
 const Story = () => {
   return (
@@ -58,14 +59,10 @@ const Story = () => {
           When I checked out his portfolio it inspired me to create my own
           website, so based on his recommendation I took a beginner HTML5 and
           CSS3 course. By the end of the summer, I launched my{' '}
-          <a
-            className="hvr-underline blue"
-            href="https://patrickdu.herokuapp.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            first website
-          </a>
+          <HyperLink
+            link="https://patrickdu.herokuapp.com"
+            text="first website"
+          />
           !
         </p>
         <PhotoWrapper img="story3.PNG" desc="My First Website" />
@@ -75,16 +72,9 @@ const Story = () => {
           for a position I was in no way qualified for. With a combination of
           hard-work and lots of Tim Horton&rsquo;s coffee, I landed an interview
           and secured a web developer position at{' '}
-          <a
-            className="hvr-underline"
-            href="https://www.fgfbrands.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            FGF Brands
-          </a>{' '}
-          for my first coop term. Since then, I have attended several hackathons
-          and expanded my skill set immensely.
+          <HyperLink link="https://www.fgfbrands.com/" text="FGF Brands" /> for
+          my first coop term. Since then, I have attended several hackathons and
+          expanded my skill set immensely.
         </p>
       </Fade>
       <FooterLink

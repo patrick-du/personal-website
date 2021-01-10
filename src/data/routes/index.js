@@ -71,10 +71,10 @@ const routes = [
     path: '/work/weatherly',
     component: Weatherly,
   },
-  {
-    path: '/work/fitbud',
-    component: FitBud,
-  },
+  // {
+  //   path: '/work/fitbud',
+  //   component: FitBud,
+  // },
   {
     path: '/photography',
     component: Photography,

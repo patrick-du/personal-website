@@ -4,6 +4,7 @@ import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import FooterLink from '../../../components/FooterLink';
 import WorkImage from '../../../components/WorkImage';
+import HyperLink from '../../../components/HyperLink';
 
 const FitBud = () => {
   return (
@@ -59,14 +60,10 @@ const FitBud = () => {
           <p>
             This app was developed with React and Node (Express). View the full
             project on{' '}
-            <a
-              href="https://github.com/patrick-du/FitBud"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hvr-underline blue"
-            >
-              Github
-            </a>
+            <HyperLink
+              link="https://github.com/patrick-du/FitBud"
+              text="Github"
+            />
             .
           </p>
           <hr />

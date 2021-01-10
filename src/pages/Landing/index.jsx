@@ -2,6 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import styled from 'styled-components';
 import Resume from '../../assets/Resume.pdf';
+import HyperLink from '../../components/HyperLink';
 
 const StyledTitle = styled.p`
   font-family: 'SFProDisplay-Regular';
@@ -60,16 +61,9 @@ const Landing = () => {
         </StyledParagraph>
         <StyledParagraph>
           Currently, I&rsquo;m a software developer at{' '}
-          <a
-            className="hvr-underline"
-            href="https://www.desire2learn.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            D2L
-          </a>{' '}
-          working on enabling interoperability and data exchange between
-          Brightspace and external systems.
+          <HyperLink link="https://www.d2l.com" text="D2L" /> working on
+          enabling interoperability and data exchange between Brightspace and
+          external systems.
         </StyledParagraph>
         <br />
         <StyledParagraph>Seeking Summer 2021 SWE internships.</StyledParagraph>
@@ -77,23 +71,16 @@ const Landing = () => {
           No time? View my resume.
         </StyledResume>
         <div className="row mx-0 mt-5">
-          <a
-            href="https://github.com/patrick-du"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-github icon0" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/patrick-du3/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-linkedin-in icon0 " />
-          </a>
-          <a href="mailto:patrickduu@gmail.com">
-            <i className="fas fa-paper-plane icon0" />
-          </a>
+          <HyperLink
+            link="https://github.com/patrick-du"
+            text={<i className="fab fa-github icon0" />}
+            underline={false}
+          />
+          <HyperLink
+            link="https://www.linkedin.com/in/patrick-du3/"
+            text={<i className="fab fa-linkedin-in icon0 " />}
+            underline={false}
+          />
         </div>
       </Fade>
     </div>

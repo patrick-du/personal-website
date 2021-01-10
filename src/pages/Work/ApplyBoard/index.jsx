@@ -4,6 +4,7 @@ import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import FooterLink from '../../../components/FooterLink';
 import WorkImage from '../../../components/WorkImage';
+import HyperLink from '../../../components/HyperLink';
 
 const ApplyBoard = () => {
   return (
@@ -21,15 +22,16 @@ const ApplyBoard = () => {
           </p>
           <hr />
           <p>
-            <b>Role: </b>Software Engineer Intern on the Search team, previously
-            Content team
+            <b>Role: </b>
+            Software Engineer Intern on the Search team, previously Content team
           </p>
           <p>
-            <b>Duration: </b>May to September 2020
+            <b>Duration: </b>
+            May to September 2020
           </p>
           <p>
-            <b>Technologies: </b>React, Ruby on Rails, PostgreSQL, Docker, Git
-            (GitHub), Jira
+            <b>Technologies: </b>
+            React, Ruby on Rails, PostgreSQL, Docker, Git (GitHub), Jira
           </p>
           <p>
             <b>Core Contributions</b>
@@ -59,14 +61,10 @@ const ApplyBoard = () => {
           <PhotoWrapper img="applyboard3.png" desc="Team Lucene" />
           <p>
             Check out my{' '}
-            <a
-              className="hvr-underline"
-              href="https://www.applyboard.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Life at ApplyBoard
-            </a>{' '}
+            <HyperLink
+              link="https://www.applyboard.com/"
+              text="Life at ApplyBoard"
+            />{' '}
             post where I discuss my experiences as a remote intern!
           </p>
         </Fade>

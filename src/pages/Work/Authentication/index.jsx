@@ -4,6 +4,7 @@ import PostTop from '../../../components/PostTop';
 import PhotoWrapper from '../../../components/PhotoWrapper';
 import FooterLink from '../../../components/FooterLink';
 import WorkImage from '../../../components/WorkImage';
+import HyperLink from '../../../components/HyperLink';
 
 const Authentication = () => {
   return (
@@ -23,14 +24,10 @@ const Authentication = () => {
           </p>
           <p>
             Further readings can be found in my{' '}
-            <a
-              className="hvr-underline"
-              href="https://github.com/patrick-du/Notes/blob/master/authentication.md"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              authentication notes
-            </a>{' '}
+            <HyperLink
+              link="https://github.com/patrick-du/Notes/blob/master/authentication.md"
+              text="authentication notes"
+            />
             .
           </p>
           <hr />
@@ -38,23 +35,16 @@ const Authentication = () => {
             <b>Boilerplate 1: Token-based authentication using OAuth 2.0</b>
             <p>
               View the web app on{' '}
-              <a
-                className="hvr-underline"
-                href="https://patrickdu-mern-boilerplate.herokuapp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Heroku
-              </a>{' '}
+              <HyperLink
+                link="https://patrickdu-mern-boilerplate.herokuapp.com/"
+                text="Heroku"
+              />{' '}
               or the full project on{' '}
-              <a
-                className="hvr-underline"
-                href="https://github.com/patrick-du/MERN-Boilerplate"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>{' '}
+              <HyperLink
+                link="https://github.com/patrick-du/MERN-Boilerplate"
+                text="Github"
+              />
+              .
             </p>
             <PhotoWrapper
               img="authentication5.png"
@@ -71,23 +61,15 @@ const Authentication = () => {
             <p>
               {' '}
               View the web app on{' '}
-              <a
-                className="hvr-underline"
-                href="https://patrickdu-userauth-boilerplate.herokuapp.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Heroku
-              </a>{' '}
+              <HyperLink
+                link="https://patrickdu-userauth-boilerplate.herokuapp.com/"
+                text="Heroku"
+              />{' '}
               or the full project on{' '}
-              <a
-                className="hvr-underline"
-                href="https://github.com/patrick-du/User-Authentication-Boilerplate"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>{' '}
+              <HyperLink
+                link="https://github.com/patrick-du/User-Authentication-Boilerplate"
+                text="Github"
+              />
               .
             </p>
           </p>
