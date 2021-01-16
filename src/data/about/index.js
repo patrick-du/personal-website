@@ -1,9 +1,9 @@
 const posts = [
   {
-    path: 'https://applyboard.com',
-    title: 'Coming Soon',
+    path: 'https://www.applyboard.com/life/engineering-coop-partrick',
+    title: 'Remote Software Engineering',
     subtitle: 'Life at ApplyBoard',
-    disabled: true,
+    ext: true,
   },
   {
     path: '/about/story',

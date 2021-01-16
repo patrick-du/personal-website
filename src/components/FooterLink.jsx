@@ -7,6 +7,10 @@ const StyledLink = styled(Link)`
   text-decoration: none !important;
 `;
 
+const StyledATag = styled.a`
+  text-decoration: none !important;
+`;
+
 const StyledFontSize = styled.div`
   color: #2b2b2b;
   @media (max-width: 575.98px) {
@@ -31,28 +35,53 @@ const StyledIcon = styled.i`
   padding-top: 4px;
 `;
 
-const FooterLink = ({ path, title, subtitle, disabled }) => {
+const FooterLink = ({
+  path,
+  title,
+  subtitle,
+  disabled = false,
+  ext = false,
+}) => {
+  const disabledLink = (
+    <StyledFontSize>
+      <StyledTitle>
+        {title}
+        <StyledSubtitle>{subtitle}</StyledSubtitle>
+      </StyledTitle>
+    </StyledFontSize>
+  );
+
+  const children = (
+    <p>
+      <StyledFontSize>
+        <StyledTitle>
+          {title}
+          <StyledIcon className="fas fa-chevron-right hvr-icon" />
+          <StyledSubtitle>{subtitle}</StyledSubtitle>
+        </StyledTitle>
+      </StyledFontSize>
+    </p>
+  );
+
+  const childWrapper = ext ? (
+    <StyledATag
+      href={path}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hvr-icon-wobble-horizontal"
+    >
+      {children}
+    </StyledATag>
+  ) : (
+    <StyledLink to={path} className="hvr-icon-wobble-horizontal">
+      {children}
+    </StyledLink>
+  );
+
   return (
     <Fade>
       <hr className="my-3" />
-      {disabled ? (
-        <StyledFontSize>
-          <StyledTitle>
-            {title}
-            <StyledSubtitle>{subtitle}</StyledSubtitle>
-          </StyledTitle>
-        </StyledFontSize>
-      ) : (
-        <StyledLink to={path} className="hvr-icon-wobble-horizontal">
-          <StyledFontSize>
-            <StyledTitle>
-              {title}
-              <StyledIcon className="fas fa-chevron-right hvr-icon" />
-              <StyledSubtitle>{subtitle}</StyledSubtitle>
-            </StyledTitle>
-          </StyledFontSize>
-        </StyledLink>
-      )}
+      {disabled ? disabledLink : childWrapper}
     </Fade>
   );
 };

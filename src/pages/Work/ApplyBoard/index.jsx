@@ -62,7 +62,7 @@ const ApplyBoard = () => {
           <p>
             Check out my{' '}
             <HyperLink
-              link="https://www.applyboard.com/"
+              link="https://www.applyboard.com/life/engineering-coop-partrick"
               text="Life at ApplyBoard"
             />{' '}
             post where I discuss my experiences as a remote intern!

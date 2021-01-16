@@ -5,12 +5,13 @@ import FooterLink from '../../components/FooterLink';
 import posts from '../../data/about';
 import HyperLink from '../../components/HyperLink';
 
-const cards = posts.map(({ path, title, subtitle, disabled = false }) => {
+const cards = posts.map(({ path, title, subtitle, disabled, ext }) => {
   const props = {
     path,
     title,
     subtitle,
     disabled,
+    ext,
   };
   return <FooterLink exact {...props} />;
 });
